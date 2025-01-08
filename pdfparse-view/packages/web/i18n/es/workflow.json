@@ -1,0 +1,47 @@
+{
+  "Code": "Código",
+  "add_new_input": "Agregar nueva entrada",
+  "code": {
+    "Reset template": "Restablecer plantilla",
+    "Reset template confirm": "¿Confirmar restablecer la plantilla de código? Se restablecerán todas las entradas y salidas a los valores de la plantilla. Asegúrese de guardar el código actual."
+  },
+  "confirm_delete_field_tip": "¿Confirmar la eliminación de este campo?",
+  "custom_input": "Entrada personalizada",
+  "edit_input": "Editar entrada",
+  "field_description": "Descripción del campo",
+  "field_description_placeholder": "Describa la función de este campo de entrada. Si es un parámetro de llamada de herramienta, esta descripción afectará la calidad de la generación del modelo.",
+  "field_name_already_exists": "El nombre del campo ya existe",
+  "field_required": "Requerido",
+  "field_used_as_tool_input": "Como parámetro de llamada de herramienta",
+  "ifelse": {
+    "Input value": "Valor de entrada",
+    "Select value": "Valor seleccionado"
+  },
+  "input_description": "Descripción del campo",
+  "only_the_reference_type_is_supported": "Solo se admite el tipo de referencia",
+  "optional_value_type": "Tipo de dato opcional",
+  "optional_value_type_tip": "Puede especificar uno o más tipos de datos. Al agregar campos dinámicamente, el usuario solo puede seleccionar los tipos configurados.",
+  "response": {
+    "Code log": "Registro de log",
+    "Custom inputs": "Entradas personalizadas",
+    "Custom outputs": "Salidas personalizadas",
+    "Error": "Información de error",
+    "Read file result": "Vista previa de los resultados de análisis de documentos",
+    "read files": "Documentos analizados"
+  },
+  "template": {
+    "ai_chat": "Chat",
+    "ai_chat_intro": "Chat de modelo AI grande",
+    "dataset_search": "Base de conocimiento",
+    "dataset_search_intro": "Llamar a las capacidades de “búsqueda semántica” y “búsqueda de texto completo” para encontrar contenido de referencia posiblemente relacionado con la pregunta en la “base de conocimiento”.",
+    "system_config": "Configuración del sistema",
+    "tool_call": "Llamada a herramienta",
+    "tool_call_intro": "Seleccionar automáticamente uno o más bloques de funciones para llamar mediante el modelo AI, también se pueden llamar a complementos.",
+    "workflow_start": "Inicio del flujo"
+  },
+  "tool_input": "Parámetros de herramienta",
+  "variable_picker_tips": "Puede ingresar el nombre del nodo o el nombre de la variable para buscar",
+  "delete_api": "¿Confirmar la eliminación de esta clave API? Una vez eliminada, la clave se invalidará de inmediato, los registros de conversación correspondientes no se eliminarán, por favor confirme.",
+  "create_link_error": "Error al crear enlace",
+  "update_link_error": "Error al actualizar enlace"
+}

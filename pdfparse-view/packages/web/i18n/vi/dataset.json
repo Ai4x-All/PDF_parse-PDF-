@@ -1,0 +1,41 @@
+{
+  "Disabled": "Đã bị vô hiệu hóa",
+  "Enable": "Bật",
+  "Enabled": "Đã bật",
+  "collection": {
+    "Create update time": "Thời gian tạo/cập nhật",
+    "Training type": "Chế độ đào tạo"
+  },
+  "collection_tags": "Thẻ bộ sưu tập",
+  "common_dataset": "Kho tri thức chung",
+  "common_dataset_desc": "Có thể xây dựng kho tri thức thông qua việc nhập tệp, liên kết trang web hoặc nhập tay",
+  "confirm_to_rebuild_embedding_tip": "Xác nhận chuyển đổi chỉ mục cho kho tri thức?\nViệc chuyển đổi chỉ mục là một thao tác nặng nề, cần phải tái chỉ mục toàn bộ dữ liệu trong kho tri thức của bạn, có thể mất nhiều thời gian, vui lòng đảm bảo tài khoản còn đủ điểm.\n\nNgoài ra, bạn cũng cần chú ý đến việc chỉnh sửa lựa chọn ứng dụng sử dụng kho tri thức này, tránh việc chúng bị trộn lẫn với các mô hình chỉ mục khác.",
+  "dataset": {
+    "no_collections": "Chưa có tập dữ liệu",
+    "no_tags": "Chưa có thẻ"
+  },
+  "external_file": "Thư viện tệp bên ngoài",
+  "external_file_dataset_desc": "Có thể nhập tệp từ thư viện tệp bên ngoài để xây dựng kho tri thức, tệp sẽ không được lưu trữ lần thứ hai",
+  "external_id": "ID đọc tệp",
+  "external_read_url": "Địa chỉ xem bên ngoài",
+  "external_read_url_tip": "Có thể cấu hình địa chỉ đọc tệp của bạn. Thuận tiện cho việc xác thực quyền đọc của người dùng. Hiện tại có thể sử dụng biến {{fileId}} để chỉ định ID tệp bên ngoài.",
+  "external_url": "URL truy cập tệp",
+  "filename": "Tên tệp",
+  "folder_dataset": "Thư mục",
+  "rebuild_embedding_start_tip": "Nhiệm vụ chuyển đổi mô hình chỉ mục đã bắt đầu",
+  "rebuilding_index_count": "Số lượng chỉ mục đang được tái xây dựng: {{count}}",
+  "tag": {
+    "Add New": "Tạo mới",
+    "Add_new_tag": "Tạo thẻ mới",
+    "Edit_tag": "Chỉnh sửa thẻ",
+    "add": "Tạo",
+    "cancel": "Hủy lựa chọn",
+    "delete_tag_confirm": "Xác nhận xóa thẻ?",
+    "manage": "Quản lý thẻ",
+    "searchOrAddTag": "Tìm kiếm hoặc thêm thẻ",
+    "tags": "Thẻ"
+  },
+  "the_knowledge_base_has_indexes_that_are_being_trained_or_being_rebuilt": "Kho tri thức có các chỉ mục đang được đào tạo hoặc tái xây dựng",
+  "website_dataset": "Đồng bộ trang web",
+  "website_dataset_desc": "Đồng bộ trang web cho phép bạn trực tiếp sử dụng một liên kết trang web để xây dựng kho tri thức"
+}

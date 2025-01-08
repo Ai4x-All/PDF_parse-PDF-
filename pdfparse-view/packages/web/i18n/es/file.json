@@ -1,0 +1,18 @@
+{
+  "bucket_chat": "Archivo de conversación",
+  "bucket_file": "Archivo de base de conocimiento",
+  "click_to_view_raw_source": "Haga clic para ver la fuente",
+  "file_name": "Nombre del archivo",
+  "file_size": "Tamaño del archivo",
+  "release_the_mouse_to_upload_the_file": "Suelte el mouse para subir el archivo",
+  "select_and_drag_file_tip": "Haga clic o arrastre el archivo aquí para subir",
+  "select_file_amount_limit": "Puede seleccionar hasta {{max}} archivos",
+  "some_file_count_exceeds_limit": "Se han superado {{maxCount}} archivos, se han truncado automáticamente",
+  "some_file_size_exceeds_limit": "Algunos archivos superan {{maxSize}}, han sido filtrados",
+  "support_file_type": "Soporta archivos de tipo {{fileType}}",
+  "support_max_count": "Soporta hasta {{maxCount}} archivos",
+  "support_max_size": "El tamaño máximo de un archivo es {{maxSize}}",
+  "upload_failed": "Error en la carga",
+  "reached_max_file_count": "Se ha alcanzado el número máximo de archivos",
+  "upload_error_description": "Solo se admite la carga de varios archivos o una carpeta a la vez"
+}

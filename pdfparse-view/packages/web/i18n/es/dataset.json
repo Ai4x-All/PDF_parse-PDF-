@@ -1,0 +1,41 @@
+{
+  "Disabled": "Desactivado",
+  "Enable": "Activar",
+  "Enabled": "Activado",
+  "collection": {
+    "Create update time": "Tiempo de creación/actualización",
+    "Training type": "Modo de entrenamiento"
+  },
+  "collection_tags": "Etiquetas de colección",
+  "common_dataset": "Base de conocimiento general",
+  "common_dataset_desc": "Se puede construir la base de conocimiento mediante la importación de archivos, enlaces web o entrada manual",
+  "confirm_to_rebuild_embedding_tip": "¿Confirma el cambio de índice de la base de conocimiento?\nCambiar el índice es una operación muy pesada, requiere reindexar todos los datos en su base de conocimiento, lo que puede llevar tiempo. Asegúrese de que haya suficientes puntos en su cuenta.\n\nAdemás, deberá tener en cuenta la modificación de las aplicaciones que utilizan esta base de conocimiento para evitar su uso con otras bases de conocimiento de modelos de índice.",
+  "dataset": {
+    "no_collections": "No hay conjuntos de datos disponibles",
+    "no_tags": "No hay etiquetas disponibles"
+  },
+  "external_file": "Biblioteca de archivos externos",
+  "external_file_dataset_desc": "Se pueden importar archivos desde la biblioteca de archivos externos para construir la base de conocimiento, los archivos no se almacenarán de nuevo",
+  "external_id": "ID de lectura del archivo",
+  "external_read_url": "Dirección de vista previa externa",
+  "external_read_url_tip": "Puede configurar la dirección de lectura de su biblioteca de archivos. Facilita la autorización de lectura para los usuarios. Actualmente, puede usar la variable {{fileId}} para referirse al ID del archivo externo.",
+  "external_url": "URL de acceso al archivo",
+  "filename": "Nombre del archivo",
+  "folder_dataset": "Carpeta",
+  "rebuild_embedding_start_tip": "La tarea de cambio de modelo de índice ha comenzado",
+  "rebuilding_index_count": "Cantidad de índices en reconstrucción: {{count}}",
+  "tag": {
+    "Add New": "Nuevo",
+    "Add_new_tag": "Crear nueva etiqueta",
+    "Edit_tag": "Editar etiqueta",
+    "add": "Crear",
+    "cancel": "Cancelar selección",
+    "delete_tag_confirm": "¿Está seguro de que desea eliminar la etiqueta?",
+    "manage": "Gestión de etiquetas",
+    "searchOrAddTag": "Buscar o agregar etiqueta",
+    "tags": "Etiquetas"
+  },
+  "the_knowledge_base_has_indexes_that_are_being_trained_or_being_rebuilt": "La base de conocimiento tiene índices que están siendo entrenados o reconstruidos",
+  "website_dataset": "Sincronización del sitio web",
+  "website_dataset_desc": "La sincronización del sitio web le permite construir la base de conocimiento directamente usando un enlace web"
+}

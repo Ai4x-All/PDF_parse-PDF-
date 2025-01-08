@@ -1,0 +1,29 @@
+
+  
+  table {  
+    width: 100%; /* 满宽度 */  
+    border-collapse: collapse; /* 合并边框 */  
+  }  
+  
+  th, td {  
+    border: 1px solid #ddd; /* 边框颜色 */  
+    padding: 12px; /* 内边距 */  
+    text-align: left; /* 文本对齐 */  
+  }  
+  
+  th {  
+    background-color: #f2f2f2; /* 表头背景色 */  
+    font-weight: bold; /* 加粗 */  
+  }  
+  
+  tr:nth-child(even) {  
+    background-color: #f9f9f9; /* 偶数行背景色 */  
+  }  
+  
+  tr:hover {  
+    background-color: #f1f1f1; /* 鼠标悬停行的背景色 */  
+  }  
+  
+  td {  
+    vertical-align: middle; /* 垂直对齐 */  
+  }

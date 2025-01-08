@@ -1,0 +1,47 @@
+{
+  "Code": "Mã",
+  "add_new_input": "Thêm đầu vào mới",
+  "code": {
+    "Reset template": "Khôi phục mẫu",
+    "Reset template confirm": "Xác nhận khôi phục mẫu mã? Tất cả đầu vào và đầu ra sẽ được đặt lại về giá trị mẫu, vui lòng lưu mã hiện tại."
+  },
+  "confirm_delete_field_tip": "Xác nhận xóa trường này?",
+  "custom_input": "Đầu vào tùy chỉnh",
+  "edit_input": "Chỉnh sửa đầu vào",
+  "field_description": "Mô tả trường",
+  "field_description_placeholder": "Mô tả chức năng của trường đầu vào. Nếu là tham số gọi công cụ, mô tả này sẽ ảnh hưởng đến chất lượng đầu ra của mô hình.",
+  "field_name_already_exists": "Tên trường đã tồn tại",
+  "field_required": "Bắt buộc",
+  "field_used_as_tool_input": "Được sử dụng làm tham số gọi công cụ",
+  "ifelse": {
+    "Input value": "Giá trị đầu vào",
+    "Select value": "Chọn giá trị"
+  },
+  "input_description": "Mô tả trường",
+  "only_the_reference_type_is_supported": "Chỉ hỗ trợ loại tham chiếu",
+  "optional_value_type": "Loại giá trị tùy chọn",
+  "optional_value_type_tip": "Có thể chỉ định 1 hoặc nhiều loại dữ liệu, người dùng chỉ có thể chọn các loại đã cấu hình khi thêm trường động.",
+  "response": {
+    "Code log": "Nhật ký Log",
+    "Custom inputs": "Đầu vào tùy chỉnh",
+    "Custom outputs": "Đầu ra tùy chỉnh",
+    "Error": "Thông tin lỗi",
+    "Read file result": "Xem trước kết quả phân tích tài liệu",
+    "read files": "Tài liệu đã phân tích"
+  },
+  "template": {
+    "ai_chat": "Đối thoại",
+    "ai_chat_intro": "Đối thoại mô hình AI lớn",
+    "dataset_search": "Kho kiến thức",
+    "dataset_search_intro": "Gọi khả năng 'tìm kiếm ngữ nghĩa' và 'tìm kiếm toàn văn' để tìm nội dung tham khảo có thể liên quan đến câu hỏi từ 'Kho kiến thức'.",
+    "system_config": "Cấu hình hệ thống",
+    "tool_call": "Gọi công cụ",
+    "tool_call_intro": "Tự động chọn một hoặc nhiều khối chức năng để gọi bằng mô hình AI, cũng có thể gọi plugin.",
+    "workflow_start": "Bắt đầu quy trình"
+  },
+  "tool_input": "Tham số công cụ",
+  "variable_picker_tips": "Có thể nhập tên nút hoặc tên biến để tìm kiếm",
+  "delete_api": "Xác nhận xóa khóa API này? Khóa sẽ ngay lập tức không còn hiệu lực, nhật ký đối thoại tương ứng sẽ không bị xóa, vui lòng xác nhận!",
+  "create_link_error": "Lỗi khi tạo liên kết",
+  "update_link_error": "Lỗi khi cập nhật liên kết"
+}

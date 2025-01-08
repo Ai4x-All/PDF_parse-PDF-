@@ -1,0 +1,80 @@
+{
+  "bind_inform_account_error": "Error al vincular la cuenta de notificación",
+  "bind_inform_account_success": "Cuenta de notificación vinculada con éxito",
+  "delete": {
+    "admin_failed": "Error al eliminar al administrador",
+    "admin_success": "Administrador eliminado con éxito"
+  },
+  "has_chosen": "Seleccionado",
+  "login": {
+    "error": "Error de inicio de sesión",
+    "failed": "Inicio de sesión fallido",
+    "login_account": "Iniciar sesión en la cuenta {{account}}",
+    "login_error": "Nombre de usuario o contraseña incorrectos",
+    "password_condition": "La contraseña puede tener hasta 60 caracteres",
+    "success": "Inicio de sesión exitoso",
+    "to_register": "No tiene cuenta, regístrese"
+  },
+  "name": "Nombre",
+  "notification": {
+    "Bind Notification Pipe Hint": "Por favor, vincule la cuenta de recepción de notificaciones para asegurarse de recibir recordatorios de vencimiento de paquetes y otras notificaciones, garantizando el funcionamiento normal de su servicio.",
+    "remind_owner_bind": "Por favor, recuerde al creador que vincule la cuenta de notificación"
+  },
+  "operations": "Operaciones",
+  "password": {
+    "change_error": "Error al cambiar la contraseña",
+    "code_required": "El código de verificación no puede estar vacío",
+    "code_send_error": "Error al enviar el código de verificación",
+    "code_sended": "Código de verificación enviado",
+    "confirm": "Confirmar contraseña",
+    "email_phone": "Correo electrónico/Número de teléfono",
+    "email_phone_error": "Formato de correo electrónico/número de teléfono incorrecto",
+    "email_phone_void": "El correo electrónico/número de teléfono no puede estar vacío",
+    "get_code": "Obtener código de verificación",
+    "get_code_again": "Obtenga nuevamente en s",
+    "new_password": "Nueva contraseña (4~20 caracteres)",
+    "not_match": "Las contraseñas no coinciden",
+    "password_condition": "La contraseña debe tener al menos 4 caracteres y un máximo de 20",
+    "password_required": "La contraseña no puede estar vacía",
+    "retrieve": "Recuperar contraseña",
+    "retrieved": "Contraseña recuperada",
+    "retrieved_account": "Recuperar la cuenta {{account}}",
+    "to_login": "Ir a iniciar sesión",
+    "verification_code": "Código de verificación"
+  },
+  "permission": {
+    "Manage": "Administrador",
+    "Manage tip": "Administrador del equipo, con todos los permisos",
+    "Read": "Solo lectura",
+    "Read desc": "Los miembros solo pueden leer los recursos relacionados, no pueden crear nuevos recursos",
+    "Write": "Escritura permitida",
+    "Write tip": "Además de los recursos legibles, también pueden crear nuevos recursos",
+    "only_collaborators": "Acceso solo para colaboradores",
+    "team_read": "Acceso para el equipo",
+    "team_write": "Edición para el equipo"
+  },
+  "permissions": "Permisos",
+  "register": {
+    "confirm": "Confirmar registro",
+    "error": "Error de registro",
+    "failed": "Registro fallido",
+    "register_account": "Registrar la cuenta {{account}}",
+    "success": "Registro exitoso",
+    "to_login": "Ya tiene una cuenta, inicie sesión"
+  },
+  "search_user": "Buscar nombre de usuario",
+  "synchronization": {
+    "button": "Sincronizar ahora",
+    "placeholder": "Ingrese la etiqueta de sincronización",
+    "title": "Ingrese el enlace de sincronización de etiquetas y haga clic en el botón de sincronización"
+  },
+  "team": {
+    "Add manager": "Agregar administrador",
+    "add_collaborator": "Agregar colaborador",
+    "manage_collaborators": "Gestionar colaboradores",
+    "no_collaborators": "No hay colaboradores disponibles"
+  },
+  "usage": {
+    "feishu": "Feishu"
+  }
+}

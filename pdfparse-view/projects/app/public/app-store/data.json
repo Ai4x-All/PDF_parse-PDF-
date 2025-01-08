@@ -1,0 +1,230 @@
+[
+    {
+        "id": "xwruat1vjoyr0s1stq519i03",
+        "name": "李时珍",
+        "types": [
+            "推荐",
+            "最新",
+            "学习教育",
+            "健康"
+        ],
+        "description": "专为中医药爱好者设计的学习平台，涵盖了丰富的中医药知识，包括草药鉴别、方剂配伍及中医理论，帮助用户深入理解传统中医文化，提高健康管理水平。",
+        "image": "/app-store/img/lishizhen.jpg"
+    },
+    {
+        "id": "z1d3xahv5brnrwyich7ec6sd",
+        "name": "接诉助手",
+        "types": [
+            "推荐",
+            "最新",
+            "效率工具",
+            "公共服务"
+        ],
+        "description": "专门为市政服务设计的应用，帮助市民快速提交投诉和建议，实时跟踪处理进度，并与相关部门进行直接沟通，提升市政服务的响应速度和效率。",
+        "image": "/app-store/img/jiesuzhushou.jpg"
+    },
+    {
+        "id": "cz1hh8mym4od1qm8i9onzu07",
+        "name": "定力科技",
+        "types": [
+            "推荐",
+            "最新",
+            "商业服务",
+            "科技创新"
+        ],
+        "description": "定力科技致力于为用户提供创新的科技解决方案，帮助企业在高速发展的市场中保持竞争力。通过技术创新和专业服务，定力科技助力客户实现业务的可持续增长和市场扩展。",
+        "image": "/app-store/img/dingli.jpg"
+    },
+    {
+        "id": "8qgv5jandxmcr9p579lw7444",
+        "name": "储蓄专家",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "商业服务"
+        ],
+        "description": "储蓄专家为用户提供个性化的储蓄建议和财务管理方案，帮助用户实现财务目标和储蓄计划。",
+        "image": "/app-store/img/chuxuzhuanjia.jpg"
+    },
+    {
+        "id": "vwm9qn35tdn3e8jf9wli3vjl",
+        "name": "业务员",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "商业服务"
+        ],
+        "description": "业务员专注于销售和客户管理，为用户提供高效的业务拓展和客户服务支持。",
+        "image": "/app-store/img/yewuyuan.jpg"
+    },
+    {
+        "id": "3t7v03yly58vnx7g4dcvcl54",
+        "name": "大堂经理",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "公共配置"
+        ],
+        "description": "大堂经理负责客户接待和服务流程优化，确保高效和优质的客户体验。",
+        "image": "/app-store/img/datangjingli.jpg"
+    },
+    {
+        "id": "sq8nqy8iaemjtzcsbsw1icdr",
+        "name": "索赔大师",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "公共服务"
+        ],
+        "description": "索赔大师为用户提供保险理赔指导，确保理赔过程快速且无障碍。",
+        "image": "/app-store/img/suopeidashi.jpg"
+    },
+    {
+        "id": "qravogfvmavd3d1ndyin836p",
+        "name": "参保专家",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "公共服务"
+        ],
+        "description": "参保专家帮助用户选择最适合的保险方案，提供专业的投保建议和支持。",
+        "image": "/app-store/img/canbaozhuanjia.jpg"
+    },
+    {
+        "id": "svbstmnfvx3arcid7asfkgqq",
+        "name": "合同检测",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "效率工具"
+        ],
+        "description": "合同检测提供专业的合同审查服务，确保合同的合法性和公正性。",
+        "image": "/app-store/img/hetongjiance.jpg"
+    },
+    {
+        "id": "tklpzpzsd1gt4nblgg0501bz",
+        "name": "接诉大管家",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "公共服务"
+        ],
+        "description": "接诉大管家为市民提供高效的投诉处理服务，保障诉求快速解决。",
+        "image": "/app-store/img/jiesudaguanjia.jpg"
+    },
+    {
+        "id": "j8t7q7p3klwn87qkjh22l845",
+        "name": "诉求记录员",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "文本文字"
+        ],
+        "description": "诉求记录员专注于记录和管理市民的投诉和建议，确保每一条诉求得到有效跟踪。",
+        "image": "/app-store/img/suqiujiilu.jpg"
+    },
+    {
+        "id": "r4tp6kycfvl0mib766kg0cs0",
+        "name": "应急管家",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "效率工具"
+        ],
+        "description": "应急管家为突发事件的处理提供支持，确保及时响应和高效管理。",
+        "image": "/app-store/img/yingjiguanjia.jpg"
+    },
+    {
+        "id": "g03hmlyns8jxu27kb90dsiiy",
+        "name": "安全行者",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "公共服务"
+        ],
+        "description": "安全行者负责安全巡查，确保公共场所的安全和隐患排除。",
+        "image": "/app-store/img/anquanxingzhe.jpg"
+    },
+    {
+        "id": "rzywwjmqun3a9zhta8urmne6",
+        "name": "政策领航员",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "学习教育"
+        ],
+        "description": "政策领航员帮助用户理解并应用最新的政策法规，确保遵守和执行。",
+        "image": "/app-store/img/zhengcelinghangyuan.jpg"
+    },
+    {
+        "id": "x489e4recxqlngfuyhfyqp68",
+        "name": "证券侦探",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "商业服务"
+        ],
+        "description": "证券侦探为投资者提供市场分析和投资建议，助力用户做出明智的投资决策。",
+        "image": "/app-store/img/zhengquanzhentan.jpg"
+    },
+    {
+        "id": "hj283jhm4cu0c0m6xza5xmsi",
+        "name": "金钱导师",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "学习教育"
+        ],
+        "description": "金钱导师为用户提供理财知识和建议，帮助用户实现财务自由。",
+        "image": "/app-store/img/jinqiandaoshi.jpg"
+    },
+    {
+        "id": "14qi3bjvo5ia68imdnh6c3f8",
+        "name": "投资伙伴",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "商业服务"
+        ],
+        "description": "投资伙伴为用户提供投资组合管理和优化建议，助力财务增长。",
+        "image": "/app-store/img/touzihuoban.jpg"
+    },
+    {
+        "id": "1xltelmr6nq9dkmbxtwgremn",
+        "name": "社会法普",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "学习教育"
+        ],
+        "description": "社会的法普及法律知识，帮助用户理解和遵守法律，维护社会公正。",
+        "image": "/app-store/img/shehuidefa.jpg"
+    },
+    {
+        "id": "ucdgmp6t0pwflh6i6m939ay7",
+        "name": "社会道德",
+        "types": [
+            "推荐",
+            "最新",
+            "角色",
+            "学习教育"
+        ],
+        "description": "社会的德倡导社会公德，帮助用户树立良好的社会道德观念。",
+        "image": "/app-store/img/shehuide.jpg"
+    }
+]

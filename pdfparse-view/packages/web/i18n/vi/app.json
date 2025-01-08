@@ -1,0 +1,156 @@
+{
+  "Run": "Chạy",
+  "ai_settings": "Cài đặt AI",
+  "all_apps": "Tất cả ứng dụng",
+  "app": {
+    "modules": {
+      "click to update": "Nhấn để cập nhật",
+      "has new version": "Có phiên bản mới"
+    }
+  },
+  "app_detail": "Chi tiết ứng dụng",
+  "chat_debug": "Xem trước gỡ lỗi",
+  "chat_logs": "Nhật ký trò chuyện",
+  "chat_logs_tips": "Nhật ký sẽ ghi lại các cuộc trò chuyện trực tuyến, chia sẻ và API (cần điền chatId) của ứng dụng này.",
+  "config_file_upload": "Nhấn để tải lên quy tắc tệp cấu hình",
+  "confirm_copy_app_tip": "Hệ thống sẽ tạo một ứng dụng có cấu hình giống hệt, nhưng quyền sẽ không được sao chép, vui lòng xác nhận!",
+  "confirm_del_app_tip": "Xác nhận xóa ứng dụng này và tất cả nhật ký trò chuyện của nó?",
+  "confirm_delete_folder_tip": "Xác nhận xóa thư mục này? Tất cả ứng dụng và nhật ký trò chuyện dưới nó sẽ bị xóa, vui lòng xác nhận!",
+  "copy_one_app": "Tạo bản sao",
+  "create_copy_success": "Tạo bản sao thành công",
+  "create_empty_app": "Tạo ứng dụng trống",
+  "create_empty_plugin": "Tạo plugin trống",
+  "create_empty_workflow": "Tạo quy trình làm việc trống",
+  "cron": {
+    "every_day": "Thực hiện hàng ngày",
+    "every_month": "Thực hiện hàng tháng",
+    "every_week": "Thực hiện hàng tuần",
+    "interval": "Thực hiện theo khoảng thời gian"
+  },
+  "current_settings": "Cài đặt hiện tại",
+  "day": "Ngày",
+  "document_quote": "Trích dẫn tài liệu",
+  "document_quote_tip": "Thường dùng để chấp nhận nội dung tài liệu do người dùng tải lên (cần phân tích tài liệu), cũng có thể dùng để trích dẫn dữ liệu chuỗi khác.",
+  "document_upload": "Tải lên tài liệu",
+  "edit_app": "Chỉnh sửa ứng dụng",
+  "edit_info": "Chỉnh sửa thông tin",
+  "execute_time": "Thời gian thực thi",
+  "export_config_successful": "Đã sao chép cấu hình, tự động lọc một số thông tin nhạy cảm, vui lòng kiểm tra xem có dữ liệu nhạy cảm nào khác không.",
+  "export_configs": "Xuất cấu hình",
+  "feedback_count": "Phản hồi người dùng",
+  "file_upload": "Tải lên tệp",
+  "file_upload_tip": "Khi bật, có thể tải lên tài liệu/hình ảnh. Tài liệu giữ lại 7 ngày, hình ảnh giữ lại 15 ngày. Việc sử dụng chức năng này có thể phát sinh chi phí phụ thêm. Để đảm bảo trải nghiệm, khi sử dụng chức năng này, hãy chọn mô hình AI có độ dài ngữ cảnh lớn hơn.",
+  "go_to_chat": "Đi tới trò chuyện",
+  "go_to_run": "Đi tới chạy",
+  "image_upload": "Tải lên hình ảnh",
+  "image_upload_tip": "Vui lòng đảm bảo chọn mô hình thị giác có thể xử lý hình ảnh.",
+  "import_configs": "Nhập cấu hình",
+  "import_configs_failed": "Nhập cấu hình thất bại, vui lòng đảm bảo cấu hình bình thường!",
+  "interval": {
+    "12_hours": "Mỗi 12 giờ",
+    "2_hours": "Mỗi 2 giờ",
+    "3_hours": "Mỗi 3 giờ",
+    "4_hours": "Mỗi 4 giờ",
+    "6_hours": "Mỗi 6 giờ",
+    "per_hour": "Mỗi giờ"
+  },
+  "intro": "Là một hệ thống điều phối ứng dụng mô hình lớn, cung cấp khả năng xử lý dữ liệu và gọi mô hình ngay lập tức, có thể nhanh chóng xây dựng kho kiến thức và thực hiện điều phối quy trình làm việc bằng cách trực quan hóa Flow, thực hiện các tình huống kho kiến thức phức tạp!",
+  "llm_not_support_vision": "Mô hình này không hỗ trợ nhận diện hình ảnh",
+  "llm_use_vision": "Bật nhận diện hình ảnh",
+  "llm_use_vision_tip": "Khi bật nhận diện hình ảnh, mô hình sẽ tự động nhận hình ảnh từ \"Tải lên hộp thoại\" và liên kết hình ảnh trong \"Câu hỏi của người dùng\".",
+  "logs_empty": "Chưa có nhật ký nào~",
+  "logs_message_total": "Tổng số tin nhắn",
+  "logs_title": "Tiêu đề",
+  "mark_count": "Số lượng câu trả lời được đánh dấu",
+  "module": {
+    "Confirm Sync": "Sẽ cập nhật lên cấu hình mẫu mới nhất, các trường không tồn tại trong mẫu sẽ bị xóa (bao gồm tất cả các trường tùy chỉnh), khuyên bạn nên sao chép một bản của nút, sau đó cập nhật phiên bản nút gốc.",
+    "Custom Title Tip": "Tên tiêu đề này sẽ hiển thị trong quá trình trò chuyện",
+    "No Modules": "Không tìm thấy plugin",
+    "type": "\"{{type}}\" loại\n{{description}}"
+  },
+  "modules": {
+    "Title is required": "Tên mô-đun không được để trống"
+  },
+  "month": {
+    "unit": "Ngày"
+  },
+  "move_app": "Di chuyển ứng dụng",
+  "paste_config": "Dán cấu hình",
+  "plugin_cost_per_times": "{{cost}}/lần",
+  "plugin_dispatch": "Gọi plugin",
+  "plugin_dispatch_tip": "Gán thêm khả năng cho mô hình, cụ thể gọi plugin nào sẽ do mô hình tự quyết định.\nNếu chọn plugin, gọi kho kiến thức sẽ tự động trở thành một plugin đặc biệt.",
+  "publish_channel": "Kênh phát hành",
+  "publish_success": "Phát hành thành công",
+  "search_app": "Tìm kiếm ứng dụng",
+  "setting_app": "Cài đặt ứng dụng",
+  "setting_plugin": "Cài đặt plugin",
+  "template": {
+    "simple_robot": "Robot đơn giản"
+  },
+  "templateMarket": {
+    "Search_template": "Tìm kiếm mẫu",
+    "Template_market": "Thị trường mẫu",
+    "Use": "Sử dụng",
+    "no_intro": "Chưa có giới thiệu～",
+    "templateTags": {
+      "Image_generation": "Tạo hình ảnh",
+      "Office_services": "Dịch vụ văn phòng",
+      "Recommendation": "Gợi ý",
+      "Roleplay": "Đóng vai",
+      "Web_search": "Tìm kiếm trực tuyến",
+      "Writing": "Sáng tác văn bản"
+    }
+  },
+  "template_market": "Thị trường mẫu",
+  "template_market_description": "Khám phá thêm nhiều cách chơi trong thị trường mẫu, hướng dẫn cấu hình và sử dụng, giúp bạn hiểu và bắt tay vào các ứng dụng khác nhau.",
+  "template_market_empty_data": "Không tìm thấy mẫu phù hợp",
+  "time_zone": "Múi giờ",
+  "tool_input_param_tip": "Plugin này hoạt động bình thường cần cấu hình thông tin liên quan.",
+  "transition_to_workflow": "Chuyển đổi thành quy trình làm việc",
+  "transition_to_workflow_create_new_placeholder": "Tạo một ứng dụng mới, thay vì chỉnh sửa ứng dụng hiện tại",
+  "transition_to_workflow_create_new_tip": "Sau khi chuyển thành quy trình làm việc, sẽ không thể chuyển trở lại chế độ đơn giản, vui lòng xác nhận!",
+  "type": {
+    "All": "Tất cả",
+    "Create http plugin tip": "Tạo hàng loạt plugin thông qua OpenAPI Schema, tương thích định dạng GPTs",
+    "Create one plugin tip": "Có thể tùy chỉnh quy trình đầu vào và đầu ra, thường dùng để bao gói quy trình sử dụng lặp lại",
+    "Create plugin bot": "Tạo plugin",
+    "Create simple bot": "Tạo ứng dụng đơn giản",
+    "Create simple bot tip": "Tạo ứng dụng AI đơn giản qua hình thức điền biểu mẫu, phù hợp với người mới",
+    "Create template tip": "Khám phá thêm nhiều cách chơi trong thị trường mẫu, giúp bạn hiểu và bắt tay vào các ứng dụng khác nhau.",
+    "Create workflow bot": "Tạo quy trình làm việc",
+    "Create workflow tip": "Xây dựng ứng dụng AI đối thoại nhiều vòng phức tạp thông qua cách tiếp cận mã thấp, khuyên dùng cho người chơi nâng cao.",
+    "Http plugin": "Plugin HTTP",
+    "Plugin": "Plugin",
+    "Simple bot": "Ứng dụng đơn giản",
+    "Template": "Tạo thông qua mẫu",
+    "Workflow bot": "Quy trình làm việc"
+  },
+  "upload_file_max_amount": "Số lượng tệp tối đa",
+  "upload_file_max_amount_tip": "1. Số lượng tệp tối đa có thể tải lên một lần.\n2. Số lượng tệp tối đa mà cửa sổ trò chuyện ghi nhớ: mỗi vòng trò chuyện sẽ tự động lấy tệp lịch sử, tệp vượt quá giới hạn sẽ bị quên.",
+  "version": {
+    "Revert success": "Khôi phục thành công"
+  },
+  "vision_model_title": "Bật nhận diện hình ảnh",
+  "week": {
+    "Friday": "Thứ Sáu",
+    "Monday": "Thứ Hai",
+    "Saturday": "Thứ Bảy",
+    "Sunday": "Chủ Nhật",
+    "Thursday": "Thứ Năm",
+    "Tuesday": "Thứ Ba",
+    "Wednesday": "Thứ Tư"
+  },
+  "workflow": {
+    "Input guide": "Hướng dẫn điền",
+    "file_url": "Liên kết tài liệu",
+    "read_files": "Phân tích tài liệu",
+    "read_files_result": "Kết quả phân tích tài liệu",
+    "read_files_result_desc": "Nội dung gốc tài liệu, bao gồm tên tệp và nội dung tài liệu, nhiều tệp được phân cách bằng dấu gạch ngang.",
+    "read_files_tip": "Phân tích tất cả tài liệu đã tải lên trong cuộc trò chuyện và trả về nội dung tài liệu tương ứng.",
+    "template": {
+      "communication": "Giao tiếp"
+    },
+    "user_file_input": "Liên kết tệp",
+    "user_file_input_desc": "Liên kết tài liệu và hình ảnh do người dùng tải lên"
+  }
+}

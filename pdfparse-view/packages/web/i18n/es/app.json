@@ -1,0 +1,156 @@
+{
+  "Run": "Ejecutar",
+  "ai_settings": "Configuración de IA",
+  "all_apps": "Todas las aplicaciones",
+  "app": {
+    "modules": {
+      "click to update": "Haz clic para actualizar",
+      "has new version": "Hay una nueva versión"
+    }
+  },
+  "app_detail": "Detalles de la aplicación",
+  "chat_debug": "Vista previa de depuración",
+  "chat_logs": "Registros de chat",
+  "chat_logs_tips": "Los registros almacenarán la actividad en línea, los compartidos y los registros de conversación de la API (debe ingresar chatId)",
+  "config_file_upload": "Haz clic para cargar reglas de archivo de configuración",
+  "confirm_copy_app_tip": "El sistema creará una aplicación con la misma configuración, pero los permisos no se copiarán. ¡Por favor confirma!",
+  "confirm_del_app_tip": "¿Confirmar la eliminación de esta aplicación y todos sus registros de chat?",
+  "confirm_delete_folder_tip": "¿Confirmar la eliminación de esta carpeta? Se eliminarán todas las aplicaciones y los registros de chat debajo de ella. ¡Por favor confirma!",
+  "copy_one_app": "Crear una copia",
+  "create_copy_success": "Copia creada con éxito",
+  "create_empty_app": "Crear aplicación en blanco",
+  "create_empty_plugin": "Crear plugin en blanco",
+  "create_empty_workflow": "Crear flujo de trabajo en blanco",
+  "cron": {
+    "every_day": "Ejecutar todos los días",
+    "every_month": "Ejecutar todos los meses",
+    "every_week": "Ejecutar todas las semanas",
+    "interval": "Ejecutar en intervalos"
+  },
+  "current_settings": "Configuración actual",
+  "day": "Día",
+  "document_quote": "Cita de documento",
+  "document_quote_tip": "Normalmente se utiliza para aceptar el contenido del documento subido por el usuario (esto requiere análisis de documentos), también se puede usar para citar otros datos de cadena.",
+  "document_upload": "Subida de documento",
+  "edit_app": "Editar aplicación",
+  "edit_info": "Editar información",
+  "execute_time": "Tiempo de ejecución",
+  "export_config_successful": "Configuración copiada, se han filtrado automáticamente algunas informaciones sensibles, por favor revise si aún hay datos sensibles",
+  "export_configs": "Exportar configuración",
+  "feedback_count": "Comentarios de usuarios",
+  "file_upload": "Subida de archivo",
+  "file_upload_tip": "Al activarlo, puede subir documentos/imágenes. Los documentos se conservarán durante 7 días y las imágenes durante 15 días. Usar esta función puede generar costos adicionales. Para garantizar una buena experiencia, al usar esta función, elija un modelo de IA con una longitud de contexto mayor.",
+  "go_to_chat": "Ir a la conversación",
+  "go_to_run": "Ir a ejecutar",
+  "image_upload": "Subida de imagen",
+  "image_upload_tip": "Por favor, asegúrese de elegir un modelo visual que pueda procesar imágenes",
+  "import_configs": "Importar configuración",
+  "import_configs_failed": "Importación de configuración fallida, ¡asegúrese de que la configuración sea correcta!",
+  "interval": {
+    "12_hours": "Cada 12 horas",
+    "2_hours": "Cada 2 horas",
+    "3_hours": "Cada 3 horas",
+    "4_hours": "Cada 4 horas",
+    "6_hours": "Cada 6 horas",
+    "per_hour": "Cada hora"
+  },
+  "intro": "Es un sistema de orquestación de aplicaciones de modelos grandes que proporciona capacidades de procesamiento de datos, llamada a modelos, etc., permitiendo construir rápidamente bases de conocimiento y orquestar flujos de trabajo a través de visualización Flow, logrando escenarios complejos de bases de conocimiento.",
+  "llm_not_support_vision": "Este modelo no soporta reconocimiento de imágenes",
+  "llm_use_vision": "Habilitar reconocimiento de imágenes",
+  "llm_use_vision_tip": "Una vez habilitado el reconocimiento de imágenes, este modelo recibirá automáticamente imágenes de 'subida en el cuadro de diálogo' y enlaces de imágenes en 'preguntas de usuarios'.",
+  "logs_empty": "Aún no hay registros~",
+  "logs_message_total": "Total de mensajes",
+  "logs_title": "Título",
+  "mark_count": "Cantidad de respuestas anotadas",
+  "module": {
+    "Confirm Sync": "Se actualizará a la configuración de plantilla más reciente, los campos que no existan en la plantilla serán eliminados (incluyendo todos los campos personalizados), se recomienda que primero copie un nodo antes de actualizar la versión del nodo original.",
+    "Custom Title Tip": "Este nombre de título se mostrará durante la conversación",
+    "No Modules": "No se encontraron complementos",
+    "type": "\"{{type}}\" tipo\n{{description}}"
+  },
+  "modules": {
+    "Title is required": "El nombre del módulo no puede estar vacío"
+  },
+  "month": {
+    "unit": "Número"
+  },
+  "move_app": "Mover aplicación",
+  "paste_config": "Pegar configuración",
+  "plugin_cost_per_times": "{{cost}}/vez",
+  "plugin_dispatch": "Llamada a complemento",
+  "plugin_dispatch_tip": "Adjuntar capacidades adicionales al modelo, qué complementos se llamarán será decidido por el modelo de forma autónoma.\nSi se seleccionó un complemento, la llamada a la base de conocimiento se tratará automáticamente como un complemento especial.",
+  "publish_channel": "Canal de publicación",
+  "publish_success": "Publicación exitosa",
+  "search_app": "Buscar aplicación",
+  "setting_app": "Configuración de aplicación",
+  "setting_plugin": "Configuración de complemento",
+  "template": {
+    "simple_robot": "Robot simple"
+  },
+  "templateMarket": {
+    "Search_template": "Buscar plantilla",
+    "Template_market": "Mercado de plantillas",
+    "Use": "Usar",
+    "no_intro": "Aún no hay introducción～",
+    "templateTags": {
+      "Image_generation": "Generación de imágenes",
+      "Office_services": "Servicios de oficina",
+      "Recommendation": "Recomendación",
+      "Roleplay": "Juego de roles",
+      "Web_search": "Búsqueda en la web",
+      "Writing": "Creación de texto"
+    }
+  },
+  "template_market": "Mercado de plantillas",
+  "template_market_description": "Explora más formas de jugar en el mercado de plantillas, tutoriales de configuración y guías de uso, te ayudarán a entender y manejar diversas aplicaciones",
+  "template_market_empty_data": "No se encontró una plantilla adecuada",
+  "time_zone": "Zona horaria",
+  "tool_input_param_tip": "Este complemento necesita configurar información relacionada para funcionar correctamente",
+  "transition_to_workflow": "Convertir a flujo de trabajo",
+  "transition_to_workflow_create_new_placeholder": "Crear una nueva aplicación, en lugar de modificar la aplicación actual",
+  "transition_to_workflow_create_new_tip": "Una vez convertido a flujo de trabajo, no se podrá volver al modo simple, ¡por favor confirme!",
+  "type": {
+    "All": "Todo",
+    "Create http plugin tip": "Crear complementos por lotes mediante OpenAPI Schema, compatible con el formato de GPTs",
+    "Create one plugin tip": "Se puede personalizar el flujo de trabajo de entrada y salida, generalmente utilizado para encapsular flujos de trabajo que se utilizan repetidamente",
+    "Create plugin bot": "Crear complemento",
+    "Create simple bot": "Crear aplicación simple",
+    "Create simple bot tip": "Cree aplicaciones de IA simples a través de un formulario, adecuado para principiantes",
+    "Create template tip": "Explora más formas de jugar en el mercado de plantillas, te ayudará a entender y manejar diversas aplicaciones",
+    "Create workflow bot": "Crear flujo de trabajo",
+    "Create workflow tip": "Construya aplicaciones de IA de diálogo múltiple y lógicas complejas de manera de bajo código, recomendado para jugadores avanzados",
+    "Http plugin": "Complemento HTTP",
+    "Plugin": "Complemento",
+    "Simple bot": "Aplicación simple",
+    "Template": "Crear mediante plantilla",
+    "Workflow bot": "Flujo de trabajo"
+  },
+  "upload_file_max_amount": "Cantidad máxima de archivos",
+  "upload_file_max_amount_tip": "1. La cantidad máxima de archivos que se pueden subir a la vez.\n2. La cantidad máxima de archivos recordados en la ventana de conversación: cada ronda de conversación obtendrá automáticamente archivos de la historia, los archivos que excedan el límite serán olvidados.",
+  "version": {
+    "Revert success": "Reversión exitosa"
+  },
+  "vision_model_title": "Habilitar reconocimiento de imágenes",
+  "week": {
+    "Friday": "Viernes",
+    "Monday": "Lunes",
+    "Saturday": "Sábado",
+    "Sunday": "Domingo",
+    "Thursday": "Jueves",
+    "Tuesday": "Martes",
+    "Wednesday": "Miércoles"
+  },
+  "workflow": {
+    "Input guide": "Instrucciones de llenado",
+    "file_url": "Enlace del documento",
+    "read_files": "Análisis de documentos",
+    "read_files_result": "Resultado del análisis de documentos",
+    "read_files_result_desc": "Texto original del documento, compuesto por el nombre del archivo y el contenido del documento, los archivos múltiples se separan por un guion.",
+    "read_files_tip": "Analiza todos los documentos subidos en la conversación y devuelve el contenido correspondiente",
+    "template": {
+      "communication": "Comunicación"
+    },
+    "user_file_input": "Enlace del archivo",
+    "user_file_input_desc": "Enlaces de documentos e imágenes subidos por el usuario"
+  }
+}
