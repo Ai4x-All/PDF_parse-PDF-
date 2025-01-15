@@ -412,8 +412,8 @@ const PDFViewer = ({
             }
             }
 
-            // src={`/pdfjs-dist/web/viewer.html?file=${encodeURIComponent(`https://www.xiaoruiai.com:8208${pdfUrl}`)}`}
-            src={`/DPFjs/web/viewer.html?file=${encodeURIComponent(`http://localhost:3000${pdfUrl}`)}`}
+            src={`/pdfjs-dist/web/viewer.html?file=${encodeURIComponent(`https://www.xiaoruiai.com:8208${pdfUrl}`)}`}
+            // src={`/DPFjs/web/viewer.html?file=${encodeURIComponent(`http://localhost:3000${pdfUrl}`)}`}
             // src={`/pdfjs-dist/web/viewer.html?file=${encodeURIComponent(`http://localhost:3000${pdfUrl}`)}`}
           ></iframe>
         ) : null}
