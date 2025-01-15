@@ -125,7 +125,6 @@ const Radio = ({ previewUrlprops, setPdfUrl, setMddata, pdfUrl }:
   { previewUrlprops: any, setPdfUrl: any, setMddata: any, pdfUrl: any }) => {
   const { goToNext, positioninfo, setPositioninfo, sources, setSources, previewUrl, setfilereferenceCurentPage, setPreviewUrl, pdfresponse } = useContextSelector(DatasetImportContext, (v) => v);
   useEffect(() => {
-    console.log('previewUrlprops!!!', previewUrlprops, '-----', previewUrl);
 
     const dynamicStyles = previewUrlprops.map((_: any, index: any) => `
           .rd-${index + 1}:checked ~ .bar,
@@ -1119,13 +1118,12 @@ export default function FileReference() {
   }, [goToNext]);
 
   useEffect(() => {
-    console.log('previewUrl', previewUrl);
     if (previewUrl[0]?.url) { // 确保预览 URL 存在  
       setPdfUrl(previewUrl[0].url); // 更新 pdfUrl 状态  
       setMddata(pdfresponse[0].markdown);
       console.log('pdfUrl:', previewUrl[0].url);
     }
-  }, [previewUrl]);
+  }, [previewUrl,pdfresponse]);
 
   return (
     <>

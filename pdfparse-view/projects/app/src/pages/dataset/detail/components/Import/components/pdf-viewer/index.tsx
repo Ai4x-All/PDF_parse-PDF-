@@ -67,9 +67,6 @@ const PDFViewer = ({
           params: { parse_id: previewUrl[0].id } // 使用当前 item  
         });
         let localposition
-
-        console.log('----定位结果:', response.data,
-        );
         setPositioninfo(response.data); // 如果只有一个响应需要保留，考虑在这里处理  
 
       } catch (error) {
@@ -81,7 +78,7 @@ const PDFViewer = ({
     if (previewUrl.length > 0) {
       handlePosition();
     }
-  }, [previewUrl]); // 依赖于 previewUrl  
+  }, [previewUrl,setPositioninfo]); // 依赖于 previewUrl  
 
 
 
@@ -412,8 +409,10 @@ const PDFViewer = ({
             }
             }
 
-            src={`/pdfjs-dist/web/viewer.html?file=${encodeURIComponent(`https://www.xiaoruiai.com:8208${pdfUrl}`)}`}
-            // src={`/DPFjs/web/viewer.html?file=${encodeURIComponent(`http://localhost:3000${pdfUrl}`)}`}
+            // src={`/pdfjs-dist/web/viewer.html?file=${encodeURIComponent(`https://www.xiaoruiai.com:8208${pdfUrl}`)}`}
+            // src={`/DPFjs/web/viewer.html?file=${encodeURIComponent(`https://www.xiaoruiai.com:8208${pdfUrl}`)}`}
+            src={`/DPFjs/web/viewer.html?file=${encodeURIComponent(`http://localhost:3000${pdfUrl}`)}`}
+
             // src={`/pdfjs-dist/web/viewer.html?file=${encodeURIComponent(`http://localhost:3000${pdfUrl}`)}`}
           ></iframe>
         ) : null}

@@ -74,7 +74,6 @@ const Imgcpt = (props: any) => {
   const [imageUrl, setImageUrl] = useState<any[]>([]);
 
   useEffect(() => {
-    console.log('我在img组件查看positioninfo', positioninfo);
     positioninfo.layout_info.forEach((item: any) => {
       item.layout_dets.forEach((val: any) => {
         if (val.category === '图片' && !imageUrl.includes(val.content)) {
@@ -83,7 +82,7 @@ const Imgcpt = (props: any) => {
       });
     });
 
-  }, [positioninfo])
+  }, [positioninfo,imageUrl])
   return (
     <ImgWrapper>
 

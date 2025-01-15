@@ -58,7 +58,7 @@ const LazyUrlMarkdown: React.FC<IMarkdownProps> = ({
       {children}
     </h1>
   ));
-
+  MemoizedH1.displayName = 'MemoizedH1';
   const MemoizedP = React.memo(({ id, children, clickedElement, setClickedElement }: any) => (
 
     <p
@@ -73,7 +73,7 @@ const LazyUrlMarkdown: React.FC<IMarkdownProps> = ({
       {children}
     </p>
   ));
-
+  MemoizedP.displayName = 'MemoizedP';
   const MemoizedTable = React.memo(({ id, children, clickedElement, setClickedElement }: any) => {
     const handleCellClick = (event: React.MouseEvent<HTMLTableCellElement>) => {
       const target = event.currentTarget; // 获取被点击的单元格
@@ -110,7 +110,7 @@ const LazyUrlMarkdown: React.FC<IMarkdownProps> = ({
       </table>
     );
   });
-
+  MemoizedTable.displayName = 'MemoizedTable';
   const MemoizedImg = React.memo(({ id, children, clickedElement, ...props }: any) => {
     const imgRef = useRef<HTMLImageElement>(null);
     const handleImgClick = (event: React.MouseEvent<HTMLImageElement>) => {
@@ -140,7 +140,7 @@ const LazyUrlMarkdown: React.FC<IMarkdownProps> = ({
   }
 
   );
-
+  MemoizedImg.displayName = 'MemoizedImg';
   return (
     <div ref={ref} className="md-container">
       <div className={styles.mdViewerWrap}>

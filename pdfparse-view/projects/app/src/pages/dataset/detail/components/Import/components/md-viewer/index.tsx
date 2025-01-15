@@ -251,7 +251,6 @@ const MdViewer: React.FC<any> = ({
   const [totalstats, setTotalstats] = useState<any[]>([]);
   // 计算函数
   useEffect(() => {
-    console.log('md文件中的positioninfos', positioninfo, previewUrl);
     if (!positioninfo) return
     const calculateCategoryStats = (data: any[]) => {
       if (!data || data.length === 0) {
