@@ -1,0 +1,18 @@
+{
+  "bucket_chat": "Tệp trò chuyện",
+  "bucket_file": "Tệp kho tri thức",
+  "click_to_view_raw_source": "Nhấn để xem nguồn gốc",
+  "file_name": "Tên tệp",
+  "file_size": "Kích thước tệp",
+  "release_the_mouse_to_upload_the_file": "Thả chuột để tải lên tệp",
+  "select_and_drag_file_tip": "Nhấn hoặc kéo tệp vào đây để tải lên",
+  "select_file_amount_limit": "Tối đa chọn {{max}} tệp",
+  "some_file_count_exceeds_limit": "Vượt quá {{maxCount}} tệp, đã tự động cắt bớt",
+  "some_file_size_exceeds_limit": "Một số tệp vượt quá {{maxSize}}, đã bị lọc",
+  "support_file_type": "Hỗ trợ tệp loại {{fileType}}",
+  "support_max_count": "Tối đa hỗ trợ {{maxCount}} tệp",
+  "support_max_size": "Kích thước tối đa của một tệp là {{maxSize}}",
+  "upload_failed": "Tải lên không thành công",
+  "reached_max_file_count": "Đã đạt số lượng tệp tối đa",
+  "upload_error_description": "Chỉ hỗ trợ tải lên nhiều tệp hoặc một thư mục một lần"
+}

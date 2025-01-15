@@ -1,0 +1,1490 @@
+{
+  "App": "Ứng dụng",
+  "Export": "Xuất khẩu",
+  "FAQ": {
+    "ai_point_a": "Mỗi lần gọi mô hình AI sẽ tiêu tốn một số điểm AI nhất định. Tiêu chuẩn tính toán cụ thể có thể tham khảo ở phần trên 'Tiêu chuẩn tính điểm AI'.\nTính toán Token sử dụng công thức giống GPT3.5, 1 Token ≈ 0.7 ký tự Trung Quốc ≈ 0.9 từ tiếng Anh, các ký tự liên tiếp có thể được coi là 1 Token.",
+    "ai_point_expire_a": "Sẽ hết hạn. Sau khi gói hiện tại hết hạn, điểm AI sẽ bị xóa và cập nhật thành điểm AI của gói mới. Điểm AI của gói hàng năm có thời gian là 1 năm, không phải mỗi tháng.",
+    "ai_point_expire_q": "Điểm AI có hết hạn không?",
+    "ai_point_q": "Điểm AI là gì?",
+    "auto_renew_a": "Sau khi gói hiện tại hết hạn, hệ thống sẽ tự động gia hạn theo 'Gói tương lai', hệ thống sẽ cố gắng trừ tiền từ số dư tài khoản. Nếu bạn muốn gia hạn tự động, hãy để lại số tiền trong tài khoản.",
+    "auto_renew_q": "Gói đăng ký có tự động gia hạn không?",
+    "change_package_a": "Nếu giá gói hiện tại lớn hơn gói mới, không thể chuyển ngay lập tức, sẽ được chuyển đổi sau khi gói hiện tại hết hạn dưới dạng 'gia hạn'.\nNếu giá gói hiện tại nhỏ hơn gói mới, hệ thống sẽ tự động tính số dư còn lại của gói hiện tại, bạn có thể thanh toán phần chênh lệch để chuyển gói.",
+    "change_package_q": "Có thể chuyển đổi gói đăng ký không?",
+    "dataset_compute_a": "1 lưu trữ kho kiến thức tương đương với 1 chỉ số kho kiến thức. Một dữ liệu kho kiến thức có thể chứa 1 hoặc nhiều chỉ số kho kiến thức. Trong quá trình đào tạo tăng cường, 1 dữ liệu sẽ tạo ra 5 chỉ số.",
+    "dataset_compute_q": "Cách tính lưu trữ kho kiến thức?",
+    "dataset_index_a": "Không. Nhưng khi chỉ số kho kiến thức vượt quá giới hạn, không thể chèn và cập nhật nội dung kho kiến thức.",
+    "dataset_index_q": "Chỉ số kho kiến thức vượt quá có bị xóa không?",
+    "free_user_clean_a": "Nhóm phiên bản miễn phí (phiên bản miễn phí và không mua gói thêm) sẽ tự động xóa toàn bộ nội dung kho kiến thức sau 30 ngày không đăng nhập vào hệ thống.",
+    "free_user_clean_q": "Dữ liệu phiên bản miễn phí có bị xóa không?",
+    "package_overlay_a": "Có thể. Mỗi gói tài nguyên mua đều độc lập và sẽ được sử dụng chồng lên nhau trong thời gian hiệu lực. Điểm AI sẽ ưu tiên trừ từ gói tài nguyên sắp hết hạn.",
+    "package_overlay_q": "Có thể chồng thêm gói tài nguyên không?"
+  },
+  "Folder": "Thư mục",
+  "Login": "Đăng nhập",
+  "Move": "Di chuyển",
+  "Name": "Tên",
+  "Rename": "Đổi tên",
+  "Resume": "Tiếp tục",
+  "Running": "Đang chạy",
+  "UnKnow": "Không xác định",
+  "Warning": "Cảnh báo",
+  "add_new": "Thêm mới",
+  "chose_condition": "Chọn điều kiện",
+  "chosen": "Đã chọn",
+  "classification": "Phân loại",
+  "click_to_resume": "Nhấn để tiếp tục",
+  "code_editor": "Trình soạn thảo mã",
+  "code_error": {
+    "app_error": {
+      "invalid_app_type": "Loại ứng dụng không hợp lệ",
+      "invalid_owner": "Chủ sở hữu ứng dụng không hợp lệ",
+      "not_exist": "Ứng dụng không tồn tại",
+      "un_auth_app": "Không có quyền thao tác ứng dụng này"
+    },
+    "chat_error": {
+      "un_auth": "Không có quyền thao tác nhật ký trò chuyện này"
+    },
+    "error_code": {
+      "400": "Yêu cầu thất bại",
+      "401": "Không có quyền truy cập",
+      "403": "Truy cập bị hạn chế",
+      "404": "Yêu cầu không tồn tại",
+      "405": "Phương thức yêu cầu không hợp lệ",
+      "406": "Định dạng yêu cầu không hợp lệ",
+      "410": "Tài nguyên đã bị xóa",
+      "422": "Lỗi xác thực",
+      "500": "Lỗi máy chủ xảy ra",
+      "502": "Lỗi cổng",
+      "503": "Máy chủ tạm thời quá tải hoặc đang bảo trì",
+      "504": "Thời gian chờ cổng"
+    },
+    "error_message": {
+      "403": "Lỗi chứng thực",
+      "510": "Số dư tài khoản không đủ",
+      "511": "Không có quyền thao tác mô hình này",
+      "513": "Không có quyền đọc tệp này",
+      "514": "Api Key không hợp lệ"
+    },
+    "openapi_error": {
+      "api_key_not_exist": "Api Key không tồn tại",
+      "exceed_limit": "Tối đa 10 nhóm API Key",
+      "un_auth": "Không có quyền thao tác Api Key này"
+    },
+    "outlink_error": {
+      "invalid_link": "Liên kết chia sẻ không hợp lệ",
+      "link_not_exist": "Liên kết chia sẻ không tồn tại",
+      "un_auth_user": "Kiểm tra danh tính thất bại"
+    },
+    "plugin_error": {
+      "not_exist": "Plugin không tồn tại",
+      "un_auth": "Không có quyền thao tác plugin này"
+    },
+    "system_error": {
+      "community_version_num_limit": "Vượt quá giới hạn số lượng phiên bản mã nguồn mở, vui lòng nâng cấp lên phiên bản thương mại: https://fastgpt.in"
+    },
+    "team_error": {
+      "ai_points_not_enough": "",
+      "app_amount_not_enough": "Số lượng ứng dụng đã đạt giới hạn~",
+      "dataset_amount_not_enough": "Số lượng kho kiến thức đã đạt giới hạn~",
+      "dataset_size_not_enough": "Dung lượng kho kiến thức không đủ, vui lòng mở rộng trước~",
+      "over_size": "error.team.overSize",
+      "plugin_amount_not_enough": "Số lượng plugin đã đạt giới hạn~",
+      "re_rank_not_enough": "Không có quyền sử dụng xếp lại tìm kiếm~",
+      "un_auth": "Không có quyền thao tác đội ngũ này",
+      "website_sync_not_enough": "Không có quyền sử dụng đồng bộ trang web~"
+    },
+    "token_error_code": {
+      "403": "Trạng thái đăng nhập không hợp lệ, vui lòng đăng nhập lại"
+    },
+    "user_error": {
+      "balance_not_enough": "Số dư tài khoản không đủ~",
+      "bin_visitor": "Kiểm tra danh tính của bạn không thành công",
+      "bin_visitor_guest": "Danh tính hiện tại của bạn là khách, không có quyền thao tác",
+      "un_auth_user": "Không tìm thấy người dùng này"
+    }
+  },
+  "common": {
+    "Action": "Hành động",
+    "Add": "Thêm",
+    "Add New": "Thêm mới",
+    "Add Success": "Thêm thành công",
+    "All": "Tất cả",
+    "Cancel": "Hủy",
+    "Choose": "Chọn",
+    "Close": "Đóng",
+    "Config": "Cấu hình",
+    "Confirm": "Xác nhận",
+    "Confirm Create": "Xác nhận tạo",
+    "Confirm Import": "Xác nhận nhập",
+    "Confirm Move": "Xác nhận di chuyển",
+    "Confirm Update": "Xác nhận cập nhật",
+    "Confirm to leave the page": "Xác nhận rời khỏi trang này?",
+    "Copy": "Sao chép",
+    "Copy Successful": "Sao chép thành công",
+    "Create Failed": "Tạo thất bại",
+    "Create New": "Tạo mới",
+    "Create Success": "Tạo thành công",
+    "Create Time": "Thời gian tạo",
+    "Creating": "Đang tạo",
+    "Custom Title": "Tiêu đề tùy chỉnh",
+    "Delete": "Xóa",
+    "Delete Failed": "Xóa thất bại",
+    "Delete Success": "Xóa thành công",
+    "Delete Warning": "Cảnh báo xóa",
+    "Delete folder": "Xóa thư mục",
+    "Detail": "Chi tiết",
+    "Documents": "Tài liệu",
+    "Done": "Hoàn thành",
+    "Edit": "Chỉnh sửa",
+    "Exit": "Thoát",
+    "Expired Time": "Thời gian hết hạn",
+    "Field": "Trường",
+    "File": "Tệp",
+    "Finish": "Hoàn tất",
+    "Import": "Nhập",
+    "Import failed": "Nhập thất bại",
+    "Import success": "Nhập thành công",
+    "Input": "Nhập",
+    "Input folder description": "Mô tả thư mục",
+    "Input name": "Nhập tên",
+    "Intro": "Giới thiệu",
+    "Last Step": "Bước trước",
+    "Last use time": "Thời gian sử dụng cuối",
+    "Load Failed": "Tải thất bại",
+    "Loading": "Đang tải...",
+    "More": "Thêm",
+    "Move": "Di chuyển",
+    "MultipleRowSelect": {
+      "No data": "Không có giá trị nào để chọn"
+    },
+    "Name": "Tên",
+    "Next Step": "Bước tiếp theo",
+    "No more data": "Không còn dữ liệu nào nữa~",
+    "Not open": "Chưa mở",
+    "OK": "OK",
+    "Open": "Mở",
+    "Operation": "Hoạt động",
+    "Other": "Khác",
+    "Output": "Đầu ra",
+    "Params": "Tham số",
+    "Password inconsistency": "Mật khẩu không khớp",
+    "Permission": "Quyền",
+    "Please Input Name": "Vui lòng nhập tên",
+    "Read document": "Xem tài liệu",
+    "Read intro": "Xem hướng dẫn",
+    "Remove": "Xóa bỏ",
+    "Rename": "Đổi tên",
+    "Request Error": "Lỗi yêu cầu",
+    "Require Input": "Bắt buộc nhập",
+    "Restart": "Khởi động lại",
+    "Role": "Vai trò",
+    "Root folder": "Thư mục gốc",
+    "Run": "Chạy",
+    "Save": "Lưu",
+    "Save Failed": "Lưu thất bại",
+    "Save Success": "Lưu thành công",
+    "Search": "Tìm kiếm",
+    "Select File Failed": "Chọn tệp thất bại",
+    "Select template": "Chọn mẫu",
+    "Set Avatar": "Nhấn để đặt ảnh đại diện",
+    "Set Name": "Đặt tên",
+    "Setting": "Cài đặt",
+    "Status": "Trạng thái",
+    "Submit failed": "Gửi thất bại",
+    "Success": "Thành công",
+    "Sync success": "Đồng bộ thành công",
+    "Team": "Đội nhóm",
+    "Team Tags Set": "Thẻ",
+    "Un used": "Chưa sử dụng",
+    "UnKnow": "Không xác định",
+    "UnKnow Source": "Nguồn không xác định",
+    "Unlimited": "Không giới hạn",
+    "Update": "Cập nhật",
+    "Update Failed": "Cập nhật thất bại",
+    "Update Success": "Cập nhật thành công",
+    "Update Successful": "Cập nhật thành công",
+    "Upload File Failed": "Tải tệp thất bại",
+    "Username": "Tên người dùng",
+    "Waiting": "Đang chờ",
+    "Warning": "Cảnh báo",
+    "Website": "Trang web",
+    "all_result": "Kết quả đầy đủ",
+    "avatar": {
+      "Select Avatar": "Nhấn để chọn ảnh đại diện",
+      "Select Failed": "Chọn ảnh đại diện thất bại"
+    },
+    "choosable": "Có thể chọn",
+    "confirm": {
+      "Common Tip": "Xác nhận thao tác"
+    },
+    "course": {
+      "Read Course": "Xem hướng dẫn"
+    },
+    "empty": {
+      "Common Tip": "Không có dữ liệu nào~"
+    },
+    "error": {
+      "Select avatar failed": "Chọn ảnh đại diện thất bại",
+      "too_many_request": "Yêu cầu quá thường xuyên, vui lòng thử lại sau.",
+      "unKnow": "Có chút sự cố~"
+    },
+    "failed": "Thất bại",
+    "folder": {
+      "Drag Tip": "Nhấn để kéo",
+      "Move Success": "Di chuyển thành công",
+      "Move to": "Di chuyển đến",
+      "No Folder": "Không còn thư mục con, để ở đây nhé",
+      "Open folder": "Mở thư mục",
+      "Root Path": "Đường dẫn gốc",
+      "empty": "Thư mục này không còn gì để chọn~",
+      "open_dataset": "Mở kho kiến thức"
+    },
+    "input": {
+      "Repeat Value": "Có giá trị bị trùng"
+    },
+    "is_requesting": "Đang yêu cầu……",
+    "jsonEditor": {
+      "Parse error": "JSON có thể có lỗi, vui lòng kiểm tra kỹ"
+    },
+    "link": {
+      "UnValid": "Liên kết không hợp lệ"
+    },
+    "month": "Tháng",
+    "name_is_empty": "Tên không thể để trống",
+    "no_intro": "Chưa có giới thiệu",
+    "not_support": "Không hỗ trợ",
+    "page_center": "Giữa trang",
+    "request_end": "Đã tải toàn bộ",
+    "request_more": "Nhấn để tải thêm",
+    "speech": {
+      "error tip": "Chuyển giọng thành chữ thất bại",
+      "not support": "Trình duyệt của bạn không hỗ trợ nhập giọng nói"
+    },
+    "support": "Hỗ trợ",
+    "system": {
+      "Commercial version function": "Chức năng này chưa được mở",
+      "Help Chatbot": "Trợ lý ảo",
+      "Use Helper": "Sử dụng trợ giúp"
+    },
+    "ui": {
+      "textarea": {
+        "Magnifying": "Phóng to"
+      }
+    }
+  },
+  "confirm_choice": "Xác nhận lựa chọn",
+  "contribute_app_template": "Đóng góp mẫu",
+  "core": {
+    "Chat": "Trò chuyện",
+    "Max Token": "Giới hạn dữ liệu mỗi lần",
+    "ai": {
+      "AI settings": "Cài đặt AI",
+      "Ai point price": "Chi phí tiêu tốn AI",
+      "Max context": "Ngữ cảnh tối đa",
+      "Model": "Mô hình AI",
+      "Not deploy rerank model": "Chưa triển khai mô hình tái sắp xếp",
+      "Prompt": "Từ gợi ý",
+      "Support tool": "Gọi hàm",
+      "model": {
+        "Dataset Agent Model": "Mô hình xử lý tài liệu",
+        "Vector Model": "Mô hình chỉ mục",
+        "doc_index_and_dialog": "Chỉ mục tài liệu & chỉ mục trò chuyện"
+      }
+    },
+    "app": {
+      "Ai response": "Phản hồi nội dung AI",
+      "Api request": "Yêu cầu API",
+      "Api request desc": "Kết nối với hệ thống hiện có qua API, hoặc WeChat Work, Feishu, v.v.",
+      "App intro": "Giới thiệu ứng dụng",
+      "Chat Variable": "Biến trong hộp thoại",
+      "Config schedule plan": "Cấu hình thực hiện định kỳ",
+      "Config whisper": "Cấu hình nhập liệu bằng giọng nói",
+      "Interval timer config": "Cấu hình thực hiện định kỳ",
+      "Interval timer run": "Thực hiện định kỳ",
+      "Interval timer tip": "Có thể thực hiện ứng dụng theo định kỳ",
+      "Make a brief introduction of your app": "Giới thiệu ứng dụng AI của bạn",
+      "Max histories": "Số lượng lịch sử trò chuyện",
+      "Max tokens": "Giới hạn phản hồi",
+      "Name and avatar": "Ảnh đại diện & Tên",
+      "Onclick to save": "Nhấp để lưu",
+      "Publish": "Xuất bản",
+      "Publish Confirm": "Xác nhận xuất bản ứng dụng? Tình trạng ứng dụng sẽ được cập nhật ngay lập tức trên tất cả kênh xuất bản.",
+      "Publish app tip": "Sau khi xuất bản ứng dụng, tất cả kênh xuất bản sẽ ngay lập tức sử dụng phiên bản này",
+      "Question Guide": "Bạn có thể hỏi",
+      "Question Guide Tip": "Sau khi kết thúc trò chuyện, sẽ tạo ra 3 câu hỏi hướng dẫn.",
+      "Quote prompt": "Gợi ý mẫu trích dẫn",
+      "Quote templates": "Mẫu nội dung trích dẫn",
+      "Random": "Phát tán",
+      "Saved time": "Đã lưu: {{time}}",
+      "Search team tags": "Tìm kiếm thẻ",
+      "Select TTS": "Chọn chế độ phát giọng nói",
+      "Select app from template": "Chọn từ mẫu",
+      "Select quote template": "Chọn mẫu gợi ý trích dẫn",
+      "Set a name for your app": "Đặt tên cho ứng dụng của bạn",
+      "Setting ai property": "Nhấp để cấu hình thuộc tính mô hình AI",
+      "Share link": "Cửa sổ không cần đăng nhập",
+      "Share link desc": "Chia sẻ liên kết cho người dùng khác, không cần đăng nhập để sử dụng trực tiếp",
+      "Share link desc detail": "Có thể chia sẻ mô hình này cho người dùng khác để trò chuyện mà không cần đăng nhập. Lưu ý, chức năng này sẽ tiêu tốn số dư tài khoản của bạn, hãy bảo quản liên kết cẩn thận!",
+      "TTS": "Phát giọng nói",
+      "TTS Tip": "Khi bật, sau mỗi cuộc trò chuyện có thể sử dụng chức năng phát giọng nói. Việc sử dụng chức năng này có thể phát sinh chi phí phụ thêm.",
+      "TTS start": "Đọc nội dung",
+      "Team tags": "Thẻ nhóm",
+      "Temperature": "Nhiệt độ",
+      "Tool call": "Gọi công cụ",
+      "ToolCall": {
+        "No plugin": "Không có plugin khả dụng",
+        "Parameter setting": "Thiết lập tham số đầu vào",
+        "System": "Hệ thống",
+        "Team": "Nhóm"
+      },
+      "Welcome Text": "Lời chào mở đầu",
+      "Whisper": "Nhập liệu bằng giọng nói",
+      "Whisper config": "Cấu hình nhập liệu bằng giọng nói",
+      "deterministic": "Chặt chẽ",
+      "edit": {
+        "Prompt Editor": "Chỉnh sửa từ gợi ý",
+        "Query extension background prompt": "Mô tả bối cảnh trò chuyện",
+        "Query extension background tip": "Mô tả phạm vi trò chuyện hiện tại, giúp AI hoàn thiện và mở rộng cho câu hỏi hiện tại. Nội dung điền vào thường là trợ lý này."
+      },
+      "edit_content": "Chỉnh sửa thông tin ứng dụng",
+      "error": {
+        "App name can not be empty": "Tên ứng dụng không được để trống",
+        "Get app failed": "Lấy ứng dụng thất bại"
+      },
+      "feedback": {
+        "Custom feedback": "Phản hồi tùy chỉnh",
+        "close custom feedback": "Đóng phản hồi"
+      },
+      "have_publish": "Đã xuất bản",
+      "loading": "Đang tải",
+      "logs": {
+        "Source And Time": "Nguồn & Thời gian"
+      },
+      "more": "Xem thêm",
+      "navbar": {
+        "External": "Sử dụng bên ngoài",
+        "Flow mode": "Điều phối nâng cao",
+        "Publish": "Xuất bản",
+        "Publish app": "Xuất bản ứng dụng",
+        "Simple mode": "Cấu hình đơn giản"
+      },
+      "no_app": "Chưa có ứng dụng, hãy tạo một cái ngay!",
+      "not_published": "Chưa xuất bản",
+      "outLink": {
+        "Can Drag": "Biểu tượng có thể kéo",
+        "Default open": "Mở mặc định",
+        "Iframe block title": "Sao chép iframe dưới đây để thêm vào trang web của bạn",
+        "Link block title": "Sao chép liên kết dưới đây để mở trong trình duyệt",
+        "Script Close Icon": "Biểu tượng đóng",
+        "Script Open Icon": "Biểu tượng mở",
+        "Script block title": "Thêm mã dưới đây vào trang web của bạn",
+        "Select Mode": "Bắt đầu sử dụng",
+        "Select Using Way": "Chọn cách sử dụng",
+        "Show History": "Hiển thị lịch sử trò chuyện",
+        "Digital Man Chat": "Trò chuyện người đàn ông kỹ thuật số"
+      },
+      "publish": {
+        "Fei Shu Bot Desc": "Kết nối với bot Feishu",
+        "Fei shu bot": "Feishu",
+        "Fei shu bot publish": "Xuất bản vào bot Feishu"
+      },
+      "schedule": {
+        "Default prompt": "Câu hỏi mặc định",
+        "Default prompt placeholder": "Câu hỏi mặc định khi thực hiện ứng dụng",
+        "Every day": "Mỗi ngày {{hour}}:00",
+        "Every month": "Mỗi tháng vào ngày {{day}} lúc {{hour}}:00",
+        "Every week": "Mỗi tuần vào {{day}} lúc {{hour}}:00",
+        "Interval": "Mỗi {{interval}} giờ",
+        "Open schedule": "Thực hiện theo định kỳ"
+      },
+      "setting": "Cài đặt thông tin ứng dụng",
+      "share": {
+        "Amount limit tip": "Tối đa tạo 10 nhóm",
+        "Create link": "Tạo liên kết mới",
+        "Create link tip": "Tạo thành công. Đã sao chép địa chỉ chia sẻ, có thể chia sẻ sử dụng ngay",
+        "Ip limit title": "Giới hạn IP (người/phút)",
+        "Is response quote": "Trả về trích dẫn",
+        "Not share link": "Chưa tạo liên kết chia sẻ",
+        "Role check": "Kiểm tra vai trò"
+      },
+      "tip": {
+        "Add a intro to app": "Hãy giới thiệu ứng dụng của bạn~",
+        "chatNodeSystemPromptTip": "Từ gợi ý cố định của mô hình, thông qua việc điều chỉnh nội dung này, có thể định hướng hướng đi của trò chuyện. Nội dung này sẽ được cố định ở đầu ngữ cảnh. Có thể nhập / để chèn chọn biến\nNếu đã liên kết với kho kiến thức, bạn còn có thể thông qua mô tả phù hợp, để định hướng mô hình khi nào đi tìm kiếm kho kiến thức. Ví dụ:\nBạn là trợ lý của bộ phim \"Interstellar\", khi người dùng hỏi về nội dung liên quan đến \"Interstellar\", hãy tìm kiếm trong kho kiến thức và kết hợp kết quả tìm kiếm để trả lời.",
+        "variableTip": "Có thể yêu cầu người dùng điền một số nội dung trước khi bắt đầu trò chuyện, làm biến cụ thể cho vòng trò chuyện này. Mô-đun này nằm sau hướng dẫn mở đầu.\nBiến có thể được chèn vào các đầu vào kiểu chuỗi của các mô-đun khác dưới dạng {{key biến}}, ví dụ: từ gợi ý, từ giới hạn, v.v.",
+        "welcomeTextTip": "Trước mỗi cuộc trò chuyện, gửi một nội dung khởi đầu. Hỗ trợ cú pháp Markdown chuẩn, các ký hiệu bổ sung có thể sử dụng:\n[Phím tắt]: Người dùng nhấp vào có thể gửi câu hỏi đó ngay lập tức"
+      },
+      "tool_label": {
+        "doc": "Sử dụng tài liệu",
+        "github": "Địa chỉ GitHub",
+        "price": "Hướng dẫn tính phí"
+      },
+      "tts": {
+        "Close": "Không sử dụng",
+        "Speech model": "Mô hình giọng nói",
+        "Speech speed": "Tốc độ nói",
+        "Test Listen": "Nghe thử",
+        "Test Listen Text": "Chào bạn, đây là bài kiểm tra giọng nói, nếu bạn có thể nghe thấy câu này, chức năng phát giọng nói hoạt động bình thường",
+        "Web": "Trình duyệt tích hợp (miễn phí)"
+      },
+      "whisper": {
+        "Auto send": "Tự động gửi",
+        "Auto send tip": "Sau khi nhập liệu bằng giọng nói xong sẽ tự động gửi, không cần nhấn nút gửi",
+        "Auto tts response": "Phản hồi giọng nói tự động",
+        "Auto tts response tip": "Các câu hỏi gửi qua nhập liệu bằng giọng nói sẽ được phản hồi ngay bằng giọng nói, hãy đảm bảo đã bật chức năng phát giọng nói.",
+        "Close": "Đóng",
+        "Not tts tip": "Bạn chưa bật phát giọng nói, chức năng này không thể sử dụng",
+        "Open": "Bật",
+        "Switch": "Bật nhập liệu bằng giọng nói"
+      }
+    },
+    "chat": {
+      "Admin Mark Content": "Nội dung đã chỉnh sửa",
+      "Audio Not Support": "Thiết bị không hỗ trợ phát giọng nói",
+      "Audio Speech Error": "Lỗi phát giọng nói",
+      "Cancel Speak": "Hủy bỏ nhập liệu bằng giọng nói",
+      "Chat API is error or undefined": "Lỗi hoặc không xác định API trò chuyện",
+      "Confirm to clear history": "Xác nhận xóa lịch sử trò chuyện trực tuyến của ứng dụng này? Các ghi chú và gọi API sẽ không bị xóa.",
+      "Confirm to clear share chat history": "Xác nhận xóa tất cả lịch sử trò chuyện?",
+      "Converting to text": "Đang chuyển đổi thành văn bản...",
+      "Custom History Title": "Tiêu đề lịch sử tùy chỉnh",
+      "Custom History Title Description": "Nếu để trống, sẽ tự động theo dõi lịch sử trò chuyện.",
+      "Debug test": "Xem trước gỡ lỗi",
+      "Exit Chat": "Thoát trò chuyện",
+      "Failed to initialize chat": "Khởi tạo trò chuyện không thành công",
+      "Feedback Failed": "Gửi phản hồi không thành công",
+      "Feedback Modal": "Phản hồi kết quả",
+      "Feedback Modal Tip": "Nhập những điểm bạn không hài lòng với câu trả lời",
+      "Feedback Submit": "Gửi phản hồi",
+      "Feedback Success": "Phản hồi thành công!",
+      "Finish Speak": "Hoàn thành nhập liệu bằng giọng nói",
+      "History": "Lịch sử",
+      "History Amount": "{{amount}} ghi chú",
+      "Mark": "Đánh dấu câu trả lời dự kiến",
+      "Mark Description": "Chức năng đánh dấu hiện tại đang ở phiên bản thử nghiệm.\n\nNhấp để thêm đánh dấu, bạn cần chọn một kho kiến thức để lưu trữ dữ liệu đánh dấu. Bạn có thể nhanh chóng đánh dấu câu hỏi và câu trả lời dự kiến để hướng dẫn mô hình trong lần trả lời tiếp theo.\n\nChức năng đánh dấu vẫn bị ảnh hưởng bởi mô hình như các dữ liệu khác trong kho kiến thức, không đảm bảo 100% phù hợp với dự kiến.\n\nDữ liệu đánh dấu chỉ đồng bộ một chiều với kho kiến thức, nếu kho kiến thức thay đổi dữ liệu đánh dấu, dữ liệu đánh dấu trong nhật ký sẽ không được đồng bộ.",
+      "Mark Description Title": "Giới thiệu chức năng đánh dấu",
+      "New Chat": "Cuộc trò chuyện mới",
+      "Pin": "Ghim",
+      "Question Guide": "Có thể bạn muốn hỏi",
+      "Quote": "Trích dẫn",
+      "Quote Amount": "Trích dẫn từ kho kiến thức ({{amount}} ghi chú)",
+      "Read Mark Description": "Xem giới thiệu chức năng đánh dấu",
+      "Recent use": "Sử dụng gần đây",
+      "Record": "Nhập liệu bằng giọng nói",
+      "Restart": "Khởi động lại cuộc trò chuyện",
+      "Select Image": "Chọn hình ảnh",
+      "Select dataset": "Chọn kho kiến thức",
+      "Select dataset Desc": "Chọn một kho kiến thức để lưu trữ câu trả lời dự kiến",
+      "Send Message": "Gửi tin nhắn",
+      "Speaking": "Tôi đang lắng nghe, hãy nói...",
+      "Start Chat": "Bắt đầu trò chuyện",
+      "Type a message": "Vui lòng nhập câu hỏi ở đây...",
+      "Unpin": "Bỏ ghim",
+      "You need to a chat app": "Bạn không có ứng dụng nào khả dụng",
+      "error": {
+        "Chat error": "Lỗi trò chuyện",
+        "Messages empty": "Nội dung API trống, có thể văn bản quá dài~",
+        "Select dataset empty": "Bạn chưa chọn kho kiến thức",
+        "User input empty": "Câu hỏi người dùng truyền vào trống",
+        "data_error": "Lỗi khi lấy dữ liệu"
+      },
+      "feedback": {
+        "Close User Like": "Người dùng đồng ý\nNhấp để đóng đánh dấu này",
+        "Feedback Close": "Đóng phản hồi",
+        "No Content": "Người dùng không điền nội dung phản hồi cụ thể",
+        "Read User dislike": "Người dùng không đồng ý\nNhấp để xem nội dung"
+      },
+      "logs": {
+        "api": "Gọi API",
+        "feishu": "Fei Shu",
+        "online": "Sử dụng trực tuyến",
+        "share": "Gọi liên kết bên ngoài",
+        "team": "Cuộc trò chuyện không gian nhóm",
+        "test": "Kiểm tra"
+      },
+      "markdown": {
+        "Edit Question": "Chỉnh sửa câu hỏi",
+        "Quick Question": "Nhấp để hỏi ngay",
+        "Send Question": "Gửi câu hỏi"
+      },
+      "quote": {
+        "Quote Tip": "Chỉ hiển thị nội dung thực tế đã trích dẫn, nếu dữ liệu có cập nhật, nội dung này sẽ không tự động cập nhật",
+        "Read Quote": "Xem trích dẫn"
+      },
+      "response": {
+        "Complete Response": "Phản hồi hoàn chỉnh",
+        "Extension model": "Mô hình tối ưu hóa câu hỏi",
+        "Plugin response detail": "Chi tiết plugin",
+        "Read complete response": "Xem chi tiết",
+        "Read complete response tips": "Nhấp để xem quy trình chi tiết",
+        "Tool call response detail": "Chi tiết chạy công cụ",
+        "Tool call tokens": "Tiêu tốn tokens khi gọi công cụ",
+        "context total length": "Tổng chiều dài ngữ cảnh",
+        "module cq": "Danh sách phân loại câu hỏi",
+        "module cq result": "Kết quả phân loại",
+        "module extract description": "Trích xuất mô tả bối cảnh",
+        "module extract result": "Kết quả trích xuất",
+        "module historyPreview": "Xem trước lịch sử (chỉ hiển thị một phần nội dung)",
+        "module http result": "Nội dung phản hồi",
+        "module if else Result": "Kết quả bộ điều kiện",
+        "module limit": "Giới hạn tìm kiếm một lần",
+        "module maxToken": "Tối đa tokens phản hồi",
+        "module model": "Mô hình",
+        "module name": "Tên mô hình",
+        "module query": "Câu hỏi/Từ khóa tìm kiếm",
+        "module quoteList": "Nội dung trích dẫn",
+        "module similarity": "Độ tương đồng",
+        "module temperature": "Nhiệt độ",
+        "module time": "Thời gian chạy",
+        "module tokens": "Tổng tokens",
+        "plugin output": "Giá trị đầu ra của plugin",
+        "search using reRank": "Sắp xếp lại kết quả",
+        "text output": "Đầu ra văn bản"
+      },
+      "retry": "Tạo lại",
+      "tts": {
+        "Stop Speech": "Dừng"
+      }
+    },
+    "common": {
+      "tip": {
+        "leave page": "Nội dung đã thay đổi, bạn có chắc chắn muốn rời khỏi trang?"
+      }
+    },
+    "dataset": {
+      "All Dataset": "Tất cả kho kiến thức",
+      "Avatar": "Ảnh đại diện kho kiến thức",
+      "Choose Dataset": "Chọn kho kiến thức liên quan",
+      "Collection": "Tập dữ liệu",
+      "Create dataset": "Tạo một kho kiến thức",
+      "Dataset": "Kho kiến thức",
+      "Dataset ID": "ID kho kiến thức",
+      "Dataset Type": "Loại kho kiến thức",
+      "Delete Confirm": "Xác nhận xóa kho kiến thức này? Dữ liệu sẽ không thể phục hồi sau khi xóa, vui lòng xác nhận!",
+      "Empty Dataset": "Tập dữ liệu trống",
+      "Empty Dataset Tips": "Chưa có kho kiến thức nào, hãy tạo một cái ngay đi!",
+      "Folder placeholder": "Đây là một thư mục",
+      "Go Dataset": "Đi tới kho kiến thức",
+      "Intro Placeholder": "Kho kiến thức này chưa có giới thiệu~",
+      "Manual collection": "Tập dữ liệu thủ công",
+      "My Dataset": "Kho kiến thức của tôi",
+      "Name": "Tên kho kiến thức",
+      "Query extension intro": "Kích hoạt tính năng tối ưu hóa câu hỏi, có thể nâng cao độ chính xác tìm kiếm kho kiến thức trong các cuộc hội thoại liên tiếp. Sau khi kích hoạt, khi tìm kiếm kho kiến thức, sẽ dựa trên hồ sơ hội thoại và sử dụng AI để hoàn thiện thông tin còn thiếu của câu hỏi.",
+      "Quote Length": "Độ dài nội dung trích dẫn",
+      "Read Dataset": "Xem chi tiết kho kiến thức",
+      "Set Website Config": "Bắt đầu cấu hình thông tin trang web",
+      "Start export": "Đã bắt đầu xuất",
+      "Table collection": "Tập dữ liệu bảng",
+      "Text collection": "Tập dữ liệu văn bản",
+      "collection": {
+        "Click top config website": "Nhấp vào cấu hình trang web",
+        "Collection name": "Tên tập dữ liệu",
+        "Collection raw text": "Nội dung tập dữ liệu",
+        "Empty Tip": "Tập dữ liệu còn trống",
+        "QA Prompt": "Từ hướng dẫn QA",
+        "Start Sync Tip": "Xác nhận bắt đầu đồng bộ dữ liệu? Sẽ xóa dữ liệu cũ và lấy lại, vui lòng xác nhận!",
+        "Sync": "Đồng bộ dữ liệu",
+        "Sync Collection": "Đồng bộ tập dữ liệu",
+        "Website Empty Tip": "Chưa có trang web liên quan",
+        "Website Link": "Địa chỉ trang web",
+        "id": "ID tập hợp",
+        "metadata": {
+          "Chunk Size": "Kích thước phân đoạn",
+          "Createtime": "Thời gian tạo",
+          "Raw text length": "Độ dài văn bản gốc",
+          "Read Metadata": "Xem siêu dữ liệu",
+          "Training Type": "Chế độ đào tạo",
+          "Updatetime": "Thời gian cập nhật",
+          "Web page selector": "Bộ chọn trang web",
+          "metadata": "Siêu dữ liệu",
+          "read source": "Xem nội dung gốc",
+          "source": "Nguồn dữ liệu",
+          "source name": "Tên nguồn",
+          "source size": "Kích thước nguồn"
+        },
+        "status": {
+          "active": "Đã sẵn sàng"
+        },
+        "sync": {
+          "result": {
+            "sameRaw": "Nội dung không thay đổi, không cần cập nhật",
+            "success": "Bắt đầu đồng bộ"
+          }
+        },
+        "training": {}
+      },
+      "data": {
+        "Auxiliary Data": "Dữ liệu bổ trợ",
+        "Auxiliary Data Placeholder": "Phần này là mục tùy chọn, thường để phối hợp với 【Nội dung dữ liệu】 trước đó, tạo cấu trúc từ khóa cho các tình huống đặc biệt, tối đa {{maxToken}} chữ.",
+        "Auxiliary Data Tip": "Phần này là mục tùy chọn\nNội dung này thường là để phối hợp với nội dung dữ liệu trước đó, tạo cấu trúc từ khóa cho các tình huống đặc biệt.",
+        "Data Content": "Nội dung dữ liệu liên quan",
+        "Data Content Placeholder": "Ô nhập này là bắt buộc, nội dung này thường là mô tả về kiến thức, cũng có thể là câu hỏi của người dùng, tối đa {{maxToken}} chữ.",
+        "Data Content Tip": "Ô nhập này là bắt buộc\nNội dung này thường là mô tả về kiến thức, cũng có thể là câu hỏi của người dùng.",
+        "Default Index Tip": "Không thể chỉnh sửa, chỉ mục mặc định sẽ sử dụng văn bản trực tiếp từ 【Nội dung dữ liệu】 và 【Dữ liệu bổ trợ】 để tạo chỉ mục.",
+        "Edit": "Chỉnh sửa dữ liệu",
+        "Empty Tip": "Tập hợp này chưa có dữ liệu~",
+        "Main Content": "Nội dung chính",
+        "Search data placeholder": "Tìm kiếm dữ liệu liên quan",
+        "Too Long": "Tổng độ dài quá dài",
+        "Total Amount": "{{total}} nhóm",
+        "group": "nhóm",
+        "unit": "đoạn"
+      },
+      "embedding model tip": "Mô hình chỉ mục có thể chuyển ngôn ngữ tự nhiên thành vector, dùng cho tìm kiếm ngữ nghĩa.\nLưu ý, các mô hình chỉ mục khác nhau không thể sử dụng cùng nhau, sau khi chọn mô hình chỉ mục sẽ không thể sửa đổi.",
+      "error": {
+        "Data not found": "Dữ liệu không tồn tại hoặc đã bị xóa",
+        "Start Sync Failed": "Bắt đầu đồng bộ không thành công",
+        "Template does not exist": "Mẫu không tồn tại",
+        "invalidVectorModelOrQAModel": "Mô hình Vector hoặc QA không hợp lệ",
+        "unAuthDataset": "Không có quyền thao tác kho kiến thức này",
+        "unAuthDatasetCollection": "Không có quyền thao tác tập dữ liệu này",
+        "unAuthDatasetData": "Không có quyền thao tác dữ liệu này",
+        "unAuthDatasetFile": "Không có quyền thao tác tệp này",
+        "unCreateCollection": "Không có quyền thao tác dữ liệu",
+        "unLinkCollection": "Không phải tập hợp liên kết mạng"
+      },
+      "externalFile": "Thư viện tệp bên ngoài",
+      "file": "Tệp",
+      "folder": "Thư mục",
+      "import": {
+        "Auto mode Estimated Price Tips": "Cần gọi mô hình xử lý tệp, cần tiêu tốn nhiều token: {{price}} điểm/1K token",
+        "Auto process": "Tự động",
+        "Auto process desc": "Tự động thiết lập quy tắc phân đoạn và tiền xử lý",
+        "Chunk Range": "Phạm vi: {{min}}~{{max}}",
+        "Chunk Split": "Phân đoạn trực tiếp",
+        "Chunk Split Tip": "Chia văn bản theo quy tắc nhất định để chuyển thành định dạng có thể tìm kiếm ngữ nghĩa, phù hợp với hầu hết các tình huống. Không cần gọi mô hình xử lý thêm, chi phí thấp.",
+        "Custom process": "Quy tắc tùy chỉnh",
+        "Custom process desc": "Tùy chỉnh thiết lập quy tắc phân đoạn và tiền xử lý",
+        "Custom prompt": "Từ khóa tùy chỉnh",
+        "Custom split char": "Ký tự phân tách tùy chỉnh",
+        "Custom split char Tips": "Cho phép bạn phân khúc theo ký tự phân tách tùy chỉnh. Thường dùng cho dữ liệu đã được xử lý, sử dụng ký tự phân tách cụ thể để phân khúc chính xác.",
+        "Custom text": "Văn bản tùy chỉnh",
+        "Custom text desc": "Nhập một đoạn văn bản thủ công làm tập dữ liệu",
+        "Data Preprocessing": "Xử lý dữ liệu",
+        "Data process params": "Tham số xử lý dữ liệu",
+        "Down load csv template": "Nhấp để tải xuống mẫu CSV",
+        "Embedding Estimated Price Tips": "Chỉ sử dụng mô hình chỉ mục, tiêu tốn ít điểm AI: {{price}} điểm/1K token",
+        "Ideal chunk length": "Độ dài phân khúc lý tưởng",
+        "Ideal chunk length Tips": "Chia theo ký tự kết thúc và gộp nhiều phân khúc thành một khối, giá trị này quyết định kích thước ước lượng của khối.",
+        "Import success": "Nhập thành công, vui lòng chờ huấn luyện",
+        "Link name": "Liên kết mạng",
+        "Link name placeholder": "Chỉ hỗ trợ liên kết tĩnh, nếu dữ liệu trống sau khi tải lên, có thể liên kết không thể đọc\nMỗi dòng một cái, mỗi lần tối đa 10 liên kết",
+        "Local file": "Tệp cục bộ",
+        "Local file desc": "Tải lên các tệp định dạng PDF, TXT, DOCX, v.v.",
+        "Preview chunks": "Xem trước phân đoạn (tối đa 5 phân đoạn)",
+        "Preview raw text": "Xem trước văn bản gốc (tối đa 3000 chữ)",
+        "Process way": "Cách xử lý",
+        "QA Estimated Price Tips": "Cần gọi mô hình xử lý tệp, cần tiêu tốn nhiều điểm AI: {{price}} điểm/1K token",
+        "QA Import": "Phân tách QA",
+        "QA Import Tip": "Dựa trên quy tắc nhất định, chia văn bản thành đoạn lớn hơn, gọi AI để tạo cặp câu hỏi và câu trả lời cho đoạn văn đó. Có độ chính xác tìm kiếm rất cao, nhưng sẽ mất nhiều chi tiết nội dung.",
+        "Select file": "Chọn tệp",
+        "Select source": "Chọn nguồn",
+        "Source name": "Tên nguồn",
+        "Sources list": "Danh sách nguồn",
+        "Start upload": "Bắt đầu tải lên",
+        "Total files": "Tổng cộng {{total}} tệp",
+        "Training mode": "Chế độ huấn luyện",
+        "Upload data": "Tải lên dữ liệu",
+        "Upload file progress": "Tiến trình tải lên tệp",
+        "Upload status": "Trạng thái",
+        "Web link": "Liên kết web",
+        "Web link desc": "Đọc nội dung trang web tĩnh làm tập dữ liệu"
+      },
+      "link": "Liên kết",
+      "search": {
+        "Dataset Search Params": "Cấu hình tìm kiếm kho kiến thức",
+        "Empty result response": "Phản hồi tìm kiếm trống",
+        "Filter": "Lọc tìm kiếm",
+        "Max Tokens": "Giới hạn trích dẫn",
+        "Max Tokens Tips": "Số lượng token tối đa cho một lần tìm kiếm, tiếng Trung khoảng 1 chữ=1.7 token, tiếng Anh khoảng 1 chữ=1 token",
+        "Min Similarity": "Mức độ liên quan tối thiểu",
+        "Min Similarity Tips": "Mức độ liên quan của các mô hình chỉ mục khác nhau có sự khác biệt, hãy chọn giá trị phù hợp qua việc thử nghiệm tìm kiếm, khi sử dụng Rerank, mức độ liên quan có thể rất thấp.",
+        "No support similarity": "Chỉ sử dụng xếp lại kết quả hoặc tìm kiếm ngữ nghĩa, hỗ trợ lọc mức độ liên quan",
+        "Nonsupport": "Không hỗ trợ",
+        "Params Setting": "Cài đặt tham số tìm kiếm",
+        "Quote index": "Trích dẫn số mấy",
+        "ReRank": "Xếp lại kết quả",
+        "ReRank desc": "Sử dụng mô hình xếp lại để thực hiện phân loại thứ hai, có thể tăng cường xếp hạng tổng hợp.",
+        "Source id": "ID nguồn",
+        "Source name": "Tên nguồn trích dẫn",
+        "Using query extension": "Sử dụng tối ưu hóa câu hỏi",
+        "mode": {
+          "embedding": "Tìm kiếm ngữ nghĩa",
+          "embedding desc": "Sử dụng vector để truy vấn liên quan đến văn bản",
+          "fullTextRecall": "Tìm kiếm toàn văn",
+          "fullTextRecall desc": "Sử dụng tìm kiếm toàn văn truyền thống, phù hợp để tìm một số từ khóa và dữ liệu đặc biệt về chủ ngữ và vị ngữ",
+          "mixedRecall": "Tìm kiếm hỗn hợp",
+          "mixedRecall desc": "Sử dụng kết quả tổng hợp giữa tìm kiếm vector và tìm kiếm toàn văn, sử dụng thuật toán RRF để sắp xếp."
+        },
+        "score": {
+          "embedding": "Tìm kiếm ngữ nghĩa",
+          "embedding desc": "Lấy điểm bằng cách tính khoảng cách giữa các vector, trong khoảng 0~1.",
+          "fullText": "Tìm kiếm toàn văn",
+          "fullText desc": "Tính điểm của các từ khóa giống nhau, trong khoảng 0~vô hạn.",
+          "reRank": "Xếp lại kết quả",
+          "reRank desc": "Tính mức độ liên quan giữa các câu bằng mô hình Rerank, trong khoảng 0~1.",
+          "rrf": "Xếp hạng tổng hợp",
+          "rrf desc": "Sử dụng cách tính đảo ngược để hợp nhất nhiều kết quả tìm kiếm."
+        },
+        "search mode": "Chế độ tìm kiếm"
+      },
+      "status": {
+        "active": "Đã sẵn sàng",
+        "syncing": "Đang đồng bộ"
+      },
+      "test": {
+        "Batch test": "Kiểm tra hàng loạt",
+        "Batch test Placeholder": "Chọn một tệp CSV",
+        "Search Test": "Kiểm tra tìm kiếm",
+        "Test": "Kiểm tra",
+        "Test Result": "Kết quả kiểm tra",
+        "Test Text": "Kiểm tra văn bản đơn lẻ",
+        "Test Text Placeholder": "Nhập văn bản cần kiểm tra",
+        "Test params": "Tham số kiểm tra",
+        "delete test history": "Xóa kết quả kiểm tra này",
+        "test history": "Lịch sử kiểm tra",
+        "test result placeholder": "Kết quả kiểm tra sẽ được hiển thị ở đây",
+        "test result tip": "Sắp xếp dựa trên mức độ tương đồng giữa nội dung kho kiến thức và văn bản kiểm tra, bạn có thể điều chỉnh văn bản tương ứng theo kết quả kiểm tra.\nLưu ý: Dữ liệu trong lịch sử kiểm tra có thể đã được thay đổi, nhấp vào một dữ liệu kiểm tra sẽ hiển thị dữ liệu mới nhất."
+      },
+      "training": {
+        "Agent queue": "Xếp hàng huấn luyện QA",
+        "Auto mode": "Xử lý nâng cao (thí nghiệm)",
+        "Auto mode Tip": "Sử dụng chỉ mục phụ và gọi mô hình để tạo câu hỏi và tóm tắt liên quan, tăng cường độ phong phú ngữ nghĩa của khối dữ liệu, thuận lợi cho việc tìm kiếm. Cần tiêu tốn nhiều không gian lưu trữ và tăng số lần gọi AI.",
+        "Chunk mode": "Phân đoạn trực tiếp",
+        "Full": "Dự kiến trên 5 phút",
+        "Leisure": "Nhàn rỗi",
+        "QA mode": "Phân tách câu hỏi và câu trả lời",
+        "Vector queue": "Xếp hàng chỉ mục",
+        "Waiting": "Dự kiến 5 phút",
+        "Website Sync": "Đồng bộ trang web"
+      },
+      "website": {
+        "Base Url": "Địa chỉ gốc",
+        "Config": "Cấu hình trang web",
+        "Config Description": "Chức năng đồng bộ trang web cho phép bạn điền địa chỉ gốc của một trang web, hệ thống sẽ tự động thu thập sâu nội dung các trang liên quan để huấn luyện kho kiến thức. Chỉ thu thập các trang tĩnh, chủ yếu là tài liệu dự án, blog.",
+        "Confirm Create Tips": "Xác nhận đồng bộ trang web này, nhiệm vụ đồng bộ sẽ được khởi động ngay, vui lòng xác nhận!",
+        "Confirm Update Tips": "Xác nhận cập nhật cấu hình trang web? Sẽ ngay lập tức bắt đầu đồng bộ theo cấu hình mới, vui lòng xác nhận!",
+        "Selector": "Bộ chọn",
+        "Selector Course": "Hướng dẫn sử dụng",
+        "Start Sync": "Bắt đầu đồng bộ",
+        "UnValid Website Tip": "Trang web của bạn có thể không phải là trang tĩnh, không thể đồng bộ"
+      }
+    },
+    "module": {
+      "Add question type": "Thêm loại câu hỏi",
+      "Can not connect self": "Không thể kết nối với chính mình",
+      "Confirm Delete Node": "Xác nhận xóa nút này?",
+      "Data Type": "Loại dữ liệu",
+      "Dataset quote": {
+        "label": "Trích dẫn kho kiến thức",
+        "select": "Chọn trích dẫn kho kiến thức"
+      },
+      "Default Value": "Giá trị mặc định",
+      "Default value": "Giá trị mặc định",
+      "Default value placeholder": "Không điền sẽ trả về chuỗi rỗng",
+      "Edit intro": "Chỉnh sửa mô tả",
+      "Field Description": "Mô tả trường",
+      "Field Name": "Tên trường",
+      "Http request props": "Tham số yêu cầu",
+      "Http request settings": "Cấu hình yêu cầu",
+      "Input Type": "Loại nhập",
+      "Laf sync params": "Tham số đồng bộ",
+      "Max Length": "Chiều dài tối đa",
+      "Max Length placeholder": "Chiều dài tối đa của văn bản",
+      "Max Value": "Giá trị tối đa",
+      "Min Value": "Giá trị tối thiểu",
+      "QueryExtension": {
+        "placeholder": "Ví dụ:\nVề giới thiệu và sử dụng Python.\nCuộc hội thoại hiện tại liên quan đến trò chơi《GTA5》."
+      },
+      "Quote prompt setting": "Cấu hình từ khóa trích dẫn",
+      "Select app": "Chọn ứng dụng",
+      "Setting quote prompt": "Cấu hình từ khóa trích dẫn",
+      "Variable": "Biến toàn cục",
+      "Variable Setting": "Cài đặt biến",
+      "edit": {
+        "Field Name Cannot Be Empty": "Tên trường không được để trống"
+      },
+      "extract": {
+        "Add field": "Thêm trường",
+        "Enum Description": "Liệt kê các giá trị có thể của trường này, mỗi dòng một giá trị",
+        "Enum Value": "Giá trị liệt kê",
+        "Field Description Placeholder": "Tên/tuổi/câu lệnh SQL...",
+        "Field Setting Title": "Cấu hình trường trích xuất",
+        "Required": "Bắt buộc phải trả về",
+        "Required Description": "Ngay cả khi không thể trích xuất trường này, sẽ sử dụng giá trị mặc định để trả về",
+        "Target field": "Trường mục tiêu"
+      },
+      "http": {
+        "Add props": "Thêm tham số",
+        "AppId": "ID ứng dụng",
+        "AppSecret": "Mật khẩu ứng dụng",
+        "ChatId": "ID cuộc hội thoại hiện tại",
+        "Current time": "Thời gian hiện tại",
+        "Histories": "Lịch sử",
+        "Key already exists": "Khóa đã tồn tại",
+        "Key cannot be empty": "Tên tham số không được để trống",
+        "Props name": "Tên tham số",
+        "Props tip": "Có thể cài đặt các tham số liên quan đến yêu cầu HTTP\nCó thể gọi biến toàn cục hoặc tham số bên ngoài qua {{key}}, hiện tại có thể sử dụng biến:\n{{variable}}",
+        "Props value": "Giá trị tham số",
+        "ResponseChatItemId": "ID phản hồi của AI",
+        "Url and params have been split": "Tham số đường dẫn đã tự động thêm vào Params",
+        "curl import": "Nhập cURL",
+        "curl import placeholder": "Vui lòng nhập nội dung định dạng cURL, sẽ trích xuất thông tin yêu cầu của giao diện đầu tiên."
+      },
+      "input": {
+        "Add Branch": "Thêm nhánh",
+        "add": "Thêm điều kiện",
+        "description": {
+          "Background": "Bạn có thể thêm một số nội dung đặc thù để nhận diện loại câu hỏi của người dùng tốt hơn. Nội dung này thường dùng để giới thiệu cho mô hình về những gì nó chưa biết.",
+          "HTTP Dynamic Input": "Nhận giá trị đầu ra của nút trước đó làm biến, các biến này có thể được sử dụng trong tham số yêu cầu HTTP.",
+          "Http Request Header": "Tiêu đề yêu cầu tùy chỉnh, vui lòng nhập chính xác chuỗi JSON.\n1. Đảm bảo rằng thuộc tính cuối cùng không có dấu phẩy\n2. Đảm bảo rằng khóa có dấu ngoặc kép\nVí dụ: {\"Authorization\":\"Bearer xxx\"}",
+          "Http Request Url": "Địa chỉ yêu cầu HTTP mới. Nếu xuất hiện hai \"địa chỉ yêu cầu\", có thể xóa mô-đun này và thêm lại, sẽ lấy cấu hình mô-đun mới nhất.",
+          "Response content": "Có thể sử dụng \\n để thực hiện xuống dòng.\nCó thể thông qua đầu vào mô-đun bên ngoài để thực hiện phản hồi, đầu vào mô-đun bên ngoài sẽ ghi đè nội dung hiện tại.\nNếu truyền vào dữ liệu không phải dạng chuỗi sẽ tự động chuyển thành chuỗi."
+        },
+        "label": {
+          "Background": "Kiến thức nền",
+          "Http Request Url": "Địa chỉ yêu cầu",
+          "Response content": "Nội dung phản hồi",
+          "Select dataset": "Chọn kho kiến thức",
+          "aiModel": "Mô hình AI",
+          "chat history": "Lịch sử trò chuyện",
+          "user question": "Câu hỏi của người dùng"
+        },
+        "placeholder": {
+          "Classify background": "Ví dụ:\n1. AIGC (Nội dung tạo ra bởi AI) là việc sử dụng công nghệ AI để tự động hoặc bán tự động tạo ra nội dung số như văn bản, hình ảnh, âm nhạc, video, v.v.\n2. Công nghệ AIGC bao gồm nhưng không giới hạn ở xử lý ngôn ngữ tự nhiên, thị giác máy tính, học máy và học sâu. Những công nghệ này có thể tạo ra nội dung mới hoặc sửa đổi nội dung hiện có để đáp ứng nhu cầu sáng tạo, giáo dục, giải trí hoặc thông tin cụ thể."
+        }
+      },
+      "laf": {
+        "Select laf function": "Chọn hàm laf"
+      },
+      "output": {
+        "description": {
+          "Ai response content": "Sẽ được kích hoạt sau khi stream phản hồi hoàn tất",
+          "New context": "Nội dung phản hồi lần này được nối với lịch sử, trả về như một ngữ cảnh mới",
+          "query extension result": "Đầu ra dưới dạng mảng chuỗi, có thể nối kết quả này trực tiếp vào \"câu hỏi của người dùng\" trong \"tìm kiếm kho kiến thức\", không nên nối vào \"câu hỏi của AI\"."
+        },
+        "label": {
+          "Ai response content": "Nội dung phản hồi của AI",
+          "New context": "Ngữ cảnh mới",
+          "query extension result": "Kết quả tối ưu hóa"
+        }
+      },
+      "template": {
+        "AI function": "Cấu hình thông minh",
+        "AI response switch tip": "Nếu bạn muốn nút hiện tại không xuất nội dung, có thể tắt công tắc này. Nội dung do AI xuất ra sẽ không hiển thị cho người dùng, bạn có thể sử dụng \"nội dung phản hồi của AI\" để xử lý đặc biệt.",
+        "AI support tool tip": "Mô hình hỗ trợ gọi hàm, có thể sử dụng tốt hơn các công cụ gọi.",
+        "Basic Node": "Chức năng cơ bản",
+        "Query extension": "Tối ưu hóa câu hỏi",
+        "System Plugin": "Plugin hệ thống",
+        "System input module": "Mô-đun đầu vào hệ thống",
+        "Team Plugin": "Đội nhóm",
+        "Tool module": "Mô-đun công cụ",
+        "UnKnow Module": "Mô-đun không xác định",
+        "http body placeholder": "Cú pháp tương tự như Apifox"
+      },
+      "templates": {
+        "Load plugin error": "Tải plugin thất bại"
+      },
+      "variable": {
+        "Custom type": "Biến tùy chỉnh",
+        "add option": "Thêm tùy chọn",
+        "input type": "Văn bản",
+        "key": "Khóa biến",
+        "key is required": "Khóa biến là bắt buộc",
+        "select type": "Chọn đơn",
+        "text max length": "Chiều dài tối đa",
+        "textarea type": "Đoạn văn",
+        "variable name": "Tên biến",
+        "variable name is required": "Tên biến không được để trống",
+        "variable option is required": "Tùy chọn không được để trống",
+        "variable option is value is required": "Nội dung tùy chọn không được để trống",
+        "variable options": "Tùy chọn"
+      },
+      "variable add option": "Thêm tùy chọn",
+      "variable_update": "Cập nhật biến",
+      "variable_update_info": "Có thể cập nhật giá trị đầu ra của nút chỉ định hoặc cập nhật biến toàn cục"
+    },
+    "plugin": {
+      "Custom headers": "Tiêu đề yêu cầu tùy chỉnh",
+      "Free": "Plugin này không cần tiêu tốn điểm～",
+      "Get Plugin Module Detail Failed": "Tải plugin gặp sự cố",
+      "Http plugin intro placeholder": "Chỉ dùng để hiển thị, không có hiệu quả thực tế",
+      "cost": "Tiêu tốn điểm:"
+    },
+    "view_chat_detail": "Xem chi tiết cuộc trò chuyện",
+    "workflow": {
+      "Can not delete node": "Nút này không được phép xóa",
+      "Change input type tip": "Thay đổi loại nhập sẽ xóa giá trị đã nhập, vui lòng xác nhận!",
+      "Check Failed": "Kiểm tra workflow thất bại, vui lòng kiểm tra xem các nút đã điền đúng chưa và kết nối có bình thường không",
+      "Confirm stop debug": "Xác nhận dừng gỡ lỗi? Thông tin gỡ lỗi sẽ không được lưu.",
+      "Copy node": "Đã sao chép nút",
+      "Custom inputs": "Nhập tùy chỉnh",
+      "Custom outputs": "Xuất tùy chỉnh",
+      "Dataset quote": "Trích dẫn kho kiến thức",
+      "Debug": "Gỡ lỗi",
+      "Debug Node": "Chế độ gỡ lỗi",
+      "Failed": "Chạy thất bại",
+      "Not intro": "Nút này không có giới thiệu~",
+      "Running": "Đang chạy",
+      "Skipped": "Bỏ qua chạy",
+      "Stop debug": "Dừng gỡ lỗi",
+      "Success": "Chạy thành công",
+      "Value type": "Loại dữ liệu",
+      "Variable": {
+        "Variable type": "Loại biến"
+      },
+      "debug": {
+        "Done": "Hoàn thành gỡ lỗi",
+        "Hide result": "Ẩn kết quả",
+        "Not result": "Không có kết quả chạy",
+        "Run result": "Kết quả chạy",
+        "Show result": "Hiện kết quả"
+      },
+      "inputType": {
+        "JSON Editor": "Khung nhập JSON",
+        "Manual input": "Nhập thủ công",
+        "Manual select": "Chọn thủ công",
+        "Reference": "Tham chiếu biến",
+        "dynamicTargetInput": "Dữ liệu bên ngoài động",
+        "input": "Khung nhập một dòng",
+        "number input": "Khung nhập số",
+        "selectApp": "Chọn ứng dụng",
+        "selectDataset": "Chọn kho kiến thức",
+        "selectLLMModel": "Chọn mô hình hội thoại",
+        "switch": "Công tắc",
+        "textarea": "Khung nhập nhiều dòng"
+      },
+      "publish": {
+        "OnRevert version": "Nhấp để quay lại phiên bản này",
+        "OnRevert version confirm": "Xác nhận quay lại phiên bản này? Sẽ lưu cấu hình phiên bản đang chỉnh sửa và tạo một phiên bản phát hành mới cho phiên bản quay lại.",
+        "histories": "Lịch sử phát hành"
+      },
+      "template": {
+        "Multimodal": "Đa phương thức",
+        "Search": "Tìm kiếm"
+      },
+      "tool": {
+        "Handle": "Kết nối công cụ",
+        "Select Tool": "Chọn công cụ"
+      },
+      "value": "Giá trị",
+      "variable": "Biến"
+    }
+  },
+  "create": "Tạo mới",
+  "cron_job_run_app": "Nhiệm vụ định kỳ",
+  "dataset": {
+    "Confirm move the folder": "Xác nhận di chuyển vào thư mục này",
+    "Confirm to delete the data": "Xác nhận xóa dữ liệu này?",
+    "Confirm to delete the file": "Xác nhận xóa tệp này và tất cả dữ liệu của nó?",
+    "Create Folder": "Tạo thư mục",
+    "Create manual collection": "Tạo bộ dữ liệu thủ công",
+    "Delete Dataset Error": "Lỗi khi xóa kho kiến thức",
+    "Edit Folder": "Chỉnh sửa thư mục",
+    "Edit Info": "Chỉnh sửa thông tin",
+    "Export": "Xuất",
+    "Export Dataset Limit Error": "Xuất dữ liệu thất bại",
+    "Folder Name": "Nhập tên thư mục",
+    "Insert Data": "Chèn dữ liệu",
+    "Manual collection Tip": "Bộ dữ liệu thủ công cho phép tạo một bộ chứa trống để chứa dữ liệu",
+    "Move Failed": "Di chuyển gặp lỗi~",
+    "Select Dataset": "Chọn kho kiến thức này",
+    "Select Dataset Tips": "Chỉ có thể chọn kho kiến thức cùng một mô hình chỉ số",
+    "Select Folder": "Vào thư mục",
+    "Training Name": "Đào tạo dữ liệu",
+    "collections": {
+      "Collection Embedding": "{{total}} nhóm chỉ số",
+      "Confirm to delete the folder": "Xác nhận xóa thư mục này và tất cả nội dung bên trong?",
+      "Create And Import": "Tạo mới / Nhập khẩu",
+      "Data Amount": "Tổng số dữ liệu",
+      "Select Collection": "Chọn tệp",
+      "Select One Collection To Store": "Chọn một tệp để lưu trữ"
+    },
+    "data": {
+      "Add Index": "Thêm chỉ số tùy chỉnh",
+      "Can not edit": "Không có quyền chỉnh sửa",
+      "Custom Index Number": "Chỉ số tùy chỉnh {{number}}",
+      "Default Index": "Chỉ số mặc định",
+      "Delete Tip": "Xác nhận xóa dữ liệu này?",
+      "Index Edit": "Chỉnh sửa chỉ số dữ liệu",
+      "Index Placeholder": "Nhập nội dung văn bản chỉ số",
+      "Input Data": "Nhập dữ liệu mới",
+      "Input Success Tip": "Nhập dữ liệu thành công",
+      "Update Data": "Cập nhật dữ liệu",
+      "Update Success Tip": "Cập nhật dữ liệu thành công",
+      "edit": {
+        "Content": "Nội dung dữ liệu",
+        "Course": "Tài liệu hướng dẫn",
+        "Delete": "Xóa dữ liệu",
+        "Index": "Chỉ số dữ liệu ({{amount}})"
+      },
+      "input is empty": "Nội dung dữ liệu không được để trống"
+    },
+    "deleteFolderTips": "Xác nhận xóa thư mục này và tất cả kho kiến thức bên trong? Dữ liệu sẽ không thể khôi phục, vui lòng xác nhận!",
+    "test": {
+      "noResult": "Kết quả tìm kiếm trống"
+    }
+  },
+  "default_reply": "Phản hồi mặc định",
+  "error": {
+    "Create failed": "Tạo thất bại",
+    "fileNotFound": "Không tìm thấy tệp~",
+    "inheritPermissionError": "Lỗi kế thừa quyền",
+    "missingParams": "Thiếu tham số",
+    "team": {
+      "overSize": "Số lượng thành viên đội vượt quá giới hạn"
+    },
+    "upload_file_error_filename": "{{name}} tải lên thất bại"
+  },
+  "extraction_results": "Kết quả trích xuất",
+  "field_name": "Tên trường",
+  "get_QR_failed": "Lấy mã QR thất bại",
+  "get_app_failed": "Lấy ứng dụng thất bại",
+  "get_laf_failed": "Lấy danh sách hàm Laf thất bại",
+  "has_verification": "Đã xác minh, nhấp để hủy liên kết",
+  "info": {
+    "buy_extra": "Mua gói bổ sung",
+    "csv_download": "Nhấp để tải mẫu kiểm tra hàng loạt",
+    "csv_message": "Đọc cột đầu tiên của tệp CSV để thực hiện kiểm tra hàng loạt, mỗi lần tối đa hỗ trợ 100 nhóm dữ liệu.",
+    "felid_message": "Khóa trường phải là chữ cái hoặc số tiếng Anh thuần túy, không được bắt đầu bằng số.",
+    "free_plan": "Gói miễn phí sẽ tự động xóa kho kiến thức của tài khoản sau 30 ngày không đăng nhập vào hệ thống.",
+    "include": "Bao gồm gói tiêu chuẩn và gói tài nguyên bổ sung",
+    "node_info": "Điều chỉnh mô-đun này sẽ ảnh hưởng đến thời điểm gọi công cụ.\nBạn có thể mô tả chính xác chức năng của mô-đun này để hướng dẫn mô hình gọi công cụ.",
+    "old_version_attention": "Phát hiện phiên bản biên soạn cao cấp của bạn là phiên bản cũ, hệ thống sẽ tự động định dạng lại thành workflow phiên bản mới.\n\nDo sự khác biệt giữa các phiên bản, một số workflow có thể không sắp xếp đúng, vui lòng kết nối lại bằng tay.\nNếu vẫn còn bất thường, bạn có thể thử xóa nút tương ứng rồi thêm lại.\n\nBạn có thể nhấp trực tiếp để gỡ lỗi và thử nghiệm workflow, sau khi gỡ lỗi xong hãy nhấp để phát hành. Cho đến khi bạn nhấp phát hành, workflow mới sẽ thật sự được lưu lại.\n\nTrước khi bạn phát hành workflow mới, tự động lưu sẽ không có hiệu lực.",
+    "open_api_notice": "Bạn có thể điền khóa liên quan đến OpenAI/OneAPI. Nếu bạn điền nội dung này, khi sử dụng trên nền tảng trực tuyến cho [Hội thoại AI], [Phân loại vấn đề] và [Trích xuất nội dung] sẽ sử dụng khóa bạn đã điền, không tính phí. Vui lòng chú ý xem khóa của bạn có quyền truy cập vào mô hình tương ứng hay không. Mô hình GPT có thể chọn FastAI.",
+    "open_api_placeholder": "Địa chỉ yêu cầu, mặc định là chính thức của openai. Có thể điền địa chỉ trung gian, không tự động bổ sung \"v1\"",
+    "resource": "Mức tiêu thụ tài nguyên"
+  },
+  "invalid_variable": "Biến không hợp lệ",
+  "is_open": "Có mở không",
+  "item_description": "Mô tả trường",
+  "item_name": "Tên trường",
+  "key_repetition": "Khóa bị trùng",
+  "navbar": {
+    "Account": "Tài khoản",
+    "Chat": "Trò chuyện",
+    "Datasets": "Kho kiến thức",
+    "Studio": "Bảng điều khiển",
+    "Tools": "Công cụ",
+    "function_menu": "Menu chức năng",
+    "app_store": "Cửa hàng ứng dụng",
+    "job_role": "Vai trò công việc",
+    "organizational_structure": "Cấu trúc tổ chức",
+    "datasets": "Kho kiến thức",
+    "workflows": "Workflow",
+    "chat_conversations": "Cuộc trò chuyện",
+    "account_management": "Quản lý tài khoản",
+    "back_office_management": "Quản lý hậu trường",
+    "system_administration": "Quản trị hệ thống"
+  },
+  "new_create": "Tạo mới",
+  "no_data": "Chưa có dữ liệu",
+  "no_laf_env": "Hệ thống chưa cấu hình môi trường Laf",
+  "not_yet_introduced": "Chưa có giới thiệu",
+  "pay": {
+    "amount": "Số tiền",
+    "balance": "Số dư tài khoản",
+    "balance_notice": "Số dư tài khoản không đủ",
+    "confirm_pay": "Xác nhận thanh toán",
+    "get_pay_QR": "Lấy mã QR nạp tiền",
+    "need_pay": "Cần thanh toán",
+    "new_package_price": "Giá gói mới",
+    "notice": "Vui lòng không đóng trang",
+    "old_package_price": "Giá gói cũ",
+    "other": "Số tiền khác, vui lòng lấy số nguyên",
+    "to_recharge": "Số dư không đủ, đi nạp tiền",
+    "wechat": "Vui lòng quét mã WeChat để thanh toán: {{price}}元, vui lòng không đóng trang",
+    "yuan": "{{amount}}元"
+  },
+  "permission": {
+    "Collaborator": "Cộng tác viên",
+    "Default permission": "Quyền mặc định",
+    "Manage": "Quản lý",
+    "No InheritPermission": "Đã giới hạn quyền, không còn kế thừa quyền từ thư mục cha nữa",
+    "Not collaborator": "Chưa có cộng tác viên",
+    "Owner": "Người tạo",
+    "Permission": "Quyền",
+    "Permission config": "Cấu hình quyền",
+    "Private": "Riêng tư",
+    "Private Tip": "Chỉ mình tôi có thể sử dụng",
+    "Public": "Công khai",
+    "Public Tip": "Tất cả thành viên trong nhóm có thể sử dụng",
+    "Remove InheritPermission Confirm": "Hành động này sẽ khiến quyền kế thừa không còn hiệu lực, có thực hiện không?",
+    "Resume InheritPermission Confirm": "Có muốn khôi phục quyền kế thừa từ thư mục cha không?",
+    "Resume InheritPermission Failed": "Khôi phục thất bại",
+    "Resume InheritPermission Success": "Khôi phục thành công",
+    "change_owner": "Chuyển nhượng quyền sở hữu",
+    "change_owner_failed": "Chuyển nhượng quyền sở hữu thất bại",
+    "change_owner_placeholder": "Nhập tên người dùng để tìm tài khoản",
+    "change_owner_success": "Chuyển nhượng quyền sở hữu thành công",
+    "change_owner_tip": "Sau khi chuyển nhượng, quyền của bạn sẽ không được giữ lại",
+    "change_owner_to": "Chuyển nhượng cho"
+  },
+  "plugin": {
+    "App": "Chọn ứng dụng",
+    "Currentapp": "Ứng dụng hiện tại",
+    "Description": "Mô tả",
+    "Edit Http Plugin": "Chỉnh sửa plugin HTTP",
+    "Enter PAT": "Nhập chứng chỉ truy cập (PAT)",
+    "Get Plugin Module Detail Failed": "Lấy thông tin plugin gặp sự cố",
+    "Import Plugin": "Nhập plugin HTTP",
+    "Import from URL": "Nhập từ URL. https://xxxx",
+    "Intro": "Giới thiệu plugin",
+    "Invalid Env": "Lỗi môi trường laf",
+    "Invalid Schema": "Schema không hợp lệ",
+    "Invalid URL": "URL không hợp lệ",
+    "Method": "Phương thức",
+    "Path": "Đường dẫn",
+    "Please bind laf accout first": "Vui lòng liên kết tài khoản laf trước",
+    "Plugin List": "Danh sách plugin",
+    "Search plugin": "Tìm kiếm plugin",
+    "Set Name": "Đặt tên cho plugin",
+    "contribute": "Đóng góp plugin",
+    "go to laf": "Đi viết",
+    "path": "Đường dẫn"
+  },
+  "reply_now": "Phản hồi ngay",
+  "required": "Bắt buộc",
+  "resume_failed": "Khôi phục thất bại",
+  "select_reference_variable": "Chọn biến tham chiếu",
+  "share_link": "Chia sẻ liên kết",
+  "support": {
+    "account": {
+      "Individuation": "Cá nhân hóa"
+    },
+    "inform": {
+      "Read": "Đã đọc"
+    },
+    "openapi": {
+      "Api baseurl": "Địa chỉ cơ sở API",
+      "Api manager": "Quản lý khóa API",
+      "Copy success": "Đã sao chép địa chỉ API",
+      "New api key": "Khóa API mới",
+      "New api key tip": "Vui lòng giữ bí mật khóa của bạn, khóa sẽ không hiển thị lại~"
+    },
+    "outlink": {
+      "Delete link tip": "Xác nhận xóa liên kết không cần đăng nhập này? Sau khi xóa, liên kết sẽ ngay lập tức không còn hiệu lực, nhật ký cuộc trò chuyện sẽ vẫn được lưu giữ, vui lòng xác nhận!",
+      "Max usage points": "Giới hạn điểm",
+      "Max usage points tip": "Liên kết này tối đa cho phép sử dụng bao nhiêu điểm, vượt quá sẽ không thể sử dụng. -1 đại diện cho không giới hạn.",
+      "Usage points": "Tiêu hao điểm",
+      "share": {
+        "Response Quote": "Trả về trích dẫn",
+        "Response Quote tips": "Trả về nội dung trích dẫn trong liên kết chia sẻ, nhưng sẽ không cho phép người dùng tải xuống tài liệu gốc."
+      },
+      "digital man": {
+        "Is config digital man": "Định cấu hình người kỹ thuật số",
+        "Background image": "Hình nền"
+      }
+    },
+    "permission": {
+      "Permission": "Quyền hạn"
+    },
+    "standard": {
+      "AI Bonus Points": "Điểm thưởng AI",
+      "Expired Time": "Thời gian kết thúc",
+      "Start Time": "Thời gian bắt đầu",
+      "storage": "Khối lượng lưu trữ",
+      "type": "Loại"
+    },
+    "team": {
+      "limit": {
+        "No permission rerank": "Không có quyền sử dụng xếp hạng lại kết quả, vui lòng nâng cấp gói của bạn"
+      }
+    },
+    "user": {
+      "Avatar": "Ảnh đại diện",
+      "Go laf env": "Nhấn vào đây để đến {{env}} lấy chứng chỉ PAT.",
+      "Laf account course": "Xem hướng dẫn liên kết tài khoản laf.",
+      "Laf account intro": "Sau khi liên kết tài khoản laf của bạn, bạn sẽ có thể sử dụng mô-đun laf trong quy trình làm việc để viết mã trực tuyến.",
+      "Need to login": "Vui lòng đăng nhập trước",
+      "Price": "Tiêu chuẩn tính phí",
+      "User self info": "Thông tin cá nhân",
+      "auth": {
+        "Sending Code": "Đang gửi"
+      },
+      "inform": {
+        "System message": "Tin nhắn hệ thống"
+      },
+      "login": {
+        "And": "Và",
+        "Email": "Email",
+        "Forget Password": "Quên mật khẩu?",
+        "Github": "Đăng nhập GitHub",
+        "Google": "Đăng nhập Google",
+        "Password": "Mật khẩu",
+        "Password login": "Đăng nhập bằng mật khẩu",
+        "Phone": "Đăng nhập bằng số điện thoại",
+        "Phone number": "Số điện thoại",
+        "Policy tip": "Việc sử dụng đồng nghĩa với việc bạn đồng ý với",
+        "Privacy": "Chính sách bảo mật",
+        "Provider error": "Lỗi đăng nhập, vui lòng thử lại",
+        "Register": "Đăng ký tài khoản",
+        "Root login": "Đăng nhập bằng người dùng root",
+        "Root password placeholder": "Mật khẩu root là biến môi trường bạn đã đặt",
+        "Terms": "Thỏa thuận dịch vụ",
+        "Username": "Tên người dùng",
+        "Wechat": "Đăng nhập WeChat",
+        "can_not_login": "Không thể đăng nhập, nhấn để liên hệ",
+        "error": "Lỗi đăng nhập",
+        "security_failed": "Kiểm tra bảo mật thất bại",
+        "wx_qr_login": "Đăng nhập bằng quét mã WeChat"
+      },
+      "logout": {
+        "confirm": "Xác nhận đăng xuất?"
+      },
+      "team": {
+        "Dataset usage": "Dung lượng kho tri thức",
+        "Team Tags Async Success": "Đồng bộ hoàn tất",
+        "member": "Thành viên"
+      }
+    },
+    "wallet": {
+      "Ai point every thousand tokens": "{{points}} điểm/1K tokens",
+      "Amount": "Số tiền",
+      "Bills": "Hóa đơn",
+      "Buy": "Mua",
+      "Confirm pay": "Xác nhận thanh toán",
+      "Not sufficient": "Điểm AI của bạn không đủ, vui lòng nâng cấp gói hoặc mua thêm điểm AI để tiếp tục sử dụng.",
+      "Plan expired time": "Thời gian hết hạn gói",
+      "Plan reset time": "Thời gian thiết lập lại gói",
+      "Standard Plan Detail": "Chi tiết gói",
+      "To read plan": "Xem gói",
+      "amount_0": "Số lượng mua không thể là 0",
+      "bill": {
+        "Number": "Mã đơn hàng",
+        "Status": "Trạng thái",
+        "Type": "Loại đơn hàng",
+        "payWay": {
+          "Way": "Phương thức thanh toán",
+          "balance": "Thanh toán bằng số dư",
+          "wx": "Thanh toán WeChat"
+        },
+        "status": {
+          "closed": "Đã đóng",
+          "notpay": "Chưa thanh toán",
+          "refund": "Đã hoàn tiền",
+          "success": "Thanh toán thành công"
+        }
+      },
+      "buy_resource": "Mua gói tài nguyên",
+      "moduleName": {
+        "index": "Tạo chỉ mục",
+        "qa": "Phân tách QA"
+      },
+      "noBill": "Không có hồ sơ hóa đơn~",
+      "subscription": {
+        "AI points": "Điểm AI",
+        "AI points click to read tip": "Mỗi lần gọi mô hình AI sẽ tiêu tốn một lượng điểm AI nhất định (tương tự như token). Nhấn để xem quy tắc tính chi tiết.",
+        "AI points usage": "Lượng sử dụng điểm AI",
+        "AI points usage tip": "Mỗi lần gọi mô hình AI sẽ tiêu tốn một lượng điểm AI. Tiêu chuẩn tính toán cụ thể có thể tham khảo ở trên mục “Tiêu chuẩn tính phí”.",
+        "Ai points": "Tiêu chuẩn tính điểm AI",
+        "Buy now": "Chuyển gói",
+        "Current plan": "Gói hiện tại",
+        "Extra ai points": "Điểm AI bổ sung",
+        "Extra dataset size": "Dung lượng kho dữ liệu bổ sung",
+        "Extra plan": "Gói tài nguyên bổ sung",
+        "Extra plan tip": "Khi gói tiêu chuẩn không đủ, bạn có thể mua gói tài nguyên bổ sung để tiếp tục sử dụng.",
+        "FAQ": "Câu hỏi thường gặp",
+        "Month amount": "Số tháng",
+        "Next plan": "Gói tương lai",
+        "Nonsupport": "Không thể chuyển đổi",
+        "Stand plan level": "Gói đăng ký",
+        "Standard update fail": "Sửa đổi gói đăng ký không thành công",
+        "Standard update success": "Thay đổi gói đăng ký thành công!",
+        "Sub plan": "Gói phụ",
+        "Sub plan tip": "Sử dụng miễn phí {{title}} hoặc nâng cấp lên gói cao hơn.",
+        "Team plan and usage": "Gói và mức sử dụng",
+        "Training weight": "Ưu tiên đào tạo: {{weight}}",
+        "Update extra ai points": "Điểm AI bổ sung",
+        "Update extra dataset size": "Dung lượng lưu trữ bổ sung",
+        "Upgrade plan": "Nâng cấp gói",
+        "ai_model": "Mô hình ngôn ngữ AI",
+        "function": {
+          "History store": "Lưu giữ {{amount}} ngày lịch sử trò chuyện",
+          "Max app": "Tối đa {{amount}} ứng dụng & plugin",
+          "Max dataset": "Tối đa {{amount}} kho dữ liệu",
+          "Max dataset size": "Tối đa {{amount}} nhóm chỉ mục kho dữ liệu",
+          "Max members": "Tối đa {{amount}} thành viên nhóm",
+          "Points": "{{amount}} điểm AI"
+        },
+        "mode": {
+          "Month": "Theo tháng",
+          "Period": "Thời gian đăng ký",
+          "Year": "Theo năm",
+          "Year sale": "Tặng hai tháng"
+        },
+        "point": "Điểm",
+        "standardSubLevel": {
+          "enterprise": "Phiên bản doanh nghiệp",
+          "experience": "Phiên bản trải nghiệm",
+          "free": "Phiên bản miễn phí",
+          "free desc": "Có thể sử dụng miễn phí các tính năng cơ bản hàng tháng, nếu không đăng nhập hệ thống trong 30 ngày liên tiếp, kho dữ liệu sẽ tự động bị xóa.",
+          "team": "Phiên bản nhóm"
+        },
+        "token_compute": "Nhấn để xem máy tính Tokens trực tuyến",
+        "type": {
+          "balance": "Nạp tiền vào số dư",
+          "extraDatasetSize": "Mở rộng kho dữ liệu",
+          "extraPoints": "Gói điểm AI",
+          "standard": "Đăng ký gói"
+        }
+      },
+      "usage": {
+        "Ai model": "Mô hình AI",
+        "App name": "Tên ứng dụng",
+        "Audio Speech": "Phát âm thanh",
+        "Bill Module": "Mô-đun tính phí",
+        "Duration": "Thời gian (giây)",
+        "Extension result": "Kết quả tối ưu hóa câu hỏi",
+        "Module name": "Tên mô-đun",
+        "Source": "Nguồn",
+        "Text Length": "Chiều dài văn bản",
+        "Time": "Thời gian tạo",
+        "Token Length": "Chiều dài token",
+        "Total": "Tổng số tiền",
+        "Total points": "Tiêu thụ điểm AI",
+        "Usage Detail": "Chi tiết sử dụng",
+        "Whisper": "Nhập bằng giọng nói"
+      }
+    }
+  },
+  "sync_link": "Liên kết đồng bộ",
+  "system": {
+    "Concat us": "Liên hệ với chúng tôi",
+    "Help Document": "Tài liệu trợ giúp"
+  },
+  "tag_list": "Danh sách thẻ",
+  "team_tag": "Thẻ nhóm",
+  "template": {
+    "Quote Content Tip": "Có thể tùy chỉnh cấu trúc nội dung trích dẫn để phù hợp hơn với các tình huống khác nhau. Có thể sử dụng một số biến để cấu hình mẫu:\n{{q}} - Nội dung tìm kiếm, {{a}} - Nội dung mong đợi, {{source}} - Nguồn, {{sourceId}} - Tên tệp nguồn, {{index}} - Trích dẫn thứ n, tất cả đều là tùy chọn, dưới đây là giá trị mặc định:\n{{default}}",
+    "Quote Prompt Tip": "Có thể sử dụng {{quote}} để chèn mẫu nội dung trích dẫn, và {{question}} để chèn câu hỏi. Dưới đây là giá trị mặc định:\n{{default}}"
+  },
+  "textarea_variable_picker_tip": "Nhập / để chọn biến",
+  "tool_field": "Cấu hình tham số trường công cụ",
+  "undefined_var": "Tham chiếu đến biến chưa được định nghĩa, có tự động thêm không?",
+  "unit": {
+    "character": "Ký tự",
+    "minute": "Phút"
+  },
+  "unusable_variable": "Không có biến khả dụng",
+  "upload_file_error": "Tải lên tệp thất bại",
+  "user": {
+    "Account": "Tài khoản",
+    "Amount of earnings": "Doanh thu (¥)",
+    "Amount of inviter": "Số người đã mời",
+    "Application Name": "Tên dự án",
+    "Avatar": "Ảnh đại diện",
+    "Change": "Thay đổi",
+    "Copy invite url": "Sao chép liên kết mời",
+    "Edit name": "Nhấn để sửa tên",
+    "Invite Url": "Liên kết mời",
+    "Invite url tip": "Bạn sẽ nhận được phần thưởng số dư nhất định khi bạn bè đăng ký qua liên kết này.\nNgoài ra, bạn sẽ nhận ngay 5 nhân dân tệ khi bạn bè đăng ký bằng số điện thoại của họ.\nPhần thưởng sẽ được gửi vào đội nhóm mặc định của bạn.",
+    "Laf Account Setting": "Cấu hình tài khoản laf",
+    "Language": "Ngôn ngữ",
+    "Member Name": "Biệt danh",
+    "Notice": "Thông báo",
+    "Notification Receive": "Nhận thông báo",
+    "Notification Receive Bind": "Vui lòng liên kết phương thức nhận thông báo trước",
+    "Old password is error": "Mật khẩu cũ không đúng",
+    "OpenAI Account Setting": "Cấu hình tài khoản OpenAI",
+    "Password": "Mật khẩu",
+    "Pay": "Nạp tiền",
+    "Personal Information": "Thông tin cá nhân",
+    "Promotion": "Khuyến mãi",
+    "Promotion Rate": "Tỷ lệ hoàn tiền",
+    "Promotion Record": "Ghi chép khuyến mãi",
+    "Promotion rate tip": "Bạn sẽ nhận được một tỷ lệ phần trăm số dư thưởng khi bạn bè nạp tiền.",
+    "Replace": "Thay thế",
+    "Set OpenAI Account Failed": "Thiết lập tài khoản OpenAI không thành công",
+    "Sign Out": "Đăng xuất",
+    "Team": "Đội",
+    "Time": "Thời gian",
+    "Timezone": "Múi giờ",
+    "Update Password": "Thay đổi mật khẩu",
+    "Update password failed": "Thay đổi mật khẩu không thành công",
+    "Update password successful": "Thay đổi mật khẩu thành công",
+    "Usage Record": "Bản ghi sử dụng",
+    "apikey": {
+      "key": "Khóa API"
+    },
+    "confirm_password": "Xác nhận mật khẩu",
+    "new_password": "Mật khẩu mới",
+    "no_invite_records": "Chưa có ghi chép mời",
+    "no_notice": "Chưa có thông báo",
+    "no_usage_records": "Chưa có bản ghi sử dụng",
+    "old_password": "Mật khẩu cũ",
+    "password_message": "Mật khẩu tối thiểu 4 ký tự và tối đa 60 ký tự",
+    "team": {
+      "Balance": "Số dư đội",
+      "Check Team": "Chuyển đổi",
+      "Confirm Invite": "Xác nhận lời mời",
+      "Create Team": "Tạo đội mới",
+      "Invite Member": "Mời thành viên",
+      "Invite Member Failed Tip": "Lỗi khi mời thành viên",
+      "Invite Member Result Tip": "Thông báo kết quả mời",
+      "Invite Member Success Tip": "Mời thành viên thành công\nThành công: {{success}} người\nTên người dùng không hợp lệ: {{inValid}}\nĐã ở trong đội: {{inTeam}}",
+      "Invite Member Tips": "Bên kia có thể tham khảo hoặc sử dụng các tài nguyên khác trong đội",
+      "Leave Team": "Rời khỏi đội",
+      "Leave Team Failed": "Lỗi khi rời đội",
+      "Member": "Thành viên",
+      "Member Name": "Tên thành viên",
+      "Over Max Member Tip": "Đội tối đa {{max}} người",
+      "Personal Team": "Đội cá nhân",
+      "Processing invitations": "Đang xử lý lời mời",
+      "Processing invitations Tips": "Bạn có {{amount}} lời mời cần xử lý",
+      "Remove Member Confirm Tip": "Xác nhận loại bỏ {{username}} khỏi đội?",
+      "Select Team": "Chọn đội",
+      "Set Name": "Đặt tên cho đội",
+      "Switch Team Failed": "Lỗi khi chuyển đội",
+      "Tags Async": "Lưu",
+      "Team Name": "Tên đội",
+      "Team Tags Async": "Đồng bộ thẻ",
+      "Team Tags Async Success": "Liên kết báo lỗi thành công, thông tin thẻ đã được cập nhật",
+      "Update Team": "Cập nhật thông tin đội",
+      "invite": {
+        "Accept Confirm": "Xác nhận tham gia đội này?",
+        "Accepted": "Đã tham gia đội",
+        "Deal Width Footer Tip": "Xử lý xong sẽ tự động đóng nhé~",
+        "Reject": "Đã từ chối lời mời",
+        "Reject Confirm": "Xác nhận từ chối lời mời này?",
+        "accept": "Chấp nhận",
+        "reject": "Từ chối"
+      },
+      "member": {
+        "Confirm Leave": "Xác nhận rời khỏi đội này?",
+        "active": "Đã tham gia",
+        "reject": "Từ chối",
+        "waiting": "Chờ chấp nhận"
+      },
+      "role": {
+        "Admin": "Quản trị viên",
+        "Owner": "Người tạo",
+        "Visitor": "Khách"
+      }
+    },
+    "type": "Loại"
+  },
+  "verification": "Xác thực",
+  "xx_search_result": "Kết quả tìm kiếm của {{key}}",
+  "tianfu": {
+    "navbar_title": "Thiên Phú Trí Nguyên",
+    "navbar_text": "Nền tảng phát triển đa tác nhân",
+    "agent_application_store": "Nhà máy tác nhân",
+    "agent_application_store_list": {
+      "latest": "Mới nhất",
+      "recommended": "Đề xuất",
+      "government": "Chính phủ",
+      "manufacturing": "Sản xuất",
+      "finance": "Tài chính",
+      "healthcare": "Y tế",
+      "other": "Khác"
+    },
+    "customer": {
+      "foxconn": {
+        "pdf_translation": "Dịch PDF",
+        "sample_image_defect_detection_agent": "Tác nhân phát hiện khuyết tật ảnh",
+        "smt_general_purpose_agents": "Tác nhân đa năng SMT",
+        "pdf_image_translation": "Dịch hình ảnh"
+      }
+    }
+  }
+}

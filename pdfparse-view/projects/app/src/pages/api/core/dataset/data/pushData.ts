@@ -1,0 +1,72 @@
+import type { NextApiRequest, NextApiResponse } from 'next';
+import axios from 'axios';
+
+export const config = {
+  api: {
+    bodyParser: {
+      sizeLimit: '10mb' // 设置请求体大小限制
+    },
+    responseLimit: '12mb' // 设置响应体大小限制
+  },
+};
+
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+  try {
+    // 确保是 POST 请求
+    if (req.method !== 'POST') {
+      return res.status(405).json({ message: 'Only POST requests are allowed' });
+    }
+
+    // 获取 Cookie 中的 token
+    const { token } = req.cookies;
+
+    // 如果 token 不存在，返回错误
+    if (!token) {
+      return res.status(400).json({ message: 'Token not found in cookies' });
+    }
+
+    // 解构 req.body 以获取所需参数
+    const { collectionId, data } = req.body;
+
+    // 检查 collectionId 和 data 是否存在
+    if (!collectionId || !Array.isArray(data)) {
+      return res.status(400).json({ message: 'collectionId or data is missing or invalid' });
+    }
+
+    // 检查数据长度
+    if (data.length > 200) {
+      return res.status(400).json({ message: 'Data is too long, max 200' });
+    }
+
+    // 构造目标 API 的 URL
+    const targetUrl = `https://www.xiaoruiai.com:23000/api/core/dataset/data/pushData`;
+
+    // 使用 axios 发送 POST 请求，并将参数传递到目标 API
+    const response = await axios.post(
+      targetUrl,
+      { collectionId, data },
+      {
+        headers: {
+          'Content-Type': 'application/json',
+          'Cookie': `fastgpt_token=${token}`, // 手动设置 Cookie
+        },
+        withCredentials: true, // 确保跨域请求时发送 Cookie
+      }
+    );
+
+    // 返回目标 API 的响应
+    return res.status(200).json(response.data);
+  } catch (error) {
+    console.error('Error forwarding request:', error);
+
+    // 捕获并返回 axios 错误
+    if (axios.isAxiosError(error)) {
+      res.status(error.response?.status || 500).json({
+        message: 'Error forwarding request',
+        error: error.response?.data || error.message,
+      });
+    } else {
+      res.status(500).json({ message: 'Error forwarding request', error: error });
+    }
+  }
+}

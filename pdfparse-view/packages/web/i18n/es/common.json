@@ -1,0 +1,1490 @@
+{
+  "App": "Aplicación",
+  "Export": "Exportar",
+  "FAQ": {
+    "ai_point_a": "Cada vez que se llama a un modelo de IA, se consumen ciertos puntos de IA. Los criterios de cálculo específicos se pueden consultar en los \"Estándares de Cálculo de Puntos de IA\" arriba.\nEl cálculo de tokens utiliza la misma fórmula que GPT-3.5, 1 Token ≈ 0.7 caracteres en chino ≈ 0.9 palabras en inglés. Los caracteres consecutivos pueden contarse como 1 Token.",
+    "ai_point_expire_a": "Expirarán. Después de que caduque el paquete actual, los puntos de IA se restablecerán y se actualizarán a los puntos de IA del nuevo paquete. La duración de los puntos de IA del paquete anual es de 1 año, no de cada mes.",
+    "ai_point_expire_q": "¿Los puntos de IA expiran?",
+    "ai_point_q": "¿Qué son los puntos de IA?",
+    "auto_renew_a": "Después de que caduque el paquete actual, el sistema renovará automáticamente según el \"paquete futuro\", intentando deducir el costo del saldo de la cuenta. Si necesita renovación automática, reserve un monto en el saldo de la cuenta.",
+    "auto_renew_q": "¿El paquete de suscripción se renovará automáticamente?",
+    "change_package_a": "Cuando el precio del paquete actual es mayor que el del nuevo paquete, no se puede cambiar de inmediato, se realizará en forma de \"renovación\" después de que caduque el paquete actual.\nCuando el precio del paquete actual es menor que el del nuevo paquete, el sistema calculará automáticamente el saldo restante del paquete actual, y usted podrá pagar la diferencia para cambiar de paquete.",
+    "change_package_q": "¿Se puede cambiar el paquete de suscripción?",
+    "dataset_compute_a": "1 almacenamiento de conocimiento equivale a 1 índice de conocimiento. Un dato de conocimiento puede contener 1 o más índices de conocimiento. En el entrenamiento mejorado, 1 dato generará 5 índices.",
+    "dataset_compute_q": "¿Cómo se calcula el almacenamiento de conocimiento?",
+    "dataset_index_a": "No se eliminarán. Pero si se excede el número de índices de conocimiento, no se podrán insertar ni actualizar los contenidos del conocimiento.",
+    "dataset_index_q": "¿Se eliminarán los índices de conocimiento si se exceden?",
+    "free_user_clean_a": "El equipo gratuito (versión gratuita y no ha comprado paquetes adicionales) que no haya iniciado sesión en el sistema durante 30 días consecutivos, se eliminarán automáticamente todos los contenidos de conocimiento de ese equipo.",
+    "free_user_clean_q": "¿Se eliminarán los datos de la versión gratuita?",
+    "package_overlay_a": "Sí. Cada paquete de recursos comprado es independiente y se usará dentro de su período de validez. Los puntos de IA se deducirán primero del paquete de recursos que caduque primero.",
+    "package_overlay_q": "¿Se pueden acumular paquetes de recursos adicionales?"
+  },
+  "Folder": "Carpeta",
+  "Login": "Iniciar sesión",
+  "Move": "Mover",
+  "Name": "Nombre",
+  "Rename": "Renombrar",
+  "Resume": "Reanudar",
+  "Running": "En ejecución",
+  "UnKnow": "Desconocido",
+  "Warning": "Advertencia",
+  "add_new": "Agregar nuevo",
+  "chose_condition": "Seleccionar condición",
+  "chosen": "Seleccionado",
+  "classification": "Clasificación",
+  "click_to_resume": "Haga clic para reanudar",
+  "code_editor": "Editor de código",
+  "code_error": {
+    "app_error": {
+      "invalid_app_type": "Tipo de aplicación incorrecto",
+      "invalid_owner": "Propietario de la aplicación no válido",
+      "not_exist": "La aplicación no existe",
+      "un_auth_app": "No tiene permiso para operar esta aplicación"
+    },
+    "chat_error": {
+      "un_auth": "No tiene permiso para operar este registro de conversación"
+    },
+    "error_code": {
+      "400": "Solicitud fallida",
+      "401": "Sin acceso",
+      "403": "Acceso restringido",
+      "404": "Solicitud no existe",
+      "405": "Método de solicitud incorrecto",
+      "406": "Formato de solicitud incorrecto",
+      "410": "Recurso eliminado",
+      "422": "Error de validación",
+      "500": "Error del servidor",
+      "502": "Error de puerta de enlace",
+      "503": "Servidor sobrecargado o en mantenimiento",
+      "504": "Tiempo de espera de puerta de enlace"
+    },
+    "error_message": {
+      "403": "Error de credencial",
+      "510": "Saldo de cuenta insuficiente",
+      "511": "No tiene permiso para operar este modelo",
+      "513": "No tiene permiso para leer este archivo",
+      "514": "Api Key no válida"
+    },
+    "openapi_error": {
+      "api_key_not_exist": "Api Key no existe",
+      "exceed_limit": "Máximo de 10 grupos de claves API",
+      "un_auth": "No tiene permiso para operar esta Api Key"
+    },
+    "outlink_error": {
+      "invalid_link": "Enlace de compartir inválido",
+      "link_not_exist": "Enlace de compartir no existe",
+      "un_auth_user": "Error en la verificación de identidad"
+    },
+    "plugin_error": {
+      "not_exist": "El plugin no existe",
+      "un_auth": "No tiene permiso para operar este plugin"
+    },
+    "system_error": {
+      "community_version_num_limit": "Excede el límite de cantidad de la versión de código abierto, por favor actualice a la versión comercial: https://fastgpt.in"
+    },
+    "team_error": {
+      "ai_points_not_enough": "",
+      "app_amount_not_enough": "Se ha alcanzado el límite de aplicaciones~",
+      "dataset_amount_not_enough": "Se ha alcanzado el límite de cantidad de bases de conocimiento~",
+      "dataset_size_not_enough": "Capacidad de la base de conocimiento insuficiente, por favor expanda~",
+      "over_size": "error.team.overSize",
+      "plugin_amount_not_enough": "Se ha alcanzado el límite de plugins~",
+      "re_rank_not_enough": "No tiene permiso para usar reordenamiento de búsqueda~",
+      "un_auth": "No tiene permiso para operar este equipo",
+      "website_sync_not_enough": "No tiene permiso para usar la sincronización del sitio web~"
+    },
+    "token_error_code": {
+      "403": "Estado de inicio de sesión inválido, por favor inicie sesión nuevamente"
+    },
+    "user_error": {
+      "balance_not_enough": "Saldo de cuenta insuficiente~",
+      "bin_visitor": "Su verificación de identidad no ha pasado",
+      "bin_visitor_guest": "Su identidad actual es visitante, sin permisos de operación",
+      "un_auth_user": "No se puede encontrar este usuario"
+    }
+  },
+  "common": {
+    "Action": "Acción",
+    "Add": "Agregar",
+    "Add New": "Nuevo",
+    "Add Success": "Agregar con éxito",
+    "All": "Todo",
+    "Cancel": "Cancelar",
+    "Choose": "Elegir",
+    "Close": "Cerrar",
+    "Config": "Configuración",
+    "Confirm": "Confirmar",
+    "Confirm Create": "Confirmar creación",
+    "Confirm Import": "Confirmar importación",
+    "Confirm Move": "Mover a aquí",
+    "Confirm Update": "Confirmar actualización",
+    "Confirm to leave the page": "¿Confirmar que quieres abandonar esta página?",
+    "Copy": "Copiar",
+    "Copy Successful": "Copia exitosa",
+    "Create Failed": "Error al crear",
+    "Create New": "Crear nuevo",
+    "Create Success": "Creación exitosa",
+    "Create Time": "Hora de creación",
+    "Creating": "Creando",
+    "Custom Title": "Título personalizado",
+    "Delete": "Eliminar",
+    "Delete Failed": "Error al eliminar",
+    "Delete Success": "Eliminación exitosa",
+    "Delete Warning": "Advertencia de eliminación",
+    "Delete folder": "Eliminar carpeta",
+    "Detail": "Detalles",
+    "Documents": "Documentos",
+    "Done": "Hecho",
+    "Edit": "Editar",
+    "Exit": "Salir",
+    "Expired Time": "Hora de caducidad",
+    "Field": "Campo",
+    "File": "Archivo",
+    "Finish": "Terminar",
+    "Import": "Importar",
+    "Import failed": "Error al importar",
+    "Import success": "Importación exitosa",
+    "Input": "Entrada",
+    "Input folder description": "Descripción de la carpeta",
+    "Input name": "Pon un nombre",
+    "Intro": "Introducción",
+    "Last Step": "Paso anterior",
+    "Last use time": "Última hora de uso",
+    "Load Failed": "Error de carga",
+    "Loading": "Cargando...",
+    "More": "Más",
+    "Move": "Mover",
+    "MultipleRowSelect": {
+      "No data": "No hay valores seleccionables"
+    },
+    "Name": "Nombre",
+    "Next Step": "Siguiente paso",
+    "No more data": "No hay más datos~",
+    "Not open": "No abierto",
+    "OK": "Está bien",
+    "Open": "Abrir",
+    "Operation": "Operación",
+    "Other": "Otro",
+    "Output": "Salida",
+    "Params": "Parámetros",
+    "Password inconsistency": "Las contraseñas no coinciden",
+    "Permission": "Permiso",
+    "Please Input Name": "Por favor, introduce un nombre",
+    "Read document": "Ver documento",
+    "Read intro": "Ver instrucciones",
+    "Remove": "Eliminar",
+    "Rename": "Renombrar",
+    "Request Error": "Error de solicitud",
+    "Require Input": "Requerido",
+    "Restart": "Reiniciar",
+    "Role": "Rol",
+    "Root folder": "Carpeta raíz",
+    "Run": "Ejecutar",
+    "Save": "Guardar",
+    "Save Failed": "Error al guardar",
+    "Save Success": "Guardado con éxito",
+    "Search": "Buscar",
+    "Select File Failed": "Error al seleccionar archivo",
+    "Select template": "Seleccionar plantilla",
+    "Set Avatar": "Haz clic para establecer avatar",
+    "Set Name": "Pon un nombre",
+    "Setting": "Configuración",
+    "Status": "Estado",
+    "Submit failed": "Error al enviar",
+    "Success": "Éxito",
+    "Sync success": "Sincronización exitosa",
+    "Team": "Equipo",
+    "Team Tags Set": "Etiquetas",
+    "Un used": "No utilizado",
+    "UnKnow": "Desconocido",
+    "UnKnow Source": "Fuente desconocida",
+    "Unlimited": "Sin límite",
+    "Update": "Actualizar",
+    "Update Failed": "Error al actualizar",
+    "Update Success": "Actualización exitosa",
+    "Update Successful": "Actualización exitosa",
+    "Upload File Failed": "Error al subir archivo",
+    "Username": "Nombre de usuario",
+    "Waiting": "Esperando",
+    "Warning": "Advertencia",
+    "Website": "Sitio web",
+    "all_result": "Resultados completos",
+    "avatar": {
+      "Select Avatar": "Haga clic para seleccionar avatar",
+      "Select Failed": "Error al seleccionar avatar"
+    },
+    "choosable": "Seleccionable",
+    "confirm": {
+      "Common Tip": "Confirmación de operación"
+    },
+    "course": {
+      "Read Course": "Ver tutorial"
+    },
+    "empty": {
+      "Common Tip": "No hay datos disponibles~"
+    },
+    "error": {
+      "Select avatar failed": "Error al seleccionar avatar",
+      "too_many_request": "Las solicitudes son demasiado frecuentes, por favor intente más tarde.",
+      "unKnow": "Ocurrió un imprevisto~"
+    },
+    "failed": "Fallido",
+    "folder": {
+      "Drag Tip": "Haga clic para arrastrar",
+      "Move Success": "Movimiento exitoso",
+      "Move to": "Mover a",
+      "No Folder": "No hay subdirectorios, así que déjalo aquí",
+      "Open folder": "Abrir carpeta",
+      "Root Path": "Ruta raíz",
+      "empty": "Este directorio ya no tiene opciones disponibles~",
+      "open_dataset": "Abrir base de conocimientos"
+    },
+    "input": {
+      "Repeat Value": "Hay valores duplicados"
+    },
+    "is_requesting": "Solicitando…",
+    "jsonEditor": {
+      "Parse error": "El JSON puede estar incorrecto, por favor verifique detenidamente"
+    },
+    "link": {
+      "UnValid": "Enlace no válido"
+    },
+    "month": "mes",
+    "name_is_empty": "El nombre no puede estar vacío",
+    "no_intro": "No hay introducción disponible",
+    "not_support": "No soportado",
+    "page_center": "Centrar página",
+    "request_end": "Se han cargado todos los datos",
+    "request_more": "Haga clic para cargar más",
+    "speech": {
+      "error tip": "Error al convertir voz a texto",
+      "not support": "Su navegador no soporta entrada de voz"
+    },
+    "support": "Soporte",
+    "system": {
+      "Commercial version function": "Esta función no está disponible",
+      "Help Chatbot": "Asistente de robot",
+      "Use Helper": "Usar ayuda"
+    },
+    "ui": {
+      "textarea": {
+        "Magnifying": "Ampliar"
+      }
+    }
+  },
+  "confirm_choice": "Confirmar selección",
+  "contribute_app_template": "Contribuir plantilla",
+  "core": {
+    "Chat": "Chat",
+    "Max Token": "Límite de datos por entrada",
+    "ai": {
+      "AI settings": "Configuración de IA",
+      "Ai point price": "Consumo de puntos IA",
+      "Max context": "Máximo contexto",
+      "Model": "Modelo IA",
+      "Not deploy rerank model": "Modelo de reordenamiento no desplegado",
+      "Prompt": "Palabra clave",
+      "Support tool": "Llamada a funciones",
+      "model": {
+        "Dataset Agent Model": "Modelo de procesamiento de archivos",
+        "Vector Model": "Modelo de índice",
+        "doc_index_and_dialog": "Índice de documentos & Índice de diálogos"
+      }
+    },
+    "app": {
+      "Ai response": "Contenido devuelto por IA",
+      "Api request": "Acceso a API",
+      "Api request desc": "Integración en sistemas existentes a través de API, como WeChat, Feishu, etc.",
+      "App intro": "Introducción a la aplicación",
+      "Chat Variable": "Variable de chat",
+      "Config schedule plan": "Configurar ejecución programada",
+      "Config whisper": "Configurar entrada de voz",
+      "Interval timer config": "Configuración de ejecución programada",
+      "Interval timer run": "Ejecución programada",
+      "Interval timer tip": "Aplicación puede ejecutarse de forma programada",
+      "Make a brief introduction of your app": "Proporcione una introducción a su aplicación IA",
+      "Max histories": "Número de registros de chat",
+      "Max tokens": "Límite de respuesta",
+      "Name and avatar": "Avatar & Nombre",
+      "Onclick to save": "Haga clic para guardar",
+      "Publish": "Publicar",
+      "Publish Confirm": "¿Confirmar publicación de la aplicación? Actualizará inmediatamente el estado en todos los canales publicados.",
+      "Publish app tip": "Después de publicar, todos los canales usarán esta versión de inmediato",
+      "Question Guide": "Preguntas que podrías hacer",
+      "Question Guide Tip": "Después de finalizar la conversación, se generarán 3 preguntas orientativas.",
+      "Quote prompt": "Citar plantilla de palabras clave",
+      "Quote templates": "Citar contenido de plantilla",
+      "Random": "Aleatorio",
+      "Saved time": "Guardado: {{time}}",
+      "Search team tags": "Buscar etiquetas",
+      "Select TTS": "Seleccionar modo de reproducción de voz",
+      "Select app from template": "Seleccionar de la plantilla",
+      "Select quote template": "Seleccionar plantilla de cita",
+      "Set a name for your app": "Establezca un nombre para su aplicación",
+      "Setting ai property": "Haga clic para configurar propiedades del modelo IA",
+      "Share link": "Ventana sin inicio de sesión",
+      "Share link desc": "Comparta el enlace con otros usuarios, sin necesidad de iniciar sesión.",
+      "Share link desc detail": "Puede compartir directamente este modelo para que otros dialoguen sin iniciar sesión. Este función consumirá el saldo de su cuenta, ¡asegúrese de guardar el enlace!",
+      "TTS": "Reproducción de voz",
+      "TTS Tip": "Una vez activado, puede usar la función de reproducción de voz después de cada conversación. Esta función puede generar costos adicionales.",
+      "TTS start": "Leer contenido",
+      "Team tags": "Etiquetas de equipo",
+      "Temperature": "Temperatura",
+      "Tool call": "Llamada a herramienta",
+      "ToolCall": {
+        "No plugin": "No hay complementos disponibles",
+        "Parameter setting": "Configuración de parámetros",
+        "System": "Sistema",
+        "Team": "Equipo"
+      },
+      "Welcome Text": "Texto de apertura de chat",
+      "Whisper": "Entrada de voz",
+      "Whisper config": "Configuración de entrada de voz",
+      "deterministic": "Determinístico",
+      "edit": {
+        "Prompt Editor": "Editor de palabras clave",
+        "Query extension background prompt": "Descripción de fondo de la conversación",
+        "Query extension background tip": "Describa el alcance de la conversación actual para que IA complete y expanda la pregunta actual. El contenido proporcionado generalmente es del asistente."
+      },
+      "edit_content": "Edición de información de aplicación",
+      "error": {
+        "App name can not be empty": "El nombre de la aplicación no puede estar vacío",
+        "Get app failed": "Error al obtener la aplicación"
+      },
+      "feedback": {
+        "Custom feedback": "Retroalimentación personalizada",
+        "close custom feedback": "Cerrar retroalimentación"
+      },
+      "have_publish": "Publicado",
+      "loading": "Cargando",
+      "logs": {
+        "Source And Time": "Fuente & Hora"
+      },
+      "more": "Ver más",
+      "navbar": {
+        "External": "Uso externo",
+        "Flow mode": "Orquestación avanzada",
+        "Publish": "Publicar",
+        "Publish app": "Publicar aplicación",
+        "Simple mode": "Configuración simple"
+      },
+      "no_app": "¡No hay aplicaciones todavía, crea una ahora!",
+      "not_published": "No publicado",
+      "outLink": {
+        "Can Drag": "Icono arrastrable",
+        "Default open": "Abrir por defecto",
+        "Iframe block title": "Copia el iframe de abajo y añádelo a tu sitio web",
+        "Link block title": "Copia el enlace de abajo y ábrelo en el navegador",
+        "Script Close Icon": "Icono de cerrar",
+        "Script Open Icon": "Icono de abrir",
+        "Script block title": "Añade el código de abajo a tu sitio web",
+        "Select Mode": "Comenzar a usar",
+        "Select Using Way": "Seleccionar modo de uso",
+        "Show History": "Mostrar historial de conversaciones",
+        "Digital Man Chat": "Chat de hombre digital"
+      },
+      "publish": {
+        "Fei Shu Bot Desc": "Integrar en el bot de Feishu",
+        "Fei shu bot": "Feishu",
+        "Fei shu bot publish": "Publicar en el bot de Feishu"
+      },
+      "schedule": {
+        "Default prompt": "Pregunta por defecto",
+        "Default prompt placeholder": "Pregunta por defecto al ejecutar la aplicación",
+        "Every day": "Cada día {{hour}}:00",
+        "Every month": "El {{day}} de cada mes a las {{hour}}:00",
+        "Every week": "Cada semana {{day}} a las {{hour}}:00",
+        "Interval": "Cada {{interval}} horas",
+        "Open schedule": "Ejecución programada"
+      },
+      "setting": "Configuración de información de aplicación",
+      "share": {
+        "Amount limit tip": "Máximo de 10 grupos creados",
+        "Create link": "Crear nuevo enlace",
+        "Create link tip": "Creación exitosa. Dirección de compartir copiada, puede compartir directamente.",
+        "Ip limit title": "Límite de IP (personas/minuto)",
+        "Is response quote": "Devolver cita",
+        "Not share link": "No se ha creado enlace de compartir",
+        "Role check": "Verificación de identidad"
+      },
+      "tip": {
+        "Add a intro to app": "¡Agrega una introducción a la aplicación!",
+        "chatNodeSystemPromptTip": "Palabras clave fijas del modelo, ajustando este contenido puede guiar la dirección del chat del modelo. Este contenido se fijará al inicio del contexto. Puede insertar variables a través de / o elegir.\nSi se ha vinculado a la base de conocimientos, puede describir adecuadamente cuándo el modelo debe invocar la búsqueda de la base de conocimientos. Por ejemplo:\nEres el asistente de la película 'Interstellar', cuando el usuario pregunte sobre 'Interstellar', busca en la base de conocimientos y combina los resultados de búsqueda en tu respuesta.",
+        "variableTip": "Antes de iniciar la conversación, se puede solicitar al usuario que complete contenido como variables específicas para esta ronda de conversación. Este módulo está después de la guía de apertura.\nLas variables se pueden inyectar en otras entradas de tipo cadena, como palabras clave y restricciones, a través de {{variable key}}.",
+        "welcomeTextTip": "Envía un contenido inicial antes de cada conversación. Soporta la sintaxis estándar de Markdown, y se pueden usar etiquetas adicionales:\n[Tecla de acceso rápido]: El usuario puede hacer clic para enviar directamente esta pregunta."
+      },
+      "tool_label": {
+        "doc": "Usar documentación",
+        "github": "Dirección de GitHub",
+        "price": "Descripción de facturación"
+      },
+      "tts": {
+        "Close": "No usar",
+        "Speech model": "Modelo de voz",
+        "Speech speed": "Velocidad de habla",
+        "Test Listen": "Escuchar prueba",
+        "Test Listen Text": "Hola, esta es una prueba de voz, si puedes escuchar esta frase, significa que la función de reproducción de voz está funcionando correctamente.",
+        "Web": "Navegador incorporado (gratis)"
+      },
+      "whisper": {
+        "Auto send": "Enviar automáticamente",
+        "Auto send tip": "Enviar automáticamente después de finalizar la entrada de voz, no es necesario hacer clic en el botón de envío manualmente.",
+        "Auto tts response": "Respuesta de voz automática",
+        "Auto tts response tip": "Las preguntas enviadas por voz se responderán directamente en forma de voz, asegúrese de que la función de reproducción de voz esté activada.",
+        "Close": "Cerrar",
+        "Not tts tip": "No ha activado la reproducción de voz, esta función no se puede usar.",
+        "Open": "Activar",
+        "Switch": "Activar entrada de voz"
+      }
+    },
+    "chat": {
+      "Admin Mark Content": "Respuesta corregida",
+      "Audio Not Support": "El dispositivo no soporta reproducción de voz",
+      "Audio Speech Error": "Error en la reproducción de voz",
+      "Cancel Speak": "Cancelar entrada de voz",
+      "Chat API is error or undefined": "Error en la API de chat o respuesta vacía",
+      "Confirm to clear history": "¿Confirmar para limpiar el historial de chat de esta aplicación? Los registros de compartición y llamadas a API no serán borrados.",
+      "Confirm to clear share chat history": "¿Confirmar para eliminar todos los registros de chat?",
+      "Converting to text": "Convirtiendo a texto...",
+      "Custom History Title": "Título de historial personalizado",
+      "Custom History Title Description": "Si se deja vacío, seguirá automáticamente el historial de chat.",
+      "Debug test": "Vista de depuración",
+      "Exit Chat": "Salir del chat",
+      "Failed to initialize chat": "Error al inicializar el chat",
+      "Feedback Failed": "Error al enviar feedback",
+      "Feedback Modal": "Retroalimentación de resultados",
+      "Feedback Modal Tip": "Ingresa las áreas donde consideras que la respuesta fue insatisfactoria",
+      "Feedback Submit": "Enviar feedback",
+      "Feedback Success": "¡Feedback enviado con éxito!",
+      "Finish Speak": "Entrada de voz completada",
+      "History": "Registro",
+      "History Amount": "{{amount}} registros",
+      "Mark": "Marcar respuesta esperada",
+      "Mark Description": "La función de marcado actual está en versión beta.\n\nAl hacer clic en agregar marca, necesitarás seleccionar una base de datos para almacenar los datos de marcado. Puedes usar esta función para marcar rápidamente preguntas y respuestas esperadas para guiar la respuesta del modelo en el futuro.\n\nActualmente, la función de marcado, al igual que otros datos de la base de datos, está sujeta a la influencia del modelo y no garantiza que la respuesta marcada cumpla el 100% con las expectativas.\n\nLos datos de marcado se sincronizan unidireccionalmente con la base de datos; si la base de datos modifica esos datos de marcado, los registros mostrados no se sincronizarán.",
+      "Mark Description Title": "Introducción a la función de marcado",
+      "New Chat": "Nuevo chat",
+      "Pin": "Anclar",
+      "Question Guide": "Preguntas sugeridas",
+      "Quote": "Citar",
+      "Quote Amount": "Citas de la base de datos ({{amount}})",
+      "Read Mark Description": "Ver introducción a la función de marcado",
+      "Recent use": "Uso reciente",
+      "Record": "Entrada de voz",
+      "Restart": "Reiniciar chat",
+      "Select Image": "Seleccionar imagen",
+      "Select dataset": "Seleccionar base de datos",
+      "Select dataset Desc": "Selecciona una base de datos para almacenar respuestas esperadas",
+      "Send Message": "Enviar",
+      "Speaking": "Estoy escuchando, por favor habla...",
+      "Start Chat": "Iniciar chat",
+      "Type a message": "Por favor ingresa tu pregunta aquí...",
+      "Unpin": "Desanclar",
+      "You need to a chat app": "No tienes una aplicación disponible",
+      "error": {
+        "Chat error": "Error en el chat",
+        "Messages empty": "El contenido de la API está vacío, puede que el texto sea demasiado largo~",
+        "Select dataset empty": "No has seleccionado una base de datos",
+        "User input empty": "La pregunta del usuario está vacía",
+        "data_error": "Error al obtener datos"
+      },
+      "feedback": {
+        "Close User Like": "El usuario está de acuerdo\nHaga clic para cerrar esta marca",
+        "Feedback Close": "Cerrar retroalimentación",
+        "No Content": "El usuario no proporcionó contenido de feedback específico",
+        "Read User dislike": "El usuario se opone\nHaga clic para ver el contenido"
+      },
+      "logs": {
+        "api": "Llamada a API",
+        "feishu": "Feishu",
+        "online": "Uso en línea",
+        "share": "Llamada de enlace externo",
+        "team": "Chat en espacio de equipo",
+        "test": "Prueba"
+      },
+      "markdown": {
+        "Edit Question": "Editar pregunta",
+        "Quick Question": "Haz clic aquí para preguntar",
+        "Send Question": "Enviar pregunta"
+      },
+      "quote": {
+        "Quote Tip": "Solo se mostrará el contenido real citado aquí; si hay actualizaciones en los datos, no se actualizará en tiempo real",
+        "Read Quote": "Ver cita"
+      },
+      "response": {
+        "Complete Response": "Respuesta completa",
+        "Extension model": "Modelo de optimización de preguntas",
+        "Plugin response detail": "Detalles del plugin",
+        "Read complete response": "Ver detalles",
+        "Read complete response tips": "Haga clic para ver el proceso detallado",
+        "Tool call response detail": "Detalles de ejecución de herramientas",
+        "Tool call tokens": "Consumo de tokens de llamada a herramienta",
+        "context total length": "Longitud total del contexto",
+        "module cq": "Lista de clasificación de preguntas",
+        "module cq result": "Resultados de clasificación",
+        "module extract description": "Descripción de contexto extraída",
+        "module extract result": "Resultados extraídos",
+        "module historyPreview": "Vista previa de registros (solo muestra parte del contenido)",
+        "module http result": "Cuerpo de respuesta",
+        "module if else Result": "Resultados de juicio",
+        "module limit": "Límite de búsqueda por sesión",
+        "module maxToken": "Máximo de tokens de respuesta",
+        "module model": "Modelo",
+        "module name": "Nombre del modelo",
+        "module query": "Pregunta/término de búsqueda",
+        "module quoteList": "Contenido citado",
+        "module similarity": "Similitud",
+        "module temperature": "Temperatura",
+        "module time": "Duración de ejecución",
+        "module tokens": "Total de tokens",
+        "plugin output": "Valor de salida del plugin",
+        "search using reRank": "Reordenar resultados",
+        "text output": "Salida de texto"
+      },
+      "retry": "Regenerar",
+      "tts": {
+        "Stop Speech": "Detener"
+      }
+    },
+    "common": {
+      "tip": {
+        "leave page": "El contenido ha sido modificado, ¿confirmas salir de la página?"
+      }
+    },
+    "dataset": {
+      "All Dataset": "Todas las bases de datos",
+      "Avatar": "Avatar de la base de datos",
+      "Choose Dataset": "Asociar base de datos",
+      "Collection": "Conjunto de datos",
+      "Create dataset": "Crear una base de datos",
+      "Dataset": "Base de datos",
+      "Dataset ID": "ID de base de datos",
+      "Dataset Type": "Tipo de base de datos",
+      "Delete Confirm": "¿Confirmar eliminación de esta base de datos? ¡Una vez eliminados, los datos no se pueden recuperar!",
+      "Empty Dataset": "Conjunto de datos vacío",
+      "Empty Dataset Tips": "Aún no hay bases de datos, ¡crea una ahora!",
+      "Folder placeholder": "Este es un directorio",
+      "Go Dataset": "Ir a la base de datos",
+      "Intro Placeholder": "Esta base de datos aún no tiene una introducción~",
+      "Manual collection": "Conjunto de datos manual",
+      "My Dataset": "Mis bases de datos",
+      "Name": "Nombre de la base de datos",
+      "Query extension intro": "Activar la función de optimización de preguntas puede mejorar la precisión de búsqueda en conversaciones continuas. Al activar esta función, en la búsqueda de bases de datos, la IA completará información faltante en las preguntas basándose en los registros de conversación.",
+      "Quote Length": "Longitud del contenido citado",
+      "Read Dataset": "Ver detalles de la base de datos",
+      "Set Website Config": "Comenzar a configurar la información del sitio web",
+      "Start export": "Exportación iniciada",
+      "Table collection": "Conjunto de datos tabular",
+      "Text collection": "Conjunto de datos de texto",
+      "collection": {
+        "Click top config website": "Haga clic para configurar el sitio web",
+        "Collection name": "Nombre del conjunto de datos",
+        "Collection raw text": "Contenido del conjunto de datos",
+        "Empty Tip": "El conjunto de datos está vacío",
+        "QA Prompt": "Guía de división QA",
+        "Start Sync Tip": "¿Confirmar para comenzar a sincronizar datos? Se eliminarán los datos antiguos y se obtendrán nuevos, ¡confirma por favor!",
+        "Sync": "Sincronizar datos",
+        "Sync Collection": "Sincronización de datos",
+        "Website Empty Tip": "Aún no hay sitios web asociados",
+        "Website Link": "Dirección del sitio web",
+        "id": "ID del conjunto",
+        "metadata": {
+          "Chunk Size": "Tamaño de fragmento",
+          "Createtime": "Fecha de creación",
+          "Raw text length": "Longitud del texto original",
+          "Read Metadata": "Ver metadatos",
+          "Training Type": "Modo de entrenamiento",
+          "Updatetime": "Fecha de actualización",
+          "Web page selector": "Selector de página web",
+          "metadata": "Metadatos",
+          "read source": "Ver contenido original",
+          "source": "Fuente de datos",
+          "source name": "Nombre de la fuente",
+          "source size": "Tamaño de la fuente"
+        },
+        "status": {
+          "active": "Listo"
+        },
+        "sync": {
+          "result": {
+            "sameRaw": "El contenido no ha cambiado, no es necesario actualizar",
+            "success": "Sincronización iniciada"
+          }
+        },
+        "training": {}
+      },
+      "data": {
+        "Auxiliary Data": "Datos auxiliares",
+        "Auxiliary Data Placeholder": "Esta sección es opcional, normalmente se utiliza junto con el 【contenido de datos】 anterior para construir frases estructuradas para escenarios especiales, máximo {{maxToken}} caracteres.",
+        "Auxiliary Data Tip": "Esta sección es opcional\nNormalmente se utiliza junto con el contenido de datos anterior para construir frases estructuradas para escenarios especiales.",
+        "Data Content": "Contenido de datos relevante",
+        "Data Content Placeholder": "Este campo es obligatorio, normalmente describe el punto de conocimiento o puede ser la pregunta del usuario, máximo {{maxToken}} caracteres.",
+        "Data Content Tip": "Este campo es obligatorio\nNormalmente describe el punto de conocimiento o puede ser la pregunta del usuario.",
+        "Default Index Tip": "No se puede editar, el índice predeterminado se generará directamente a partir del texto de 【contenido de datos relevantes】 y 【datos auxiliares】.",
+        "Edit": "Editar datos",
+        "Empty Tip": "Este conjunto aún no tiene datos~",
+        "Main Content": "Contenido principal",
+        "Search data placeholder": "Buscar datos relevantes",
+        "Too Long": "La longitud total es demasiado larga",
+        "Total Amount": "{{total}} grupos",
+        "group": "Grupo",
+        "unit": "Artículo"
+      },
+      "embedding model tip": "El modelo de índice puede convertir el lenguaje natural en vectores para realizar búsquedas semánticas.\nNota: diferentes modelos de índice no se pueden usar juntos, una vez elegido el modelo de índice no se puede modificar.",
+      "error": {
+        "Data not found": "Los datos no existen o han sido eliminados",
+        "Start Sync Failed": "Error al iniciar la sincronización",
+        "Template does not exist": "La plantilla no existe",
+        "invalidVectorModelOrQAModel": "Modelo Vector o modelo QA incorrecto",
+        "unAuthDataset": "No autorizado para operar esta base de conocimiento",
+        "unAuthDatasetCollection": "No autorizado para operar este conjunto de datos",
+        "unAuthDatasetData": "No autorizado para operar estos datos",
+        "unAuthDatasetFile": "No autorizado para operar este archivo",
+        "unCreateCollection": "No autorizado para operar estos datos",
+        "unLinkCollection": "No es un conjunto de enlaces de red"
+      },
+      "externalFile": "Biblioteca de archivos externos",
+      "file": "Archivo",
+      "folder": "Carpeta",
+      "import": {
+        "Auto mode Estimated Price Tips": "Se necesita llamar al modelo de procesamiento de archivos, lo que consume muchos tokens: {{price}} puntos/1K tokens",
+        "Auto process": "Automático",
+        "Auto process desc": "Configura automáticamente las reglas de división y preprocesamiento",
+        "Chunk Range": "Rango: {{min}}~{{max}}",
+        "Chunk Split": "Dividir directamente",
+        "Chunk Split Tip": "Divide el texto según ciertas reglas y lo convierte en un formato que permite búsqueda semántica, adecuado para la mayoría de los escenarios. No necesita llamar a un modelo adicional, costo bajo.",
+        "Custom process": "Reglas personalizadas",
+        "Custom process desc": "Configura manualmente las reglas de división y preprocesamiento",
+        "Custom prompt": "Frase personalizada",
+        "Custom split char": "Separador personalizado",
+        "Custom split char Tips": "Permite dividir según un separador personalizado. Generalmente se utiliza para datos ya procesados, usando un separador específico para una división precisa.",
+        "Custom text": "Texto personalizado",
+        "Custom text desc": "Ingresa manualmente un texto como conjunto de datos",
+        "Data Preprocessing": "Procesamiento de datos",
+        "Data process params": "Parámetros de procesamiento de datos",
+        "Down load csv template": "Haga clic para descargar la plantilla CSV",
+        "Embedding Estimated Price Tips": "Uso exclusivo del modelo de índice, consumo de pocos puntos de IA: {{price}} puntos/1K tokens",
+        "Ideal chunk length": "Longitud ideal de fragmento",
+        "Ideal chunk length Tips": "Divide por símbolo final y agrupa varios fragmentos en un bloque, este valor determina el tamaño estimado del bloque.",
+        "Import success": "Importación exitosa, espere a que se entrene",
+        "Link name": "Enlace web",
+        "Link name placeholder": "Solo se admiten enlaces estáticos, si los datos están vacíos después de la carga, es posible que el enlace no se pueda leer\nUno por línea, hasta 10 enlaces por vez",
+        "Local file": "Archivo local",
+        "Local file desc": "Subir archivos en formato PDF, TXT, DOCX, etc.",
+        "Preview chunks": "Vista previa de fragmentos (máximo 5 fragmentos)",
+        "Preview raw text": "Vista previa del texto original (máximo 3000 caracteres)",
+        "Process way": "Método de procesamiento",
+        "QA Estimated Price Tips": "Se necesita llamar al modelo de procesamiento de archivos, lo que consume muchos puntos de IA: {{price}} puntos/1K tokens",
+        "QA Import": "División QA",
+        "QA Import Tip": "Divide el texto en párrafos grandes según ciertas reglas, llama a IA para generar pares de preguntas y respuestas para ese párrafo. Tiene una alta precisión de búsqueda, pero perderá muchos detalles del contenido.",
+        "Select file": "Seleccionar archivo",
+        "Select source": "Seleccionar origen",
+        "Source name": "Nombre del origen",
+        "Sources list": "Lista de orígenes",
+        "Start upload": "Iniciar carga",
+        "Total files": "Total {{total}} archivos",
+        "Training mode": "Modo de entrenamiento",
+        "Upload data": "Cargar datos",
+        "Upload file progress": "Progreso de carga de archivos",
+        "Upload status": "Estado",
+        "Web link": "Enlace web",
+        "Web link desc": "Leer contenido de páginas web estáticas como conjunto de datos"
+      },
+      "link": "Enlace",
+      "search": {
+        "Dataset Search Params": "Configuración de búsqueda de base de conocimiento",
+        "Empty result response": "Respuesta de búsqueda vacía",
+        "Filter": "Filtrar búsqueda",
+        "Max Tokens": "Límite de referencia",
+        "Max Tokens Tips": "Cantidad máxima de tokens por búsqueda, aproximadamente 1 carácter en chino = 1.7 tokens, en inglés aproximadamente 1 carácter = 1 token",
+        "Min Similarity": "Similitud mínima",
+        "Min Similarity Tips": "La similitud varía entre diferentes modelos de índice, elija un valor adecuado a través de pruebas de búsqueda; al usar Rerank, la similitud puede ser muy baja.",
+        "No support similarity": "Solo al usar reordenamiento de resultados o búsqueda semántica, admite filtrado por similitud",
+        "Nonsupport": "No soportado",
+        "Params Setting": "Configuración de parámetros de búsqueda",
+        "Quote index": "Índice de cita",
+        "ReRank": "Reordenar resultados",
+        "ReRank desc": "Usa un modelo de reordenamiento para una segunda clasificación, puede mejorar el ranking general.",
+        "Source id": "ID de origen",
+        "Source name": "Nombre de origen de cita",
+        "Using query extension": "Usando optimización de preguntas",
+        "mode": {
+          "embedding": "Búsqueda semántica",
+          "embedding desc": "Usa vectores para consultas de relevancia textual",
+          "fullTextRecall": "Búsqueda de texto completo",
+          "fullTextRecall desc": "Utiliza búsqueda de texto completo tradicional, adecuada para buscar datos especiales de palabras clave y sujeto-verbo",
+          "mixedRecall": "Búsqueda mixta",
+          "mixedRecall desc": "Devuelve resultados combinados de búsqueda vectorial y de texto completo, utilizando el algoritmo RRF para clasificación."
+        },
+        "score": {
+          "embedding": "Búsqueda semántica",
+          "embedding desc": "Obtiene puntuaciones al calcular la distancia entre vectores, rango de 0~1.",
+          "fullText": "Búsqueda de texto completo",
+          "fullText desc": "Calcula puntuaciones de palabras clave idénticas, rango de 0~infinito.",
+          "reRank": "Reordenar resultados",
+          "reRank desc": "Calcula la relación entre oraciones mediante el modelo Rerank, rango de 0~1.",
+          "rrf": "Ranking general",
+          "rrf desc": "Mérmid de resultados mediante cálculos inversos, combinando múltiples resultados de búsqueda."
+        },
+        "search mode": "Modo de búsqueda"
+      },
+      "status": {
+        "active": "Listo",
+        "syncing": "Sincronizando"
+      },
+      "test": {
+        "Batch test": "Prueba por lotes",
+        "Batch test Placeholder": "Seleccione un archivo CSV",
+        "Search Test": "Prueba de búsqueda",
+        "Test": "Prueba",
+        "Test Result": "Resultado de la prueba",
+        "Test Text": "Prueba de texto único",
+        "Test Text Placeholder": "Ingrese el texto a probar",
+        "Test params": "Parámetros de prueba",
+        "delete test history": "Eliminar este resultado de prueba",
+        "test history": "Historial de pruebas",
+        "test result placeholder": "Los resultados de la prueba se mostrarán aquí",
+        "test result tip": "Los resultados se ordenarán según la similitud entre el contenido de la base de conocimiento y el texto de prueba. Puedes ajustar el texto según los resultados de la prueba.\nNota: Los datos en el historial de pruebas pueden haber sido modificados; al hacer clic en un resultado, se mostrarán los datos más recientes."
+      },
+      "training": {
+        "Agent queue": "Cola de entrenamiento QA",
+        "Auto mode": "Procesamiento mejorado (experimental)",
+        "Auto mode Tip": "Aumenta la riqueza semántica de los bloques de datos generando preguntas y resúmenes mediante subíndices y modelos. Requiere más espacio de almacenamiento y aumenta el número de llamadas a IA.",
+        "Chunk mode": "División directa",
+        "Full": "Se estima más de 5 minutos",
+        "Leisure": "Inactivo",
+        "QA mode": "División de preguntas y respuestas",
+        "Vector queue": "Cola de índice",
+        "Waiting": "Se estima 5 minutos",
+        "Website Sync": "Sincronización de sitio web"
+      },
+      "website": {
+        "Base Url": "Dirección raíz",
+        "Config": "Configuración del sitio web",
+        "Config Description": "La función de sincronización del sitio web permite ingresar la dirección raíz de un sitio. El sistema extraerá automáticamente las páginas relevantes para el entrenamiento de la base de conocimiento. Solo se extraerán sitios estáticos, principalmente documentos de proyectos y blogs.",
+        "Confirm Create Tips": "¿Confirmar sincronizar este sitio? La tarea de sincronización comenzará a continuación, por favor confirme.",
+        "Confirm Update Tips": "¿Confirmar actualizar la configuración del sitio? La sincronización comenzará inmediatamente según la nueva configuración, por favor confirme.",
+        "Selector": "Selector",
+        "Selector Course": "Tutorial de uso",
+        "Start Sync": "Iniciar sincronización",
+        "UnValid Website Tip": "Su sitio puede no ser estático y no se puede sincronizar"
+      }
+    },
+    "module": {
+      "Add question type": "Agregar tipo de pregunta",
+      "Can not connect self": "No se puede conectar a sí mismo",
+      "Confirm Delete Node": "¿Confirmar eliminación de este nodo?",
+      "Data Type": "Tipo de datos",
+      "Dataset quote": {
+        "label": "Cita de base de conocimiento",
+        "select": "Seleccionar cita de base de conocimiento"
+      },
+      "Default Value": "Valor por defecto",
+      "Default value": "Valor por defecto",
+      "Default value placeholder": "Si no se completa, devuelve una cadena vacía por defecto",
+      "Edit intro": "Editar descripción",
+      "Field Description": "Descripción del campo",
+      "Field Name": "Nombre del campo",
+      "Http request props": "Parámetros de solicitud",
+      "Http request settings": "Configuración de solicitud",
+      "Input Type": "Tipo de entrada",
+      "Laf sync params": "Parámetros de sincronización",
+      "Max Length": "Longitud máxima",
+      "Max Length placeholder": "Longitud máxima del texto ingresado",
+      "Max Value": "Valor máximo",
+      "Min Value": "Valor mínimo",
+      "QueryExtension": {
+        "placeholder": "Por ejemplo:\nPreguntas sobre la introducción y uso de Python.\nLa conversación actual está relacionada con el juego 'GTA5'."
+      },
+      "Quote prompt setting": "Configuración de palabra clave de cita",
+      "Select app": "Seleccionar aplicación",
+      "Setting quote prompt": "Configurar palabra clave de cita",
+      "Variable": "Variable global",
+      "Variable Setting": "Configuración de variable",
+      "edit": {
+        "Field Name Cannot Be Empty": "El nombre del campo no puede estar vacío"
+      },
+      "extract": {
+        "Add field": "Agregar campo",
+        "Enum Description": "Enumere los posibles valores de este campo, uno por línea",
+        "Enum Value": "Valor enumerado",
+        "Field Description Placeholder": "Nombre/edad/consulta SQL...",
+        "Field Setting Title": "Configuración de campo de extracción",
+        "Required": "Debe devolver",
+        "Required Description": "Incluso si no se puede extraer este campo, se devolverá el valor por defecto",
+        "Target field": "Campo objetivo"
+      },
+      "http": {
+        "Add props": "Agregar parámetros",
+        "AppId": "ID de aplicación",
+        "AppSecret": "AppSecret",
+        "ChatId": "ID de conversación actual",
+        "Current time": "Hora actual",
+        "Histories": "Registros históricos",
+        "Key already exists": "La clave ya existe",
+        "Key cannot be empty": "El nombre del parámetro no puede estar vacío",
+        "Props name": "Nombre del parámetro",
+        "Props tip": "Puede configurar los parámetros relacionados con la solicitud HTTP\nPuede usar {{key}} para invocar variables globales o parámetros externos; las variables disponibles actualmente son:\n{{variable}}",
+        "Props value": "Valor del parámetro",
+        "ResponseChatItemId": "ID de respuesta de AI",
+        "Url and params have been split": "Los parámetros de ruta se han agregado automáticamente a Params",
+        "curl import": "Importación de cURL",
+        "curl import placeholder": "Introduzca el contenido en formato cURL, se extraerá la información de solicitud de la primera interfaz."
+      },
+      "input": {
+        "Add Branch": "Agregar rama",
+        "add": "Agregar condición",
+        "description": {
+          "Background": "Puede agregar una introducción a contenidos específicos para reconocer mejor el tipo de pregunta del usuario. Este contenido generalmente se utiliza para presentar algo que el modelo no conoce.",
+          "HTTP Dynamic Input": "Recibe los valores de salida del nodo anterior como variables; estas variables pueden ser utilizadas en los parámetros de la solicitud HTTP.",
+          "Http Request Header": "Encabezados de solicitud personalizados; complete estrictamente como una cadena JSON.\n1. Asegúrese de que el último atributo no tenga una coma.\n2. Asegúrese de que la clave contenga comillas dobles.\nPor ejemplo: {\"Authorization\":\"Bearer xxx\"}",
+          "Http Request Url": "Nueva dirección de solicitud HTTP. Si aparece dos 'direcciones de solicitud', puede eliminar este módulo y volver a agregarlo para obtener la configuración más reciente.",
+          "Response content": "Puede usar \\n para lograr saltos de línea continuos.\nPuede sobrescribir el contenido actual a través de la entrada del módulo externo; al ingresar datos no de tipo cadena, se convertirán automáticamente a cadena."
+        },
+        "label": {
+          "Background": "Conocimiento de fondo",
+          "Http Request Url": "Dirección de solicitud",
+          "Response content": "Contenido de respuesta",
+          "Select dataset": "Seleccionar base de conocimiento",
+          "aiModel": "Modelo AI",
+          "chat history": "Historial de chat",
+          "user question": "Pregunta del usuario"
+        },
+        "placeholder": {
+          "Classify background": "Por ejemplo:\n1. AIGC (Contenido Generado por Inteligencia Artificial) se refiere a la generación automática o semi-automática de contenido digital utilizando tecnología de inteligencia artificial, como texto, imágenes, música, video, etc.\n2. La tecnología AIGC incluye, entre otras, procesamiento de lenguaje natural, visión por computadora, aprendizaje automático y aprendizaje profundo. Estas tecnologías pueden crear nuevo contenido o modificar contenido existente para satisfacer necesidades creativas, educativas, de entretenimiento o informativas específicas."
+        }
+      },
+      "laf": {
+        "Select laf function": "Seleccionar función laf"
+      },
+      "output": {
+        "description": {
+          "Ai response content": "Se activará después de que la respuesta del stream haya terminado",
+          "New context": "Concatena el contenido de esta respuesta con el historial, retornando como nuevo contexto",
+          "query extension result": "Se output en forma de arreglo de cadenas, puede conectarse directamente a la 'pregunta del usuario' en la 'búsqueda de base de conocimiento', se recomienda no conectarlo a la 'pregunta del usuario' en la 'conversación AI'."
+        },
+        "label": {
+          "Ai response content": "Contenido de respuesta de AI",
+          "New context": "Nuevo contexto",
+          "query extension result": "Resultado optimizado"
+        }
+      },
+      "template": {
+        "AI function": "Configuración de agente inteligente",
+        "AI response switch tip": "Si desea que el nodo actual no genere contenido, puede desactivar este interruptor. El contenido de salida de AI no se mostrará al usuario, puede usar manualmente 'Contenido de respuesta de AI' para un tratamiento especial.",
+        "AI support tool tip": "Modelos que admiten llamadas a funciones, pueden utilizarse mejor para llamadas a herramientas.",
+        "Basic Node": "Función básica",
+        "Query extension": "Optimización de preguntas",
+        "System Plugin": "Plugin del sistema",
+        "System input module": "Entrada del sistema",
+        "Team Plugin": "Equipo",
+        "Tool module": "Herramienta",
+        "UnKnow Module": "Módulo desconocido",
+        "http body placeholder": "Sintaxis igual a Apifox"
+      },
+      "templates": {
+        "Load plugin error": "Error al cargar el plugin"
+      },
+      "variable": {
+        "Custom type": "Variable personalizada",
+        "add option": "Agregar opción",
+        "input type": "Texto",
+        "key": "Clave de variable",
+        "key is required": "La clave de variable es obligatoria",
+        "select type": "Selección única",
+        "text max length": "Longitud máxima",
+        "textarea type": "Párrafo",
+        "variable name": "Nombre de variable",
+        "variable name is required": "El nombre de variable no puede estar vacío",
+        "variable option is required": "Las opciones no pueden estar todas vacías",
+        "variable option is value is required": "El contenido de la opción no puede estar vacío",
+        "variable options": "Opciones"
+      },
+      "variable add option": "Agregar opción",
+      "variable_update": "Actualizar variable",
+      "variable_update_info": "Puede actualizar el valor de salida de un nodo específico o actualizar variables globales"
+    },
+    "plugin": {
+      "Custom headers": "Encabezados de solicitud personalizados",
+      "Free": "Este plugin no requiere consumo de puntos~",
+      "Get Plugin Module Detail Failed": "Error al cargar el plugin",
+      "Http plugin intro placeholder": "Solo para exhibición, sin efecto real",
+      "cost": "Consumo de puntos:"
+    },
+    "view_chat_detail": "Ver detalles de la conversación",
+    "workflow": {
+      "Can not delete node": "No se puede eliminar este nodo",
+      "Change input type tip": "Modificar el tipo de entrada vaciará los valores ingresados, ¡confirme!",
+      "Check Failed": "La verificación del flujo de trabajo falló, verifique que los nodos tengan valores correctos y que las conexiones sean normales",
+      "Confirm stop debug": "¿Confirmar detener la depuración? La información de depuración no se guardará.",
+      "Copy node": "Nodo copiado",
+      "Custom inputs": "Entradas personalizadas",
+      "Custom outputs": "Salidas personalizadas",
+      "Dataset quote": "Cita de base de conocimiento",
+      "Debug": "Depuración",
+      "Debug Node": "Modo de depuración",
+      "Failed": "Ejecución fallida",
+      "Not intro": "Este nodo no tiene introducción~",
+      "Running": "Ejecutando",
+      "Skipped": "Ejecución omitida",
+      "Stop debug": "Detener depuración",
+      "Success": "Ejecución exitosa",
+      "Value type": "Tipo de dato",
+      "Variable": {
+        "Variable type": "Tipo de variable"
+      },
+      "debug": {
+        "Done": "Depuración completada",
+        "Hide result": "Ocultar resultado",
+        "Not result": "Sin resultados de ejecución",
+        "Run result": "Resultado de ejecución",
+        "Show result": "Mostrar resultado"
+      },
+      "inputType": {
+        "JSON Editor": "Editor JSON",
+        "Manual input": "Entrada manual",
+        "Manual select": "Selección manual",
+        "Reference": "Referencia de variable",
+        "dynamicTargetInput": "Datos externos dinámicos",
+        "input": "Campo de entrada de una línea",
+        "number input": "Campo de entrada numérica",
+        "selectApp": "Selección de aplicación",
+        "selectDataset": "Selección de base de conocimiento",
+        "selectLLMModel": "Selección de modelo de conversación",
+        "switch": "Interruptor",
+        "textarea": "Campo de entrada múltiple"
+      },
+      "publish": {
+        "OnRevert version": "Haga clic para retroceder a esta versión",
+        "OnRevert version confirm": "¿Confirmar retroceder a esta versión? Se guardará la configuración de la versión en edición y se creará una nueva versión publicada para la versión revertida.",
+        "histories": "Registros de publicación"
+      },
+      "template": {
+        "Multimodal": "Multimodal",
+        "Search": "Buscar"
+      },
+      "tool": {
+        "Handle": "Conector de herramientas",
+        "Select Tool": "Seleccionar herramienta"
+      },
+      "value": "Valor",
+      "variable": "Variable"
+    }
+  },
+  "create": "Crear",
+  "cron_job_run_app": "Tarea programada",
+  "dataset": {
+    "Confirm move the folder": "Confirmar mover a este directorio",
+    "Confirm to delete the data": "¿Confirmar la eliminación de estos datos?",
+    "Confirm to delete the file": "¿Confirmar la eliminación de este archivo y todos sus datos?",
+    "Create Folder": "Crear carpeta",
+    "Create manual collection": "Crear colección manual",
+    "Delete Dataset Error": "Error al eliminar la base de conocimiento",
+    "Edit Folder": "Editar carpeta",
+    "Edit Info": "Editar información",
+    "Export": "Exportar",
+    "Export Dataset Limit Error": "Error al exportar datos",
+    "Folder Name": "Ingresar nombre de carpeta",
+    "Insert Data": "Insertar",
+    "Manual collection Tip": "La colección manual permite crear un contenedor vacío para cargar datos",
+    "Move Failed": "Error al mover~",
+    "Select Dataset": "Seleccionar la base de conocimiento",
+    "Select Dataset Tips": "Solo se puede seleccionar la base de conocimiento del mismo modelo de índice",
+    "Select Folder": "Entrar en la carpeta",
+    "Training Name": "Entrenamiento de datos",
+    "collections": {
+      "Collection Embedding": "{{total}} grupos de índice",
+      "Confirm to delete the folder": "¿Confirmar la eliminación de esta carpeta y todo su contenido?",
+      "Create And Import": "Crear/Importar",
+      "Data Amount": "Cantidad total de datos",
+      "Select Collection": "Seleccionar archivo",
+      "Select One Collection To Store": "Seleccionar un archivo para almacenar"
+    },
+    "data": {
+      "Add Index": "Agregar índice personalizado",
+      "Can not edit": "Sin permisos de edición",
+      "Custom Index Number": "Índice personalizado {{number}}",
+      "Default Index": "Índice por defecto",
+      "Delete Tip": "¿Confirmar la eliminación de este dato?",
+      "Index Edit": "Índice de datos",
+      "Index Placeholder": "Ingresar contenido de texto de índice",
+      "Input Data": "Importar nuevos datos",
+      "Input Success Tip": "Importación de datos exitosa",
+      "Update Data": "Actualizar datos",
+      "Update Success Tip": "Actualización de datos exitosa",
+      "edit": {
+        "Content": "Contenido de datos",
+        "Course": "Documento explicativo",
+        "Delete": "Eliminar datos",
+        "Index": "Índice de datos ({{amount}})"
+      },
+      "input is empty": "El contenido de datos no puede estar vacío"
+    },
+    "deleteFolderTips": "¿Confirmar la eliminación de esta carpeta y todas las bases de conocimiento que contiene? ¡Los datos no se pueden recuperar después de la eliminación, por favor confirme!",
+    "test": {
+      "noResult": "No hay resultados de búsqueda"
+    }
+  },
+  "default_reply": "Respuesta por defecto",
+  "error": {
+    "Create failed": "Error al crear",
+    "fileNotFound": "El archivo no se encuentra~",
+    "inheritPermissionError": "Error de herencia de permisos",
+    "missingParams": "Faltan parámetros",
+    "team": {
+      "overSize": "El número de miembros del equipo ha excedido el límite"
+    },
+    "upload_file_error_filename": "Error al subir {{name}}"
+  },
+  "extraction_results": "Resultados de extracción",
+  "field_name": "Nombre del campo",
+  "get_QR_failed": "Error al obtener el código QR",
+  "get_app_failed": "Error al obtener la aplicación",
+  "get_laf_failed": "Error al obtener la lista de funciones Laf",
+  "has_verification": "Verificado, haga clic para cancelar el vínculo",
+  "info": {
+    "buy_extra": "Comprar paquete adicional",
+    "csv_download": "Haga clic para descargar la plantilla de prueba por lotes",
+    "csv_message": "Leer la primera columna del archivo CSV para realizar pruebas por lotes, con un máximo de 100 grupos de datos por vez.",
+    "felid_message": "La clave del campo debe ser solo letras o números en inglés y no puede comenzar con un número.",
+    "free_plan": "En la versión gratuita, si el equipo no ha iniciado sesión en el sistema durante 30 días consecutivos, se eliminará automáticamente la base de conocimiento de la cuenta.",
+    "include": "Incluye paquete estándar y paquete de recursos adicionales",
+    "node_info": "Ajustar este módulo afectará el momento de la llamada a la herramienta.\nPuedes guiar al modelo para que realice la llamada a la herramienta a través de una descripción precisa de la función de este módulo.",
+    "old_version_attention": "Se detectó que su orquestación avanzada es de una versión anterior, el sistema la formateará automáticamente a la nueva versión de flujo de trabajo.\n\nDebido a las grandes diferencias de versión, algunos flujos de trabajo pueden no alinearse correctamente, por favor vuelva a conectar manualmente el flujo de trabajo. Si sigue habiendo anomalías, intente eliminar el nodo correspondiente y volver a agregarlo.\n\nPuede hacer clic directamente en depurar para probar el flujo de trabajo, y después de la depuración, haga clic en publicar. Hasta que haga clic en publicar, el nuevo flujo de trabajo no se guardará ni será efectivo.\n\nAntes de publicar el nuevo flujo de trabajo, el guardado automático no será efectivo.",
+    "open_api_notice": "Puede ingresar las claves relacionadas de OpenAI/OneAPI. Si ingresa este contenido, el uso de [Conversación AI], [Clasificación de preguntas] y [Extracción de contenido] en la plataforma en línea utilizará la clave ingresada y no se cobrará. Asegúrese de que su clave tenga permisos para acceder al modelo correspondiente. El modelo GPT puede elegir FastAI.",
+    "open_api_placeholder": "Dirección de solicitud, predeterminada para openai oficial. Puede ingresar una dirección de intermediario, no se autocompletará 'v1'.",
+    "resource": "Uso de recursos"
+  },
+  "invalid_variable": "Variable inválida",
+  "is_open": "¿Está abierto?",
+  "item_description": "Descripción del campo",
+  "item_name": "Nombre del campo",
+  "key_repetition": "Repetición de clave",
+  "navbar": {
+    "Account": "Cuenta",
+    "Chat": "Chat",
+    "Datasets": "Bases de conocimiento",
+    "Studio": "Estudio",
+    "Tools": "Herramientas",
+    "function_menu": "Menú de funciones",
+    "app_store": "Tienda de aplicaciones",
+    "job_role": "Rol del puesto",
+    "organizational_structure": "Estructura organizativa",
+    "datasets": "Bases de conocimiento",
+    "workflows": "Flujos de trabajo",
+    "chat_conversations": "Conversaciones de chat",
+    "account_management": "Gestión de cuentas",
+    "back_office_management": "Gestión de back office",
+    "system_administration": "Administración del sistema"
+  },
+  "new_create": "Nueva creación",
+  "no_data": "No hay datos disponibles",
+  "no_laf_env": "El sistema no ha configurado el entorno Laf",
+  "not_yet_introduced": "No hay introducción disponible",
+  "pay": {
+    "amount": "Cantidad",
+    "balance": "Saldo de la cuenta",
+    "balance_notice": "Saldo insuficiente",
+    "confirm_pay": "Confirmar pago",
+    "get_pay_QR": "Obtener código QR de recarga",
+    "need_pay": "Necesita pagar",
+    "new_package_price": "Precio del nuevo paquete",
+    "notice": "No cierre la página",
+    "old_package_price": "Precio del antiguo paquete",
+    "other": "Otra cantidad, por favor use un número entero",
+    "to_recharge": "Saldo insuficiente, vaya a recargar",
+    "wechat": "Por favor, escanee el código de pago de WeChat: {{price}} yuan, no cierre la página",
+    "yuan": "{{amount}} yuan"
+  },
+  "permission": {
+    "Collaborator": "Colaborador",
+    "Default permission": "Permiso predeterminado",
+    "Manage": "Administrar",
+    "No InheritPermission": "Permiso restringido, no hereda permisos de la carpeta padre",
+    "Not collaborator": "No hay colaboradores disponibles",
+    "Owner": "Creador",
+    "Permission": "Permiso",
+    "Permission config": "Configuración de permisos",
+    "Private": "Privado",
+    "Private Tip": "Solo accesible para uno mismo",
+    "Public": "Equipo",
+    "Public Tip": "Accesible para todos los miembros del equipo",
+    "Remove InheritPermission Confirm": "Esta operación hará que la herencia de permisos se vuelva inválida, ¿proceder?",
+    "Resume InheritPermission Confirm": "¿Restaurar permisos de la carpeta padre?",
+    "Resume InheritPermission Failed": "Restauración fallida",
+    "Resume InheritPermission Success": "Restauración exitosa",
+    "change_owner": "Transferir propiedad",
+    "change_owner_failed": "Fallo en la transferencia de propiedad",
+    "change_owner_placeholder": "Ingrese el nombre de usuario para buscar la cuenta",
+    "change_owner_success": "Propiedad transferida con éxito",
+    "change_owner_tip": "Después de la transferencia, sus permisos no se mantendrán",
+    "change_owner_to": "Transferir a"
+  },
+  "plugin": {
+    "App": "Seleccionar aplicación",
+    "Currentapp": "Aplicación actual",
+    "Description": "Descripción",
+    "Edit Http Plugin": "Editar plugin HTTP",
+    "Enter PAT": "Ingrese el token de acceso (PAT)",
+    "Get Plugin Module Detail Failed": "Error al obtener la información del plugin",
+    "Import Plugin": "Importar plugin HTTP",
+    "Import from URL": "Importar desde URL. https://xxxx",
+    "Intro": "Introducción al plugin",
+    "Invalid Env": "Error en el entorno Laf",
+    "Invalid Schema": "Esquema inválido",
+    "Invalid URL": "URL inválida",
+    "Method": "Método",
+    "Path": "Ruta",
+    "Please bind laf accout first": "Por favor, vincule primero la cuenta Laf",
+    "Plugin List": "Lista de plugins",
+    "Search plugin": "Buscar plugin",
+    "Set Name": "Dar un nombre al plugin",
+    "contribute": "Contribuir con un plugin",
+    "go to laf": "Ir a escribir",
+    "path": "Ruta"
+  },
+  "reply_now": "Responder ahora",
+  "required": "Requerido",
+  "resume_failed": "Restauración fallida",
+  "select_reference_variable": "Seleccionar variable de referencia",
+  "share_link": "Compartir enlace",
+  "support": {
+    "account": {
+      "Individuation": "Personalización"
+    },
+    "inform": {
+      "Read": "Leído"
+    },
+    "openapi": {
+      "Api baseurl": "URL base de la API",
+      "Api manager": "Gestión de claves de API",
+      "Copy success": "URL de la API copiada",
+      "New api key": "Nueva clave de API",
+      "New api key tip": "Por favor, guarde su clave, no se mostrará de nuevo~"
+    },
+    "outlink": {
+      "Delete link tip": "¿Confirmar la eliminación de este enlace sin inicio de sesión? Una vez eliminado, el enlace quedará invalidado, los registros de conversación se mantendrán, por favor confirme.",
+      "Max usage points": "Límite de puntos de uso",
+      "Max usage points tip": "Este enlace permite un máximo de puntos de uso, más allá de eso no será utilizable. -1 representa ilimitado.",
+      "Usage points": "Puntos de uso",
+      "share": {
+        "Response Quote": "Cita de respuesta",
+        "Response Quote tips": "Retornar contenido citado en el enlace compartido, pero no permitirá a los usuarios descargar el documento original"
+      },
+      "digital man": {
+        "Is config digital man": "Configurar personas digitales",
+        "Background image": "Imagen de fondo"
+      }
+    },
+    "permission": {
+      "Permission": "Permiso"
+    },
+    "standard": {
+      "AI Bonus Points": "Puntos de bonificación AI",
+      "Expired Time": "Tiempo de expiración",
+      "Start Time": "Hora de inicio",
+      "storage": "Capacidad de almacenamiento",
+      "type": "Tipo"
+    },
+    "team": {
+      "limit": {
+        "No permission rerank": "No tiene permiso para reordenar resultados, por favor actualice su paquete"
+      }
+    },
+    "user": {
+      "Avatar": "Avatar",
+      "Go laf env": "Haga clic para ir a {{env}} para obtener el token PAT.",
+      "Laf account course": "Ver tutorial para vincular la cuenta Laf.",
+      "Laf account intro": "Al vincular su cuenta Laf, podrá utilizar el módulo Laf en los flujos de trabajo para escribir código en línea.",
+      "Need to login": "Por favor, inicie sesión primero",
+      "Price": "Estándar de facturación",
+      "User self info": "Información personal",
+      "auth": {
+        "Sending Code": "Enviando"
+      },
+      "inform": {
+        "System message": "Mensaje del sistema"
+      },
+      "login": {
+        "And": "y",
+        "Email": "Correo electrónico",
+        "Forget Password": "¿Olvidó su contraseña?",
+        "Github": "Iniciar sesión con GitHub",
+        "Google": "Iniciar sesión con Google",
+        "Password": "Contraseña",
+        "Password login": "Iniciar sesión con contraseña",
+        "Phone": "Iniciar sesión con número de teléfono",
+        "Phone number": "Número de teléfono",
+        "Policy tip": "Al usar, usted acepta nuestra",
+        "Privacy": "Política de privacidad",
+        "Provider error": "Error de inicio de sesión, por favor intente nuevamente",
+        "Register": "Registrar cuenta",
+        "Root login": "Iniciar sesión como usuario root",
+        "Root password placeholder": "La contraseña root es la variable de entorno que configuró",
+        "Terms": "Acuerdo de servicio",
+        "Username": "Nombre de usuario",
+        "Wechat": "Iniciar sesión con WeChat",
+        "can_not_login": "No se puede iniciar sesión, haga clic para contactar",
+        "error": "Error de inicio de sesión",
+        "security_failed": "Falló la verificación de seguridad",
+        "wx_qr_login": "Iniciar sesión escaneando el código de WeChat"
+      },
+      "logout": {
+        "confirm": "¿Confirmar salida de sesión?"
+      },
+      "team": {
+        "Dataset usage": "Capacidad de la base de conocimiento",
+        "Team Tags Async Success": "Sincronización completada",
+        "member": "Miembro"
+      }
+    },
+    "wallet": {
+      "Ai point every thousand tokens": "{{points}} puntos/1K tokens",
+      "Amount": "Cantidad",
+      "Bills": "Facturas",
+      "Buy": "Comprar",
+      "Confirm pay": "Confirmación de pago",
+      "Not sufficient": "Sus puntos AI son insuficientes, por favor actualice su paquete o compre puntos AI adicionales para continuar.",
+      "Plan expired time": "Tiempo de expiración del paquete",
+      "Plan reset time": "Tiempo de reinicio del paquete",
+      "Standard Plan Detail": "Detalles del paquete",
+      "To read plan": "Ver paquete",
+      "amount_0": "La cantidad de compra no puede ser 0",
+      "bill": {
+        "Number": "Número de orden",
+        "Status": "Estado",
+        "Type": "Tipo de orden",
+        "payWay": {
+          "Way": "Método de pago",
+          "balance": "Pago con saldo",
+          "wx": "Pago con WeChat"
+        },
+        "status": {
+          "closed": "Cerrado",
+          "notpay": "No pagado",
+          "refund": "Reembolsado",
+          "success": "Pago exitoso"
+        }
+      },
+      "buy_resource": "Comprar paquete de recursos",
+      "moduleName": {
+        "index": "Generación de índices",
+        "qa": "División QA"
+      },
+      "noBill": "No hay registros de facturas~",
+      "subscription": {
+        "AI points": "Puntos AI",
+        "AI points click to read tip": "Cada vez que se llama a un modelo de IA, se consumen ciertos puntos AI (similar a tokens). Haga clic para ver las reglas de cálculo detalladas.",
+        "AI points usage": "Uso de puntos AI",
+        "AI points usage tip": "Cada vez que se llama a un modelo de IA, se consumen ciertos puntos AI. Las normas de cálculo específicas se pueden consultar en el estándar de facturación anterior.",
+        "Ai points": "Estándar de cálculo de puntos AI",
+        "Buy now": "Cambiar paquete",
+        "Current plan": "Paquete actual",
+        "Extra ai points": "Puntos AI adicionales",
+        "Extra dataset size": "Capacidad de base de conocimiento adicional",
+        "Extra plan": "Paquete de recursos adicional",
+        "Extra plan tip": "Cuando el paquete estándar no es suficiente, puede comprar un paquete de recursos adicional para seguir usando",
+        "FAQ": "Preguntas frecuentes",
+        "Month amount": "Número de meses",
+        "Next plan": "Paquete futuro",
+        "Nonsupport": "No se puede cambiar",
+        "Stand plan level": "Paquete de suscripción",
+        "Standard update fail": "Error al modificar el paquete de suscripción",
+        "Standard update success": "¡Cambio de paquete de suscripción exitoso!",
+        "Sub plan": "Paquete de suscripción",
+        "Sub plan tip": "Uso gratuito de {{title}} o actualización a un paquete superior",
+        "Team plan and usage": "Paquete y uso",
+        "Training weight": "Prioridad de entrenamiento: {{weight}}",
+        "Update extra ai points": "Puntos AI adicionales",
+        "Update extra dataset size": "Capacidad de almacenamiento adicional",
+        "Upgrade plan": "Actualizar paquete",
+        "ai_model": "Modelo de lenguaje AI",
+        "function": {
+          "History store": "{{amount}} días de historial de conversaciones",
+          "Max app": "{{amount}} aplicaciones y plugins",
+          "Max dataset": "{{amount}} bases de conocimiento",
+          "Max dataset size": "{{amount}} grupos de índices de bases de conocimiento",
+          "Max members": "{{amount}} miembros del equipo",
+          "Points": "{{amount}} puntos AI"
+        },
+        "mode": {
+          "Month": "Mensual",
+          "Period": "Período de suscripción",
+          "Year": "Anual",
+          "Year sale": "Regalo de dos meses"
+        },
+        "point": "Puntos",
+        "standardSubLevel": {
+          "enterprise": "Versión empresarial",
+          "experience": "Versión de prueba",
+          "free": "Versión gratuita",
+          "free desc": "Puede usar funciones básicas de forma gratuita cada mes, si no inicia sesión en 30 días consecutivos, se eliminará automáticamente la base de conocimiento",
+          "team": "Versión de equipo"
+        },
+        "token_compute": "Haga clic para ver el calculador de tokens en línea",
+        "type": {
+          "balance": "Recarga de saldo",
+          "extraDatasetSize": "Ampliación de base de conocimiento",
+          "extraPoints": "Paquete de puntos AI",
+          "standard": "Suscripción de paquete"
+        }
+      },
+      "usage": {
+        "Ai model": "Modelo AI",
+        "App name": "Nombre de la aplicación",
+        "Audio Speech": "Reproducción de voz",
+        "Bill Module": "Módulo de deducción",
+        "Duration": "Duración (segundos)",
+        "Extension result": "Resultado de optimización de preguntas",
+        "Module name": "Nombre del módulo",
+        "Source": "Fuente",
+        "Text Length": "Longitud del texto",
+        "Time": "Hora de generación",
+        "Token Length": "Longitud del token",
+        "Total": "Total",
+        "Total points": "Consumo de puntos AI",
+        "Usage Detail": "Detalles de uso",
+        "Whisper": "Entrada de voz"
+      }
+    }
+  },
+  "sync_link": "Enlace de sincronización",
+  "system": {
+    "Concat us": "Contáctenos",
+    "Help Document": "Documento de ayuda"
+  },
+  "tag_list": "Lista de etiquetas",
+  "team_tag": "Etiqueta del equipo",
+  "template": {
+    "Quote Content Tip": "Se puede personalizar la estructura del contenido citado para adaptarse mejor a diferentes escenarios. Se pueden usar algunas variables para la configuración de la plantilla:\n{{q}} - Contenido recuperado, {{a}} - Contenido esperado, {{source}} - Fuente, {{sourceId}} - Nombre del archivo fuente, {{index}} - N-ésima cita, todos son opcionales, a continuación los valores predeterminados:\n{{default}}",
+    "Quote Prompt Tip": "Se puede usar {{quote}} para insertar la plantilla de contenido citado, y {{question}} para insertar la pregunta. A continuación los valores predeterminados:\n{{default}}"
+  },
+  "textarea_variable_picker_tip": "Escriba / para seleccionar variables",
+  "tool_field": "Configuración de parámetros del campo de herramienta",
+  "undefined_var": "Se ha referenciado una variable no definida, ¿desea agregarla automáticamente?",
+  "unit": {
+    "character": "Caracteres",
+    "minute": "Minuto"
+  },
+  "unusable_variable": "No hay variables disponibles",
+  "upload_file_error": "Error al subir el archivo",
+  "user": {
+    "Account": "Cuenta",
+    "Amount of earnings": "Ganancias (￥)",
+    "Amount of inviter": "Número total de invitaciones",
+    "Application Name": "Nombre del proyecto",
+    "Avatar": "Avatar",
+    "Change": "Cambiar",
+    "Copy invite url": "Copiar enlace de invitación",
+    "Edit name": "Haga clic para modificar el apodo",
+    "Invite Url": "Enlace de invitación",
+    "Invite url tip": "Los amigos registrados a través de este enlace estarán vinculados de forma permanente, recibirás un recompensa de saldo cuando recarguen.\nAdemás, si los amigos se registran con un número de teléfono, recibirás inmediatamente una recompensa de 5 yuanes.\nLa recompensa se enviará a su equipo predeterminado.",
+    "Laf Account Setting": "Configuración de cuenta laf",
+    "Language": "Idioma",
+    "Member Name": "Apodo",
+    "Notice": "Notificación",
+    "Notification Receive": "Recepción de notificaciones",
+    "Notification Receive Bind": "Por favor, primero vincule el método de recepción de notificaciones",
+    "Old password is error": "La contraseña anterior es incorrecta",
+    "OpenAI Account Setting": "Configuración de cuenta OpenAI",
+    "Password": "Contraseña",
+    "Pay": "Recargar",
+    "Personal Information": "Información personal",
+    "Promotion": "Promoción",
+    "Promotion Rate": "Tasa de reembolso",
+    "Promotion Record": "Registro de promoción",
+    "Promotion rate tip": "Recibirás un porcentaje de recompensa cuando tus amigos recarguen",
+    "Replace": "Reemplazar",
+    "Set OpenAI Account Failed": "Error al configurar la cuenta OpenAI",
+    "Sign Out": "Cerrar sesión",
+    "Team": "Equipo",
+    "Time": "Hora",
+    "Timezone": "Zona horaria",
+    "Update Password": "Actualizar contraseña",
+    "Update password failed": "Error al actualizar la contraseña",
+    "Update password successful": "Contraseña actualizada con éxito",
+    "Usage Record": "Registro de uso",
+    "apikey": {
+      "key": "Clave API"
+    },
+    "confirm_password": "Confirmar contraseña",
+    "new_password": "Nueva contraseña",
+    "no_invite_records": "No hay registros de invitación",
+    "no_notice": "No hay notificaciones",
+    "no_usage_records": "No hay registros de uso",
+    "old_password": "Contraseña anterior",
+    "password_message": "La contraseña debe tener entre 4 y 60 caracteres",
+    "team": {
+      "Balance": "Saldo del equipo",
+      "Check Team": "Cambiar",
+      "Confirm Invite": "Confirmar invitación",
+      "Create Team": "Crear nuevo equipo",
+      "Invite Member": "Invitar miembro",
+      "Invite Member Failed Tip": "Error al invitar miembros",
+      "Invite Member Result Tip": "Consejos sobre el resultado de la invitación",
+      "Invite Member Success Tip": "Invitación de miembro completada\nÉxitos: {{success}} personas\nNombres de usuario no válidos: {{inValid}}\nYa en el equipo: {{inTeam}}",
+      "Invite Member Tips": "La otra parte puede consultar o utilizar otros recursos dentro del equipo",
+      "Leave Team": "Salir del equipo",
+      "Leave Team Failed": "Error al salir del equipo",
+      "Member": "Miembro",
+      "Member Name": "Nombre del miembro",
+      "Over Max Member Tip": "El equipo puede tener un máximo de {{max}} personas",
+      "Personal Team": "Equipo personal",
+      "Processing invitations": "Procesando invitaciones",
+      "Processing invitations Tips": "Tienes {{amount}} invitaciones de equipo que necesitan ser procesadas",
+      "Remove Member Confirm Tip": "¿Confirmar que desea eliminar a {{username}} del equipo?",
+      "Select Team": "Seleccionar equipo",
+      "Set Name": "Dale un nombre al equipo",
+      "Switch Team Failed": "Error al cambiar de equipo",
+      "Tags Async": "Guardar",
+      "Team Name": "Nombre del equipo",
+      "Team Tags Async": "Sincronización de etiquetas",
+      "Team Tags Async Success": "Sincronización de etiquetas exitosa, información de etiquetas actualizada",
+      "Update Team": "Actualizar información del equipo",
+      "invite": {
+        "Accept Confirm": "¿Confirmar que desea unirse a este equipo?",
+        "Accepted": "Unido al equipo",
+        "Deal Width Footer Tip": "Se cerrará automáticamente al terminar~",
+        "Reject": "Invitación rechazada",
+        "Reject Confirm": "¿Confirmar rechazo de esta invitación?",
+        "accept": "Aceptar",
+        "reject": "Rechazar"
+      },
+      "member": {
+        "Confirm Leave": "¿Confirmar que desea salir de este equipo?",
+        "active": "Ya se ha unido",
+        "reject": "Rechazar",
+        "waiting": "Esperando aceptación"
+      },
+      "role": {
+        "Admin": "Administrador",
+        "Owner": "Creador",
+        "Visitor": "Visitante"
+      }
+    },
+    "type": "Tipo"
+  },
+  "verification": "Verificación",
+  "xx_search_result": "Resultados de búsqueda de {{key}}",
+  "tianfu": {
+    "navbar_title": "Tianfu Zhiyuan",
+    "navbar_text": "Plataforma de desarrollo de múltiples agentes inteligentes",
+    "agent_application_store": "Fábrica de agentes inteligentes",
+    "agent_application_store_list": {
+      "latest": "Últimos",
+      "recommended": "Recomendados",
+      "government": "Gobierno",
+      "manufacturing": "Manufactura",
+      "finance": "Finanzas",
+      "healthcare": "Salud",
+      "other": "Otros"
+    },
+    "customer": {
+      "foxconn": {
+        "pdf_translation": "Traducción de PDF",
+        "sample_image_defect_detection_agent": "Agente de detección de defectos de imagen de muestra",
+        "smt_general_purpose_agents": "Agentes de propósito general SMT",
+        "pdf_image_translation": "Traducción de imágenes"
+      }
+    }
+  }
+}

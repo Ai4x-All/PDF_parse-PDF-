@@ -1,0 +1,80 @@
+{
+  "bind_inform_account_error": "Lỗi liên kết tài khoản thông báo",
+  "bind_inform_account_success": "Liên kết tài khoản thông báo thành công",
+  "delete": {
+    "admin_failed": "Xóa quản trị viên thất bại",
+    "admin_success": "Xóa quản trị viên thành công"
+  },
+  "has_chosen": "Đã chọn",
+  "login": {
+    "error": "Lỗi đăng nhập",
+    "failed": "Đăng nhập thất bại",
+    "login_account": "Đăng nhập vào tài khoản {{account}}",
+    "login_error": "Tên người dùng hoặc mật khẩu sai",
+    "password_condition": "Mật khẩu tối đa 60 ký tự",
+    "success": "Đăng nhập thành công",
+    "to_register": "Chưa có tài khoản, đi đăng ký"
+  },
+  "name": "Tên",
+  "notification": {
+    "Bind Notification Pipe Hint": "Vui lòng liên kết tài khoản nhận thông báo để đảm bảo bạn có thể nhận thông báo hết hạn gói dịch vụ và các thông báo khác, đảm bảo dịch vụ của bạn hoạt động bình thường.",
+    "remind_owner_bind": "Vui lòng nhắc người tạo liên kết tài khoản thông báo"
+  },
+  "operations": "Thao tác",
+  "password": {
+    "change_error": "Lỗi sửa đổi mật khẩu",
+    "code_required": "Mã xác thực không được để trống",
+    "code_send_error": "Lỗi gửi mã xác thực",
+    "code_sended": "Mã xác thực đã được gửi",
+    "confirm": "Xác nhận mật khẩu",
+    "email_phone": "Email/Số điện thoại",
+    "email_phone_error": "Định dạng email/số điện thoại sai",
+    "email_phone_void": "Email/Số điện thoại không được để trống",
+    "get_code": "Lấy mã xác thực",
+    "get_code_again": "s sau lấy lại",
+    "new_password": "Mật khẩu mới (4~20 ký tự)",
+    "not_match": "Hai mật khẩu không trùng khớp",
+    "password_condition": "Mật khẩu tối thiểu 4 ký tự, tối đa 20 ký tự",
+    "password_required": "Mật khẩu không được để trống",
+    "retrieve": "Lấy lại mật khẩu",
+    "retrieved": "Mật khẩu đã được lấy lại",
+    "retrieved_account": "Lấy lại tài khoản {{account}}",
+    "to_login": "Đi đăng nhập",
+    "verification_code": "Mã xác thực"
+  },
+  "permission": {
+    "Manage": "Quản trị viên",
+    "Manage tip": "Quản trị viên nhóm, có tất cả quyền hạn",
+    "Read": "Chỉ đọc",
+    "Read desc": "Thành viên chỉ có thể đọc tài nguyên liên quan, không thể tạo tài nguyên mới",
+    "Write": "Có thể viết",
+    "Write tip": "Ngoài việc đọc tài nguyên, còn có thể tạo tài nguyên mới",
+    "only_collaborators": "Chỉ cộng tác viên truy cập",
+    "team_read": "Nhóm có thể truy cập",
+    "team_write": "Nhóm có thể chỉnh sửa"
+  },
+  "permissions": "Quyền hạn",
+  "register": {
+    "confirm": "Xác nhận đăng ký",
+    "error": "Lỗi đăng ký",
+    "failed": "Đăng ký thất bại",
+    "register_account": "Đăng ký tài khoản {{account}}",
+    "success": "Đăng ký thành công",
+    "to_login": "Đã có tài khoản, đi đăng nhập"
+  },
+  "search_user": "Tìm kiếm tên người dùng",
+  "synchronization": {
+    "button": "Đồng bộ ngay",
+    "placeholder": "Nhập thẻ đồng bộ",
+    "title": "Nhập liên kết đồng bộ thẻ, nhấn nút đồng bộ để đồng bộ"
+  },
+  "team": {
+    "Add manager": "Thêm quản trị viên",
+    "add_collaborator": "Thêm cộng tác viên",
+    "manage_collaborators": "Quản lý cộng tác viên",
+    "no_collaborators": "Chưa có cộng tác viên"
+  },
+  "usage": {
+    "feishu": "Feishu"
+  }
+}

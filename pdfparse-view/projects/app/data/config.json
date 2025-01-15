@@ -1,0 +1,204 @@
+{
+  "feConfigs": {
+    "lafEnv": "https://laf.dev",
+    "systemTitle": "小瑞AI"
+  },
+  "systemEnv": {
+    "openapiPrefix": "xiaorui",
+    "vectorMaxProcess": 15,
+    "qaMaxProcess": 15,
+    "pgHNSWEfSearch": 100
+  },
+  "llmModels": [
+    {
+      "model": "glm-4-9b-chat-1m",
+      "name": "xiaorui-llm-v1",
+      "avatar": "/imgs/model/openai.svg",
+      "maxContext": 128000,
+      "maxResponse": 4000,
+      "quoteMaxToken": 100000,
+      "maxTemperature": 1.2,
+      "charsPointsPrice": 0,
+      "censor": false,
+      "vision": true,
+      "datasetProcess": true,
+      "usedInClassify": true,
+      "usedInExtractFields": true,
+      "usedInToolCall": false,
+      "usedInQueryExtension": true,
+      "toolChoice": true,
+      "functionCall": false,
+      "customCQPrompt": "",
+      "customExtractPrompt": "",
+      "defaultSystemChatPrompt": "",
+      "defaultConfig": {}
+    },
+    {
+      "model": "foxconn-v1",
+      "name": "foxconn-v1",
+      "avatar": "/imgs/model/openai.svg",
+      "maxContext": 128000,
+      "maxResponse": 4000,
+      "quoteMaxToken": 100000,
+      "maxTemperature": 1.2,
+      "charsPointsPrice": 0,
+      "censor": false,
+      "vision": true,
+      "datasetProcess": false,
+      "usedInClassify": false,
+      "usedInExtractFields": false,
+      "usedInToolCall": false,
+      "usedInQueryExtension": false,
+      "toolChoice": true,
+      "functionCall": false,
+      "customCQPrompt": "",
+      "customExtractPrompt": "",
+      "defaultSystemChatPrompt": "",
+      "defaultConfig": {}
+    },
+    {
+      "model": "gpt-4o-mini",
+      "name": "xiaorui-vl-mini",
+      "maxContext": 16000,
+      "avatar": "/imgs/model/openai.svg",
+      "maxResponse": 4000,
+      "quoteMaxToken": 13000,
+      "maxTemperature": 1.2,
+      "charsPointsPrice": 0,
+      "censor": false,
+      "vision": true,
+      "datasetProcess": true,
+      "usedInClassify": true,
+      "usedInExtractFields": true,
+      "usedInToolCall": true,
+      "usedInQueryExtension": true,
+      "toolChoice": true,
+      "functionCall": true,
+      "customCQPrompt": "",
+      "customExtractPrompt": "",
+      "defaultSystemChatPrompt": "",
+      "defaultConfig": {}
+    },
+    {
+      "model": "gpt-4o",
+      "name": "xiaorui-vl",
+      "maxContext": 16000,
+      "avatar": "/imgs/model/openai.svg",
+      "maxResponse": 10000,
+      "quoteMaxToken": 13000,
+      "maxToken": 10000,
+      "maxTemperature": 1.2,
+      "charsPointsPrice": 0,
+      "censor": false,
+      "vision": true,
+      "datasetProcess": true,
+      "usedInClassify": true,
+      "usedInExtractFields": true,
+      "usedInToolCall": true,
+      "usedInQueryExtension": true,
+      "toolChoice": true,
+      "functionCall": true,
+      "customCQPrompt": "",
+      "customExtractPrompt": "",
+      "defaultSystemChatPrompt": "",
+      "defaultConfig": {}
+    },
+    {
+      "model": "qwen-vl-chat",
+      "name": "xiaorui-vl-chat",
+      "maxContext": 16000,
+      "avatar": "/imgs/model/openai.svg",
+      "maxResponse": 10000,
+      "quoteMaxToken": 13000,
+      "maxTemperature": 1.2,
+      "charsPointsPrice": 0,
+      "censor": false,
+      "vision": true,
+      "datasetProcess": true,
+      "usedInClassify": true,
+      "usedInExtractFields": true,
+      "usedInToolCall": true,
+      "usedInQueryExtension": true,
+      "toolChoice": true,
+      "functionCall": true,
+      "customCQPrompt": "",
+      "customExtractPrompt": "",
+      "defaultSystemChatPrompt": "",
+      "defaultConfig": {}
+    }
+  ],
+  "vectorModels": [
+    {
+      "model": "m3e",
+      "name": "xiaorui-embedding",
+      "avatar": "/imgs/model/openai.svg",
+      "price": 0.2,
+      "defaultToken": 500,
+      "maxToken": 3000
+    }
+  ],
+  "reRankModels": [],
+  "audioSpeechModels": [
+    {
+      "model": "tts-1",
+      "name": "xiaorui-TTS1",
+      "charsPointsPrice": 0,
+      "voices": [
+        {
+          "label": "Alloy",
+          "value": "alloy",
+          "bufferId": "openai-Alloy"
+        },
+        {
+          "label": "Echo",
+          "value": "echo",
+          "bufferId": "openai-Echo"
+        },
+        {
+          "label": "Fable",
+          "value": "fable",
+          "bufferId": "openai-Fable"
+        },
+        {
+          "label": "Onyx",
+          "value": "onyx",
+          "bufferId": "openai-Onyx"
+        },
+        {
+          "label": "Nova",
+          "value": "nova",
+          "bufferId": "openai-Nova"
+        },
+        {
+          "label": "Shimmer",
+          "value": "shimmer",
+          "bufferId": "openai-Shimmer"
+        }
+      ]
+    }
+  ],
+  "whisperModel": {
+    "model": "whisper-1",
+    "name": "xiaorui-Whisper1",
+    "charsPointsPrice": 0,
+    "other": [
+      {
+        "model": "whisper-1",
+        "name": "Xiaorui Whisper 1"
+      },
+      {
+        "model": "whisper-2",
+        "name": "Xiaorui Whisper 2"
+      },
+      {
+        "model": "whisper-3",
+        "name": "Xiaorui Whisper 3"
+      },
+      {
+        "model": "whisper-4",
+        "name": "Xiaorui Whisper 4"
+      }
+    ]
+  }
+}
+
